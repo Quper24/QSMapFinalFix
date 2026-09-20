@@ -1,0 +1,19 @@
+SiiNunit
+{
+building_model : bld_model.01rumod {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_ru_mod/powerline/trolley_onesided_single_01_vlgmap.pmd"
+}
+// building_model : bld_model.02rumod {
+// 	railing_model: true
+// 	follow_curve_dir: false
+// 	model_desc: "/model_ru_mod/lamp/lamp_rus_07_elektro.pmd"
+// }
+building_model : bld_model.03rumod {
+	railing_model: true
+	follow_curve_dir: false
+	model_desc: "/model_ru_mod/lamp/lamp_rus_08_elektro.pmd"
+}
+
+}

@@ -1,0 +1,48 @@
+SiiNunit
+{
+# by FLD / TZ express map
+// railing_model : railing.300ess {
+// 	model_desc: "/model/railing/lines/lines_02p_ess.pmd"
+// }
+// railing_model : railing.301ess {
+// 	model_desc: "/model/railing/lines/lines_032_ess.pmd"
+// }
+// railing_model : railing.302ess {
+// 	model_desc: "/model/railing/bridge/hw_2b_cz_full_bridge1_ess.pmd"
+// }
+// railing_model : railing.303ess {
+// 	model_desc: "/model/railing/bridge/hw_2b_oneway_cz_ess.pmd"
+// }
+// railing_model : railing.304ess {
+// 	model_desc: "/model/railing/bridge/road_1_1_one_no_barr_ess.pmd"
+// 	look_name: silver
+// }
+// railing_model : railing.305ess {
+// 	model_desc: "/model/railing/bridge/road_1_1_one_no_barr_ess.pmd"
+// 	look_name: red
+// }
+// railing_model : railing.306ess {
+// 	model_desc: "/model/railing/bridge/hw_2b_oneway_1_ess.pmd"
+// 	look_name: yellow
+// }
+// railing_model : railing.307ess {
+// 	model_desc: "/model/railing/bridge/road_1_0_no_barr_ess.pmd"
+// 	look_name: red
+// }
+// railing_model : railing.308ess {
+// 	model_desc: "/model/railing/bridge/road_2_0_no_barr_ess.pmd"
+// 	look_name: silver
+// }
+// railing_model : railing.309ess {
+// 	model_desc: "/model/railing/bridge/road_2_0_no_barr_ess.pmd"
+// 	look_name: red
+// }
+// railing_model : railing.310ess {
+// 	model_desc: "/model/railing/bridge/road_n_0cz_ess.pmd"
+// 	look_name: silver
+// }
+// railing_model : railing.311ess {
+// 	model_desc: "/model/railing/bridge/road_n_1_no_barr_ess.pmd"
+// 	look_name: silver
+// }
+}

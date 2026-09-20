@@ -1,0 +1,119 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+
+// building_model : bld_model.07rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/road1/road_crack_x1.pmd"
+// }
+// building_model : bld_model.09rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/road1/road_zaplatka.pmd"
+// }
+// building_model : bld_model.10rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/road1/road_bugor.pmd"
+// }
+
+// building_model : bld_model.15rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/road1/road_bugor_1.pmd"
+// }
+// building_model : bld_model.16rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/road1/road_crack_x2.pmd"
+// }
+// building_model : bld_model.17rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/road1/road_bugor_2.pmd"
+// }
+// building_model : bld_model.19rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/byandu/building/stalpi3/stalpi3.pmd"
+// }
+// building_model : bld_model.20rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/byandu/building/stalpi4/stalpi4.pmd"
+// }
+// building_model : bld_model.21rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/byandu/building/stalpi5/stalpi5.pmd"
+// }
+// building_model : bld_model.23rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/byandu/building/stalpi6/stalpi6.pmd"
+// }
+// building_model : bld_model.24rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/byandu/building/stalpi7/stalpi7.pmd"
+// }
+
+// building_model : bld_model.27rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/railing/wall/conc_barrier_ru.pmd"
+// 	look_name: redwhite
+// }
+
+// building_model : bld_model.42rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/railing/ats/fence_metal5.pmd"
+// 	look_name: default
+// }
+
+// building_model : bld_model.56rus {
+// 	single_part: true
+// 	model_desc: "/model/vegetatio1/kamish.pmd"
+// 	width: 6
+//   look_name: Default
+//   min_scale: 1.0
+//   max_scale: 1.5
+
+// }
+
+// building_model : bld_model.58rus {
+// 	single_part: true
+// 	vegetation_model[]: vegetmodel.appletree1.rus
+// 	vegetation_model[]: vegetmodel.appletree2.rus
+// 	vegetation_model[]: vegetmodel.appletree1.rus
+// 	vegetation_model[]: vegetmodel.appletree2.rus
+// 	sprite_only: false
+
+// 	width: 12
+//   rand_rot: 360
+//   min_scale: 0.8
+// 	max_scale: 1.1
+// }
+
+// building_model : bld_model.59rus {
+// railing_model: true
+// follow_curve_dir: true
+// model_desc: "/model/srmod/railin1/cr_barrier_wb_ru.pmd"
+// }
+
+// building_model : bld_model.63rus {
+// 	railing_model: true
+// 	follow_curve_dir: true
+// 	model_desc: "/model/power_line/wooden_powerline_rus.pmd"
+// }
+
+}

@@ -1,0 +1,53 @@
+SiiNunit
+
+{
+// building_model : bld_model.49rus {
+// 	single_part: true
+// 	vegetation_model[]: vegetmodel.kust1_rus
+// 	width: 3
+// 	model_size_override: 3.8
+// 	rand_rot: 360
+// 	min_scale: 0.9
+// 	max_scale: 1.1
+// }
+// building_model : bld_model.50rus {
+// 	single_part: true
+// 	vegetation_model[]: vegetmodel.kust2_rus
+// 	width: 3
+// 	model_size_override: 3.8
+// 	rand_rot: 360
+// 	min_scale: 0.9
+// 	max_scale: 1.1
+// }
+// building_model : bld_model.51rus {
+// 	single_part: true
+// 	vegetation_model[]: vegetmodel.kust3_rus
+// 	width: 3
+// 	model_size_override: 3.8
+// 	rand_rot: 360
+// 	min_scale: 0.9
+// 	max_scale: 1.1
+// }
+// building_model : bld_model.53rus {
+// 	single_part: true
+// 	vegetation_model[]: vegetmodel.small.tree.rus 
+// 	vegetation_model[]: vegetmodel.medium.bush1.rus 
+// 	vegetation_model[]: vegetmodel.medium.bush2.rus 
+// 	vegetation_model[]: vegetmodel.big.bush2.rus 
+// 	width: 7
+// 	model_size_override: 3.8
+// 	rand_rot: 360
+// 	min_scale: 0.8
+// 	max_scale: 1.2
+// }
+// building_model : bld_model.56rus {
+// 	single_part: true
+// 	model_desc: "/model/vegetatio1/kamish.pmd"
+// 	width: 6
+// 	look_name: Default
+// 	min_scale: 1.0
+// 	max_scale: 1.5
+
+// }
+
+}

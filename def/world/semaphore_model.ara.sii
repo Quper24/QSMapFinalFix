@@ -4,17 +4,17 @@ SiiNunit
 # this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
 # base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
 # some string which is unlikely to conflict with other mod.
-tr_semaphore_model : tr_sem_mdl.single.ukraine
-{
-	name: "single_ua"
-	model_desc: "/model/traffic_light/single_ru.pmd"
-	model_coll: "/model/traffic_light/single_ru.pmc"
-	state_transition: 4
-	state_transition[0]: 0.0 # orange_to_red
-	state_transition[1]: 0.0 # red
-	state_transition[2]: 0.0 # orange_to_green
-	state_transition[3]: 4.0 # green
-}
+// tr_semaphore_model : tr_sem_mdl.single.ukraine
+// {
+// 	name: "single_ua"
+// 	model_desc: "/model/traffic_light/single_ru.pmd"
+// 	model_coll: "/model/traffic_light/single_ru.pmc"
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+// }
 // tr_semaphore_model : tr_sem_mdl.duo_left.ukraine
 // {
 // 	name: "duo_left_ua"
@@ -26,61 +26,61 @@ tr_semaphore_model : tr_sem_mdl.single.ukraine
 // 	state_transition[2]: 0.0 # orange_to_green
 // 	state_transition[3]: 4.0 # green
 // }
-tr_semaphore_model : tr_sem_mdl.duo_right.ukraine
-{
-	name: "duo_right_ua"
-	model_desc: "/model/traffic_light/duo_right_ru.pmd"
-	model_coll: "/model/traffic_light/duo_right_ru.pmc"
-	state_transition: 4
-	state_transition[0]: 0.0 # orange_to_red
-	state_transition[1]: 0.0 # red
-	state_transition[2]: 0.0 # orange_to_green
-	state_transition[3]: 4.0 # green
-}
-tr_semaphore_model : tr_sem_mdl.duo_str.ukraine
-{
-	name: "duo_str_ua"
-	model_desc: "/model/traffic_light/duo_str_ru.pmd"
-	model_coll: "/model/traffic_light/duo_str_ru.pmc"
-	state_transition: 4
-	state_transition[0]: 0.0 # orange_to_red
-	state_transition[1]: 0.0 # red
-	state_transition[2]: 0.0 # orange_to_green
-	state_transition[3]: 4.0 # green
-}
-tr_semaphore_model : tr_sem_mdl.single_l.ukraine
-{
-	name: "single_left_ua"
-	model_desc: "/model/traffic_light/single_left_ru.pmd"
-	model_coll: "/model/traffic_light/single_left_ru.pmc"
-	state_transition: 4
-	state_transition[0]: 0.0 # orange_to_red
-	state_transition[1]: 0.0 # red
-	state_transition[2]: 0.0 # orange_to_green
-	state_transition[3]: 4.0 # green
-}
-tr_semaphore_model : tr_sem_mdl.single_r.ukraine
-{
-	name: "single_right_ua"
-	model_desc: "/model/traffic_light/single_right_ru.pmd"
-	model_coll: "/model/traffic_light/single_right_ru.pmc"
-	state_transition: 4
-	state_transition[0]: 0.0 # orange_to_red
-	state_transition[1]: 0.0 # red
-	state_transition[2]: 0.0 # orange_to_green
-	state_transition[3]: 4.0 # green
-}
-tr_semaphore_model : tr_sem_mdl.city_str.ukraine
-{
-	name: "city_str_ua"
-	model_desc: "/model/traffic_light/city_str_ru.pmd"
-	model_coll: "/model/traffic_light/city_str_ru.pmc"
-	state_transition: 4
-	state_transition[0]: 0.0 # orange_to_red
-	state_transition[1]: 0.0 # red
-	state_transition[2]: 0.0 # orange_to_green
-	state_transition[3]: 4.0 # green
-}
+// tr_semaphore_model : tr_sem_mdl.duo_right.ukraine
+// {
+// 	name: "duo_right_ua"
+// 	model_desc: "/model/traffic_light/duo_right_ru.pmd"
+// 	model_coll: "/model/traffic_light/duo_right_ru.pmc"
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+// }
+// tr_semaphore_model : tr_sem_mdl.duo_str.ukraine
+// {
+// 	name: "duo_str_ua"
+// 	model_desc: "/model/traffic_light/duo_str_ru.pmd"
+// 	model_coll: "/model/traffic_light/duo_str_ru.pmc"
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+// }
+// tr_semaphore_model : tr_sem_mdl.single_l.ukraine
+// {
+// 	name: "single_left_ua"
+// 	model_desc: "/model/traffic_light/single_left_ru.pmd"
+// 	model_coll: "/model/traffic_light/single_left_ru.pmc"
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+// }
+// tr_semaphore_model : tr_sem_mdl.single_r.ukraine
+// {
+// 	name: "single_right_ua"
+// 	model_desc: "/model/traffic_light/single_right_ru.pmd"
+// 	model_coll: "/model/traffic_light/single_right_ru.pmc"
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+// }
+// tr_semaphore_model : tr_sem_mdl.city_str.ukraine
+// {
+// 	name: "city_str_ua"
+// 	model_desc: "/model/traffic_light/city_str_ru.pmd"
+// 	model_coll: "/model/traffic_light/city_str_ru.pmc"
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+// }
 // tr_semaphore_model : tr_sem_mdl.city_l.ukraine
 // {
 // 	name: "city_left_ua"

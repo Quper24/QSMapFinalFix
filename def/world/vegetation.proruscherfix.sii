@@ -1,0 +1,59 @@
+SiiNunit
+{
+vegetation_data : veg.5049 {
+
+	name: "1_Bush - avenue 1m"
+
+	model[]: vegetmodel.big_bush
+	occurrence[]: 1
+	
+	min_offset: 1.0
+	max_offset: 21.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+}
+vegetation_data : veg.5057 {
+
+	name: "sc- birches - avenue 1m dens-400"
+
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.narrow.birch1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.narrow.tree1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.low.tree1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.narrow.birch2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.narrow.tree2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.low.tree2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+
+	min_offset: 1.0
+	max_offset: 21.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 120
+}
+vegetation_data : veg.5631rus {
+	name: "_leaved poplar "
+	model[]: vegetmodel.poplar.tall
+	occurrence[]: 1
+	
+	
+}
+
+}

@@ -15,8 +15,11 @@ vegetation_data : veg.sum_01
 	name: "pines slim dense sum"
 
 	model[]: vegetmodel.pine.slim.group_sum1
+  occurrence[]: 1
 	model[]: vegetmodel.pine.slim.group_sum2
+  occurrence[]: 1
 	model[]: vegetmodel.pine.slim.one_sum3
+  occurrence[]: 1
 		
 }
 

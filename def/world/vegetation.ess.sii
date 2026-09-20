@@ -50,47 +50,68 @@ SiiNunit
 // 	max_size_perc: 110
 // }
 
-vegetation_data : veg.5079 {
+// vegetation_data : veg.5079 {
 
-  name: "1_ess_Pines sc - avenue"
+//   name: "1_ess_Pines sc - avenue"
 
-  models[]: vegetmodel.pine.big_sc
-  models[]: vegetmodel.pine.big_2_sc
-  models[]: vegetmodel.pine.medium_sc
+//   models[]: vegetmodel.pine.big_sc
+//   models[]: vegetmodel.pine.big_2_sc
+//   models[]: vegetmodel.pine.medium_sc
 
-  min_offset: 1.0
-  max_offset: 21.0
-  density: 400.0
+//   min_offset: 1.0
+//   max_offset: 21.0
+//   density: 400.0
 
-  min_size_perc: 60
-  max_size_perc: 100
-}
+//   min_size_perc: 60
+//   max_size_perc: 100
+// }
 
 vegetation_data : veg.5615rus {
 
   name: "1_ess_birches"
 
-  models[]: vegetmodel.birch.big_sc
-  models[]: vegetmodel.narrow.birch1_sc
-  models[]: vegetmodel.narrow.birch2_sc
-  models[]: vegetmodel.birch.small_sc
-  models[]: vegetmodel.small.tree_sc
-  models[]: vegetmodel.birch.big_sc
-  models[]: vegetmodel.birch.small_sc
-  models[]: vegetmodel.narrow.tree1_sc
-  models[]: vegetmodel.narrow.tree2_sc
-  models[]: vegetmodel.narrow.birch1_sc
-  models[]: vegetmodel.narrow.birch2_sc
-  models[]: vegetmodel.narrow.tree1_sc
-  models[]: vegetmodel.narrow.tree2_sc
-  models[]: vegetmodel.narrow.birch1_sc
-  models[]: vegetmodel.low.birch1_sc
-  models[]: vegetmodel.birch.small_sc
-  models[]: vegetmodel.birch.big_sc
-  models[]: vegetmodel.low.tree1_sc
-  models[]: vegetmodel.low.tree2_sc
-  models[]: vegetmodel.low.tree1_sc
-  models[]: vegetmodel.low.tree2_sc
+  model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.birch1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.birch2_sc
+	occurrence[]: 1
+  model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+  model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+  model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+  model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.tree1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.tree2_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.birch1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.birch2_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.tree1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.tree2_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.birch1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.low.birch1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+  model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+  model[]: vegetmodel.low.tree1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.low.tree2_sc
+	occurrence[]: 1
+  model[]: vegetmodel.low.tree1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.low.tree2_sc
+	occurrence[]: 1
 
   min_offset: 10.0
   max_offset: 50.0
@@ -100,26 +121,29 @@ vegetation_data : veg.5615rus {
   max_size_perc: 120
 }
 
-vegetation_data : veg.5631rus {
-  name: "1_ess_leaved poplar"
-  models: 1
-  models[]: vegetmodel.poplar.tall
-}
+// vegetation_data : veg.5631rus {
+//   name: "1_ess_leaved poplar"
+//   models: 1
+//   models[]: vegetmodel.poplar.tall
+// }
 
 vegetation_data : veg.5632rus {
 
   name: "1_ess_ats_detail_grass"
-  models: 2
-  models[]: vegetmodel.grass2_rus
-  models[]: vegetmodel.grass3_rus
+  model[]: vegetmodel.grass2_rus
+	occurrence[]: 1
+  model[]: vegetmodel.grass3_rus
+	occurrence[]: 1
 }
 
 vegetation_data : veg.5636rus {
   name: "1_ess_pines_low_ats"
-  models: 3
-  models[]: vegetmodel.pine1_rus
-  models[]: vegetmodel.pine2_rus
-  models[]: vegetmodel.pine4_rus
+  model[]: vegetmodel.pine1_rus
+	occurrence[]: 1
+  model[]: vegetmodel.pine2_rus
+	occurrence[]: 1
+  model[]: vegetmodel.pine4_rus
+	occurrence[]: 1
 }
 
 // vegetation_data : veg.5640rus {
@@ -147,69 +171,111 @@ vegetation_data : veg.5636rus {
 vegetation_data : veg.5641rus {
 
   name: "1_ess_leaved north"
-  models: 28
 
-  models[]: vegetmodel.narrow.birch1_sc
-  models[]: vegetmodel.narrow.birch2_sc
-  models[]: vegetmodel.birch.big_sc
-  models[]: vegetmodel.narrow.birch1_sc
-  models[]: vegetmodel.narrow.birch2_sc
-  models[]: vegetmodel.birch.small_sc
-  models[]: vegetmodel.small.tree_sc
-  models[]: vegetmodel.narrow.tree1_sc
-  models[]: vegetmodel.narrow.tree2_sc
-  models[]: vegetmodel.narrow.birch1_sc
-  models[]: vegetmodel.narrow.birch2_sc
-  models[]: vegetmodel.low.tree1_sc
-  models[]: vegetmodel.low.tree2_sc
-  models[]: vegetmodel.pine.rus.5.nm
-  models[]: vegetmodel.beech.small1
-  models[]: vegetmodel.pine.rus.5.nm
-  models[]: vegetmodel.pine.rus.4.nm
-  models[]: vegetmodel.pine.rus.3.nm
-  models[]: vegetmodel.beech.small2
-  models[]: vegetmodel.pine.rus.3.nm
-  models[]: vegetmodel.pine.rus.3.nm
-  models[]: vegetmodel.pine.rus.3.nm
-  models[]: vegetmodel.beech.small3
-  models[]: vegetmodel.pine.rus.5.nm
-  models[]: vegetmodel.pine.rus.4.nm
-  models[]: vegetmodel.pine.rus.3.nm
-  models[]: vegetmodel.beech.small4
-  models[]: vegetmodel.pine.rus.3.nm
+  model[]: vegetmodel.narrow.birch1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.birch2_sc
+	occurrence[]: 1
+  model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.birch1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.birch2_sc
+	occurrence[]: 1
+  model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+  model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.tree1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.tree2_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.birch1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.narrow.birch2_sc
+	occurrence[]: 1
+  model[]: vegetmodel.low.tree1_sc
+	occurrence[]: 1
+  model[]: vegetmodel.low.tree2_sc
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.5.nm
+	occurrence[]: 1
+  model[]: vegetmodel.beech.small1
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.5.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.4.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
+  model[]: vegetmodel.beech.small2
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
+  model[]: vegetmodel.beech.small3
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.5.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.4.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
+  model[]: vegetmodel.beech.small4
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
 
 }
 
 vegetation_data : veg.5643rus {
 
   name: "1_ess_Pine Forest FR"
-  models: 12
 
-  models[]: vegetmodel.pine.rus.5.nm
-  models[]: vegetmodel.beech.small1
-  models[]: vegetmodel.pine.rus.4.nm
-  models[]: vegetmodel.pine.rus.3.nm
-  models[]: vegetmodel.beech.small2
-  models[]: vegetmodel.pine.rus.5.nm
-  models[]: vegetmodel.pine.rus.3.nm
-  models[]: vegetmodel.beech.small3
-  models[]: vegetmodel.pine.rus.3.nm
-  models[]: vegetmodel.pine.rus.3.nm
-  models[]: vegetmodel.beech.small4
-  models[]: vegetmodel.pine.rus.4.nm
+  model[]: vegetmodel.pine.rus.5.nm
+	occurrence[]: 1
+  model[]: vegetmodel.beech.small1
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.4.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
+  model[]: vegetmodel.beech.small2
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.5.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
+  model[]: vegetmodel.beech.small3
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
+  model[]: vegetmodel.beech.small4
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.4.nm
+	occurrence[]: 1
 
 }
 
 vegetation_data : veg.5644rus {
 
   name: "1_ess_Pine Forest"
-  models: 5
 
-  models[]: vegetmodel.pine.rus.5.nm
-  models[]: vegetmodel.pine.rus.4.nm
-  models[]: vegetmodel.pine.rus.3.nm
-  models[]: vegetmodel.pine.rus.3.nm
-  models[]: vegetmodel.pine.rus.3.nm
+  model[]: vegetmodel.pine.rus.5.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.4.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
+  model[]: vegetmodel.pine.rus.3.nm
+	occurrence[]: 1
 
 }
 
@@ -228,9 +294,9 @@ vegetation_data : veg.5644rus {
 vegetation_data : veg.5648rus {
 
   name: "1_ess_Pine dry"
-  models: 1
 
-  models[]: vegetmodel.pine.rus.dry1.nm
+  model[]: vegetmodel.pine.rus.dry1.nm
+	occurrence[]: 1
 
 }
 

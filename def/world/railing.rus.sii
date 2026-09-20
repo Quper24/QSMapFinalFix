@@ -1,0 +1,17 @@
+SiiNunit
+{
+
+
+// railing_model : railing.5000 {
+// 	model_desc: "/model/railing/crash_barrier_ru.pmd"
+// }
+
+// railing_model : railing.5001 {
+// 	model_desc: "/model/railing/antinoise_walls/zabor_01.pmd"
+// }
+
+// railing_model : railing.5003rus {
+// 	model_desc: "/model/railing/crash_barrier_ru_st.pmd"
+// }
+
+}

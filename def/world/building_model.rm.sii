@@ -1,0 +1,313 @@
+SiiNunit
+
+{
+
+building_model : bld_model.002ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/srmod/dextor/line/lezh_polic_ess.pmd"
+}
+building_model : bld_model.003ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/water/or_river_foam1_ess.pmd"
+}
+building_model : bld_model.004ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/water/or_river_foam2_ess.pmd"
+}
+building_model : bld_model.005ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/water/or_river_foam3_ess.pmd"
+}
+building_model : bld_model.006ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/water/or_river_foam4_ess.pmd"
+}
+building_model : bld_model.011ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/railing/bridge/bridge_3a_one_ess_1.pmd"
+	look_name: silver
+}
+building_model : bld_model.012ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/railing/bridge/bridge_3a_one_ess_1.pmd"
+	look_name: red
+}
+building_model : bld_model.015ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/railing/bridge/hw_3a_oneway_ess_one.pmd"
+}
+building_model : bld_model.018ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/zabor/shifer_zabor.pmd"
+	look_name: default
+}
+building_model : bld_model.019ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/zabor/shifer_zabor_1.pmd"
+	look_name: default
+}
+building_model : bld_model.020ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/lines/lines_road_02p_ess.pmd"
+}
+building_model : bld_model.021ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/wall/wall_kad01.pmd"
+	look_name: default
+}
+building_model : bld_model.022ess {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model_essers/wall/wall_kad02.pmd"
+	look_name: default
+}
+building_model : bld_model.01klip{
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/klip8839/fences/concrete_fence_02.pmd"
+}
+building_model : bld_model.02rumod {
+	railing_model: true
+	follow_curve_dir: false
+	model_desc: "/model_ru_mod/lamp/lamp_rus_07_elektro.pmd"
+}
+
+building_model : bld_model.503 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/antinoise_walls/zabor_01.pmd"
+}
+building_model : bld_model.504 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/road/road_asphalt_x1.pmd"
+}
+building_model : bld_model.50004 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/road/road_koleya.pmd"
+}
+building_model : bld_model.50005 {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/road/road_bumps.pmd"
+}
+building_model : bld_model.03rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/road/road_wood_02.pmd"
+}
+building_model : bld_model.04rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/road/road_wood_skol.pmd"
+}
+building_model : bld_model.05rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/road/road_gravel.pmd"
+}
+building_model : bld_model.06rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/modelmyscs/wall_ru/concrete_fence_01.pmd"
+}
+building_model : bld_model.07rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/road1/road_crack_x1.pmd"
+}
+building_model : bld_model.09rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/road1/road_zaplatka.pmd"
+}
+building_model : bld_model.10rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/road1/road_bugor.pmd"
+}
+building_model : bld_model.11rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/woodfence.pmd"
+}
+building_model : bld_model.12rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/woodfence_1.pmd"
+}
+building_model : bld_model.14rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/zabor_city.pmd"
+}
+building_model : bld_model.15rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/road1/road_bugor_1.pmd"
+}
+building_model : bld_model.16rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/road1/road_crack_x2.pmd"
+}
+building_model : bld_model.17rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/road1/road_bugor_2.pmd"
+}
+building_model : bld_model.19rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/byandu/building/stalpi3/stalpi3.pmd"
+}
+building_model : bld_model.20rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/byandu/building/stalpi4/stalpi4.pmd"
+}
+building_model : bld_model.21rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/byandu/building/stalpi5/stalpi5.pmd"
+}
+building_model : bld_model.23rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/byandu/building/stalpi6/stalpi6.pmd"
+}
+building_model : bld_model.24rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/byandu/building/stalpi7/stalpi7.pmd"
+}
+building_model : bld_model.25rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/woodfence_3.pmd"
+}
+building_model : bld_model.27rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/wall/conc_barrier_ru.pmd"
+	look_name: redwhite
+}
+building_model : bld_model.28rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/wall/curb_concrete_01.ru.pmd"
+	look_name: default
+}
+building_model : bld_model.29rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/crash_barrier_ru.pmd"
+}
+building_model : bld_model.30rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/crash_barrier_ru_st.pmd"
+}
+building_model : bld_model.40rus {
+	railing_model: false
+	follow_curve_dir: true
+	model_desc: "/model/railing/ats/ca_cliff_coast01.pmd"
+	look_name: default
+}
+building_model : bld_model.41rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/ats/ca_cliff_eroded01.pmd"
+	look_name: default
+}
+building_model : bld_model.42rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/ats/fence_metal5.pmd"
+	look_name: default
+}
+building_model : bld_model.44rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/ats/pillar_chain.pmd"
+	look_name: default
+}
+building_model : bld_model.47rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/ats/rest_area.pmd"
+	look_name: default
+}
+building_model : bld_model.48rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/ats/rest_area_flat.pmd"
+	look_name: default
+}
+
+building_model : bld_model.55rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/railing/dirt_side_road.pmd"
+}
+
+building_model : bld_model.59rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/srmod/railin1/cr_barrier_wb_ru.pmd"
+}
+ 
+	building_model : bld_model.60rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/srmod/railin1/cr_barrier_gr_ru.pmd"
+}
+
+building_model : bld_model.62rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/dirt/lines_broken_rus.pmd"
+	look_name: default
+}
+
+building_model : bld_model.63rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model/power_line/wooden_powerline_rus.pmd"
+}
+
+building_model : bld_model.64rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model2/props/street/newapsh_decal.pmd"
+	look_name: default
+}
+
+building_model : bld_model.65rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model2/props/street/newapsh_decal_1.pmd"
+	look_name: default
+}
+
+building_model : bld_model.66rus {
+	railing_model: true
+	follow_curve_dir: true
+	model_desc: "/model2/props/street/newapsh_decal_2.pmd"
+	look_name: default
+}
+
+}

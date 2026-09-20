@@ -1,0 +1,131 @@
+SiiNunit
+{
+
+road_look : road.template3rus {
+	name: 			"*Road 2 city narrow scan temp 5m"
+	template_right:		"/road_template/sc/road_2_city_narrow_scan.pmd"
+	template_left:		"/road_template/sc/road_2_city_narrow_scan.pmd"
+
+	road_offset: 5.0
+
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+
+	compatible_edges_left[]: shldr_1m
+	compatible_edges_left[]: sh_curb_0_3m
+	compatible_edges_left[]: sw_3m_a
+	compatible_edges_left[]: sw_3m_b
+	compatible_edges_left[]: sw_3m_c
+	compatible_edges_left[]: center_np
+	compatible_edges_right[]: shldr_1m
+	compatible_edges_right[]: sh_curb_0_3m
+	compatible_edges_right[]: sw_3m_a
+	compatible_edges_right[]: sw_3m_b
+	compatible_edges_right[]: sw_3m_c
+	compatible_edges_right[]: center_np
+}
+
+road_look : road.template4rus {
+	name: 			"*Road 2 city narrow scan temp 0m"
+	template_right:		"/road_template/sc/road_2_city_narrow_scan.pmd"
+	template_left:		"/road_template/sc/road_2_city_narrow_scan.pmd"
+
+	road_offset: 0.01
+
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_left[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+	lanes_right[]:		traffic_lane.road.expressway
+
+	compatible_edges_left[]: shldr_1m
+	compatible_edges_left[]: sh_curb_0_3m
+	compatible_edges_left[]: sw_3m_a
+	compatible_edges_left[]: sw_3m_b
+	compatible_edges_left[]: sw_3m_c
+	compatible_edges_left[]: center_np
+	compatible_edges_right[]: shldr_1m
+	compatible_edges_right[]: sh_curb_0_3m
+	compatible_edges_right[]: sw_3m_a
+	compatible_edges_right[]: sw_3m_b
+	compatible_edges_right[]: sw_3m_c
+	compatible_edges_right[]: center_np
+}
+
+road_look : road.template6rus {
+	name: 			"Road crack 2"
+	template_right:		"/klip8839/road_template/road_2_klip01.pmd"
+
+
+	lanes_left[]:		traffic_lane.road.local
+	lanes_right[]:		traffic_lane.road.local
+
+	
+
+	compatible_edges_left[]: shldr_1m
+	compatible_edges_left[]: sh_curb_0_3m
+	compatible_edges_left[]: sw_3m_a
+	compatible_edges_left[]: sw_3m_b
+	compatible_edges_left[]: sw_3m_c
+	compatible_edges_left[]: center_np
+	compatible_edges_right[]: shldr_1m
+	compatible_edges_right[]: sh_curb_0_3m
+	compatible_edges_right[]: sw_3m_a
+	compatible_edges_right[]: sw_3m_b
+	compatible_edges_right[]: sw_3m_c
+	compatible_edges_right[]: center_np
+
+}
+
+road_look : road.template7rus {
+	name: 			"Road crack 3"
+	template_right:		"/klip8839/road_template/road_3_klip01.pmd"
+
+
+	lanes_left[]:		traffic_lane.road.local
+	lanes_right[]:		traffic_lane.road.local
+
+	
+
+	compatible_edges_left[]: shldr_1m
+	compatible_edges_left[]: sh_curb_0_3m
+	compatible_edges_left[]: sw_3m_a
+	compatible_edges_left[]: sw_3m_b
+	compatible_edges_left[]: sw_3m_c
+	compatible_edges_left[]: center_np
+	compatible_edges_right[]: shldr_1m
+	compatible_edges_right[]: sh_curb_0_3m
+	compatible_edges_right[]: sw_3m_a
+	compatible_edges_right[]: sw_3m_b
+	compatible_edges_right[]: sw_3m_c
+	compatible_edges_right[]: center_np
+
+}
+
+road_look : road.template8rus {
+	name: 			"Road crack 4"
+	template_right:		"/klip8839/road_template/road_3_klip02.pmd"
+
+
+	lanes_left[]:		traffic_lane.road.local
+	lanes_right[]:		traffic_lane.road.local
+
+	
+
+	compatible_edges_left[]: shldr_1m
+	compatible_edges_left[]: sh_curb_0_3m
+	compatible_edges_left[]: sw_3m_a
+	compatible_edges_left[]: sw_3m_b
+	compatible_edges_left[]: sw_3m_c
+	compatible_edges_left[]: center_np
+	compatible_edges_right[]: shldr_1m
+	compatible_edges_right[]: sh_curb_0_3m
+	compatible_edges_right[]: sw_3m_a
+	compatible_edges_right[]: sw_3m_b
+	compatible_edges_right[]: sw_3m_c
+	compatible_edges_right[]: center_np
+
+}
+
+}

@@ -837,20 +837,20 @@ vegetation_data : veg.5048 {
 	max_size_perc: 100
 }
 
-vegetation_data : veg.5049 {
+// vegetation_data : veg.5049 {
 
-	name: "1_Bush - avenue 1m"
+// 	name: "1_Bush - avenue 1m"
 
-	model[]: vegetmodel.big_bush
-	occurrence[]: 1
+// 	model[]: vegetmodel.big_bush
+// 	occurrence[]: 1
 
-	min_offset: 1.0
-	max_offset: 21.0
-	density: 400.0
+// 	min_offset: 1.0
+// 	max_offset: 21.0
+// 	density: 400.0
 
-	min_size_perc: 80
-	max_size_perc: 130
-}
+// 	min_size_perc: 80
+// 	max_size_perc: 130
+// }
 
 vegetation_data : veg.5050 {
 
@@ -948,26 +948,26 @@ vegetation_data : veg.5056 {
 	max_size_perc: 120
 }
 
-vegetation_data : veg.5057 {
+// vegetation_data : veg.5057 {
 
-	name: "6_birches - avenue 1m"
+// 	name: "6_birches - avenue 1m"
 
-	model[]: vegetmodel.birch.big_sc
-	occurrence[]: 1
-	model[]: vegetmodel.birch.small_sc
-	occurrence[]: 1
-	model[]: vegetmodel.birch.big_sc
-	occurrence[]: 1
-	model[]: vegetmodel.birch.small_sc
-	occurrence[]: 1
+// 	model[]: vegetmodel.birch.big_sc
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.birch.small_sc
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.birch.big_sc
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.birch.small_sc
+// 	occurrence[]: 1
 
-	min_offset: 1.0
-	max_offset: 21.0
-	density: 400.0
+// 	min_offset: 1.0
+// 	max_offset: 21.0
+// 	density: 400.0
 
-	min_size_perc: 80
-	max_size_perc: 120
-}
+// 	min_size_perc: 80
+// 	max_size_perc: 120
+// }
 
 vegetation_data : veg.5058 {
 

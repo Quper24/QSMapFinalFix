@@ -1,0 +1,19 @@
+SiiNunit
+{
+
+// curve_model : curve.baikal_01
+// {
+//   model_desc: "/model/baikalmap/stand_highway_ru_prus.pmd"
+//   name: "stand highway ru"
+
+//   variation: 1
+//   start_part: 1
+//   end_part: 1
+//   start_part[]: "start1"
+//   variation[]: "var1 | center1:2" 
+//   end_part[]: "end1"
+
+//   fixed_step: 2
+// }
+
+}
