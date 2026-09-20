@@ -1,0 +1,39 @@
+MAP FIX — Map Compatibility Fix
+Description:
+This mod is designed to ensure stable performance when using multiple global map modifications simultaneously. It resolves conflicts regarding spawn points, companies, and garages, and prevents game crashes (CTD) caused by map incompatibilities.
+Compatibility:
+The mod is optimized to work with the following projects:
+ProMods (Required)
+RusMap
+SibirMap
+DonbasMap
+Eurafrica
+EAA
+ROEX
+And other popular maps
+Installation:
+Place the mod file in the mod folder.
+Activate MAP FIX in the mod manager.
+Important: The mod must be placed above all maps in the load order list.
+
+На русском:
+MAP FIX — Исправление совместимости карт
+
+Описание:
+Мод предназначен для обеспечения стабильной работы при одновременном использовании нескольких глобальных картографических модификаций. Исправляет конфликты точек спавна, компаний и гаражей, а также предотвращает вылеты игры (CTD), вызванные несовместимостью карт.
+Совместимость:
+Мод оптимизирован для работы со следующими проектами:
+ProMods (Обязательно)
+RusMap
+SibirMap
+DonbasMap
+Eurafrica
+Silesia
+EAA
+ROEX
+И другие популярные карты
+
+Установка:
+Поместите файл мода в папку mod.
+В менеджере модов активируйте MAP FIX.
+Важно: Мод должен находиться над всеми картами.

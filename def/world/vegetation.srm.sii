@@ -1,0 +1,570 @@
+SiiNunit
+{
+
+vegetation_data : veg.1srm {
+
+	name: "Тополь"
+
+	model[]: vegetmodel.topolsrm
+
+	min_offset: 5.0
+	max_offset: 180.0
+	density: 400.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+
+}
+
+vegetation_data : veg.2srm {
+
+	name: "Деревья Кавказ"
+
+	model[]: vegetmodel.treekavkaz1
+
+	min_offset: 5.0
+	max_offset: 180.0
+	density: 250.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+
+}
+
+vegetation_data : veg.3srm {
+
+	name: "Кустарниковые деревья"
+
+	model[]: vegetmodel.treekavkaz2
+
+	min_offset: 5.0
+	max_offset: 180.0
+	density: 250.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+
+}
+
+vegetation_data : veg.4srm {
+
+	name: "Кустарниковые деревья1"
+
+	model[]: vegetmodel.treekavkaz3
+
+	min_offset: 5.0
+	max_offset: 180.0
+	density: 250.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+
+}
+
+vegetation_data : veg.5srm {
+
+	name: "Кустарниковые деревья2"
+
+	model[]: vegetmodel.treekavkaz4
+
+	min_offset: 5.0
+	max_offset: 180.0
+	density: 250.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+
+}
+
+
+vegetation_data : veg.6srm {
+	name: "Лес Кавказ"
+	model[]: vegetmodel.treekavkaz6
+	model[]: vegetmodel.treekavkaz5
+	model[]: vegetmodel.treekavkaz4
+	model[]: vegetmodel.treekavkaz3 
+	model[]: vegetmodel.treekavkaz2
+
+}
+
+vegetation_data : veg.7srm {
+
+	name: "Деревья Кавказ 2"
+
+	model[]: vegetmodel.treekavkaz5
+
+	min_offset: 5.0
+	max_offset: 180.0
+	density: 250.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+
+}
+
+vegetation_data : veg.8srm {
+
+	name: "Кустарниковые деревья3"
+
+	model[]: vegetmodel.treekavkaz6
+
+	min_offset: 5.0
+	max_offset: 180.0
+	density: 250.0
+
+	min_size_perc: 80
+	max_size_perc: 140
+
+}
+
+vegetation_data : veg.9srm {
+
+	name: "Кустарниковые деревья4"
+
+	model[]: vegetmodel.treekavkaz7
+
+	min_offset: 5.0
+	max_offset: 180.0
+	density: 250.0
+
+	min_size_perc: 80
+	max_size_perc: 130
+
+}
+
+vegetation_data : veg.10srm {
+
+ name: "Мать и мачеха"
+
+ model[]: vegetmodel.grasskavkaz1
+
+ min_offset: 5.0
+ max_offset: 180.0
+ density: 150.0
+
+ min_size_perc: 80
+ max_size_perc: 130
+
+}
+
+vegetation_data : veg.11srm {
+
+ name: "Кустарниковые деревья5"
+
+ model[]: vegetmodel.treekavkaz8
+
+ min_offset: 5.0
+ max_offset: 180.0
+ density: 150.0
+
+ min_size_perc: 80
+ max_size_perc: 130
+
+}
+
+vegetation_data : veg.12srm {
+
+ name: "Кустарники смесь 1"
+
+ model[]: vegetmodel.treekavkaz8
+ model[]: vegetmodel.treekavkaz7
+
+ min_offset: 5.0
+ max_offset: 180.0
+ density: 150.0
+
+ min_size_perc: 80
+ max_size_perc: 130
+
+}
+
+vegetation_data : veg.13srm {
+
+ name: "Кустарники смесь 2"
+
+ model[]: vegetmodel.treekavkaz9
+ model[]: vegetmodel.treekavkaz10
+  model[]: vegetmodel.treekavkaz11
+
+ min_offset: 5.0
+ max_offset: 180.0
+ density: 150.0
+
+ min_size_perc: 80
+ max_size_perc: 130
+
+}
+
+vegetation_data : veg.14srm {
+
+ name: "Кустарниковые деревья6"
+
+ model[]: vegetmodel.treekavkaz9
+
+ min_offset: 5.0
+ max_offset: 180.0
+ density: 150.0
+
+ min_size_perc: 80
+ max_size_perc: 130
+
+}
+
+vegetation_data : veg.15srm {
+
+ name: "Кустарниковые деревья6"
+
+ model[]: vegetmodel.treekavkaz10
+
+ min_offset: 5.0
+ max_offset: 180.0
+ density: 150.0
+
+ min_size_perc: 80
+ max_size_perc: 130
+
+}
+
+vegetation_data : veg.16srm {
+
+ name: "Кустарниковые деревья7"
+
+ model[]: vegetmodel.treekavkaz11
+
+ min_offset: 5.0
+ max_offset: 180.0
+ density: 150.0
+
+ min_size_perc: 80
+ max_size_perc: 130
+
+}
+
+vegetation_data : veg.27srm {
+
+ name: "Кусты Кавказ Большие"
+
+ model[]: vegetmodel.treekavkaz23
+
+ min_offset: 5.0
+ max_offset: 180.0
+ density: 150.0
+
+ min_size_perc: 10
+ max_size_perc: 140
+
+}
+
+vegetation_data : veg.15fsrm {
+
+	name: "bush - 2-8m"
+
+	model[]: vegetmodel.big_bush1
+
+	min_offset: 2.0
+	max_offset: 8.0
+	wrap_size: 135.0
+
+	min_size_perc: 50
+	max_size_perc: 150
+}
+
+vegetation_data : veg.19fsrm {
+
+	name: "tree - 2-10m"
+
+	model[]: vegetmodel.maple.tree
+	model[]: vegetmodel.poplar.tree
+	model[]: vegetmodel.maple.small
+	model[]: vegetmodel.big_bush
+
+	min_offset: 2.0
+	max_offset: 10.0
+	wrap_size: 200.0
+
+	min_size_perc: 90
+	max_size_perc: 130
+}
+
+vegetation_data : veg.21fsrm {
+
+	name: "tree big - 2-8m"
+
+	model[]: vegetmodel.maple.tree
+	model[]: vegetmodel.poplar.tree
+	model[]: vegetmodel.maple.small
+	model[]: vegetmodel.big_bush
+
+	min_offset: 2.0
+	max_offset: 8.0
+	wrap_size: 180.0
+
+	min_size_perc: 120
+	max_size_perc: 190
+}
+
+vegetation_data : veg.22fsrm {
+
+	name: "tree big - 2-10m"
+
+	model[]: vegetmodel.maple.tree
+	model[]: vegetmodel.poplar.tree
+	model[]: vegetmodel.maple.small
+	model[]: vegetmodel.big_bush
+
+	min_offset: 2.0
+	max_offset: 10.0
+	wrap_size: 220.0
+
+	min_size_perc: 130
+	max_size_perc: 190
+}
+
+vegetation_data : veg.14fsrm {
+
+	name: "tree small - 105m far"
+
+	model[]: vegetmodel.maple.tree
+	model[]: vegetmodel.maple.tree
+	model[]: vegetmodel.poplar.tree
+	model[]: vegetmodel.poplar.tree
+	model[]: vegetmodel.maple.small
+	model[]: vegetmodel.big_bush
+
+	min_offset: 105.0
+	max_offset: 110.0
+	wrap_size: 400.0
+
+	min_size_perc: 55
+	max_size_perc: 85
+}
+
+vegetation_data : veg.10fsrm {
+
+	name: "tree small - 15-40m"
+
+	model[]: vegetmodel.maple.tree
+	model[]: vegetmodel.maple.tree
+	model[]: vegetmodel.poplar.tree
+	model[]: vegetmodel.poplar.tree
+	model[]: vegetmodel.maple.small
+	model[]: vegetmodel.big_bush
+
+	min_offset: 15.0
+	max_offset: 40.0
+	wrap_size: 500.0
+
+	min_size_perc: 45
+	max_size_perc: 75
+}
+
+vegetation_data : veg.40fsrm {
+
+	name: "tree small sc - 15-40m"
+
+	model[]: vegetmodel.maple.tree_sc
+    model[]: vegetmodel.maple.tree_sc
+    model[]: vegetmodel.poplar.tree_sc
+	model[]: vegetmodel.poplar.tree_sc
+	model[]: vegetmodel.maple.small_sc
+	model[]: vegetmodel.big_bush_sc
+
+	min_offset: 15.0
+	max_offset: 40.0
+	wrap_size: 500.0
+
+	min_size_perc: 45
+	max_size_perc: 75
+}
+
+vegetation_data : veg.52fsrm {
+
+	name: "tree big sc - 2-10m"
+
+	model[]: vegetmodel.maple.tree_sc
+	model[]: vegetmodel.poplar.tree_sc
+	model[]: vegetmodel.maple.small_sc
+	model[]: vegetmodel.big_bush_sc
+
+	min_offset: 2.0
+	max_offset: 10.0
+	wrap_size: 220.0
+
+	min_size_perc: 130
+	max_size_perc: 150
+}
+
+vegetation_data : veg.29fsrm {
+
+	name: "bush - 3-11m"
+
+	model[]: vegetmodel.big_bush1
+
+	min_offset: 3.0
+	max_offset: 11.0
+	wrap_size: 170.0
+
+	min_size_perc: 50
+	max_size_perc: 170
+}
+
+vegetation_data : veg.28fsrm {
+
+	name: "bush - 3-9m"
+
+	model[]: vegetmodel.big_bush1
+
+	min_offset: 3.0
+	max_offset: 9.0
+	wrap_size: 135.0
+
+	min_size_perc: 50
+	max_size_perc: 150
+}
+
+vegetation_data : veg.16fsrm {
+
+	name: "bush - 2-10m"
+
+	model[]: vegetmodel.big_bush1
+
+	min_offset: 2.0
+	max_offset: 10.0
+	wrap_size: 170.0
+
+	min_size_perc: 50
+	max_size_perc: 170
+}
+
+vegetation_data : veg.47srm {
+
+	name: "Акация"
+
+	model[]: vegetmodel.treekavkaz28
+
+
+	min_offset: 2.0
+	max_offset: 10.0
+	wrap_size: 170.0
+
+	min_size_perc: 20
+	max_size_perc: 120
+}
+
+vegetation_data : veg.48srm {
+	name: "[SRM]Кустарники"
+
+	model[]: vegetmodel.beech.small1.srm1
+	model[]: vegetmodel.beech.small2.srm2
+	model[]: vegetmodel.beech.small3.srm3
+	model[]: vegetmodel.beech.small4.srm4
+	
+}
+
+vegetation_data : veg.49srm {
+	name: "[SRM]Лес лиственный фоновый(fr)"
+
+	model[]: vegetmodel.treekavkaz32.01a
+	model[]: vegetmodel.treekavkaz33.02a
+	model[]: vegetmodel.treekavkaz34.03a
+	model[]: vegetmodel.treekavkaz35.04a
+	model[]: vegetmodel.treekavkaz36.05a
+	model[]: vegetmodel.treekavkaz37.01b
+	model[]: vegetmodel.treekavkaz38.02b
+	model[]: vegetmodel.treekavkaz39.03b
+	model[]: vegetmodel.treekavkaz40.04b
+	model[]: vegetmodel.treekavkaz41.05b
+}
+
+vegetation_data : veg.50srm {
+	name: "[SRM]Лес буковый"
+
+	model[]: vegetmodel.beech.small1.srm1
+	model[]: vegetmodel.beech.small2.srm2
+	model[]: vegetmodel.beech.small3.srm3
+	model[]: vegetmodel.beech.small4.srm4
+	model[]: vegetmodel.beech.tall1.srm5
+	model[]: vegetmodel.beech.tall2.srm6
+	model[]: vegetmodel.beech.tall.triple1.srm7
+	model[]: vegetmodel.beech.tall.double1.srm8
+}
+
+vegetation_data : veg.52srm {
+	name: "[SRM]Лес хвойный(hq)"
+
+	model[]: vegetmodel.conif.srm17
+	model[]: vegetmodel.conif.srm18
+	model[]: vegetmodel.conif.srm20
+	model[]: vegetmodel.conif.srm21
+	model[]: vegetmodel.conif.srm22
+
+}
+
+vegetation_data : veg.53srm {
+	name: "[SRM]Лес лиственный фоновый(hq,вар.2)"
+
+	model[]: vegetmodel.dectree.srm9
+	model[]: vegetmodel.dectree.srm9
+	model[]: vegetmodel.dectree.srm10
+	model[]: vegetmodel.dectree.srm10
+	model[]: vegetmodel.dectree.srm13
+	model[]: vegetmodel.dectree.srm14
+	model[]: vegetmodel.dectree.srm15
+	model[]: vegetmodel.dectree.srm15
+	model[]: vegetmodel.dectree.srm16
+	model[]: vegetmodel.dectree.srm19
+	model[]: vegetmodel.treekavkaz32.01a
+	model[]: vegetmodel.treekavkaz33.02a
+	model[]: vegetmodel.treekavkaz34.03a
+	model[]: vegetmodel.treekavkaz35.04a
+	model[]: vegetmodel.treekavkaz36.05a
+	model[]: vegetmodel.treekavkaz37.01b
+	model[]: vegetmodel.treekavkaz38.02b
+	model[]: vegetmodel.treekavkaz39.03b
+	model[]: vegetmodel.treekavkaz40.04b
+	model[]: vegetmodel.treekavkaz41.05b
+
+}
+
+vegetation_data : veg.54srm {
+	name: "[SRM]Тросник"
+
+	model[]: vegetmodel.cane.srm26
+	model[]: vegetmodel.cane.srm27
+
+}
+
+vegetation_data : veg.57srm {
+	name: "[SRM]Тросник(вар.2)"
+
+	model[]: vegetmodel.trost.srm34
+	model[]: vegetmodel.trost.srm35
+	model[]: vegetmodel.trost.srm36
+
+}
+
+vegetation_data : veg.58srm {
+	name: "[SRM]Лес буковый(вар.2)"
+
+	model[]: vegetmodel.beech.small1.srm1
+	model[]: vegetmodel.beech.small2.srm2
+	model[]: vegetmodel.beech.small3.srm3
+	model[]: vegetmodel.beech.small4.srm4
+	model[]: vegetmodel.beech.tall1.srm41
+	model[]: vegetmodel.beech.tall2.srm42
+	model[]: vegetmodel.beech.tall.triple1.srm43
+	model[]: vegetmodel.beech.tall.double1.srm44
+}
+
+vegetation_data : veg.59srm
+{
+	name: "[SRM]Осина"
+	
+	model[]: vegetmodel.aspen.1.balt
+	model[]: vegetmodel.aspen.2.balt
+	
+	min_size_perc: 10
+	max_size_perc: 140
+}
+
+}

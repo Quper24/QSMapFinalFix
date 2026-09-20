@@ -1,0 +1,18 @@
+effect : "ui.font.msdf.rfx" {
+	aux[0] : { 512.0, 512.0, 2.779907, 0.000000 }
+	aux[1] : { 1.000000, 1.000000, 1.000000, 1.000000 }
+	aux[2] : { 0.000000, 0.000000, 0.000000, 1.000000 }
+	aux[3] : { 0.000000, 0.0, 0.0, 0.0 }
+	aux[4] : { 0.000000, -0.000000, 0.000000, 0.500000}
+	aux[5] : { 0.000000, 0.000000, 0.000000, 0.000000 }
+	aux[6] : { 1.000000, 0.000000, 0.000000, 0.000000 }
+	texture : "texture" {
+		source : "/font/sign/ru_medium_0.tobj"
+		u_address : clamp
+		v_address : clamp
+		min_filter : linear
+		mag_filter : linear
+		mip_filter : none
+		aniso : disabled
+	}
+}

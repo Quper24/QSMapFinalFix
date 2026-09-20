@@ -1,0 +1,231 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+
+// tr_semaphore_model : tr_sem_mdl.ab_toll.belarus
+// {
+
+// 	name: "ab_toll_by"
+
+// 	model_desc: "/prefab/tollgate_essers/tollgate_anim_essers.pmd"
+// 	model_coll: "/prefab/tollgate_essers/tollgate_anim_essers.pmc"
+
+// 	state_anim: 4
+
+// 	# orange_to_red
+// 	state_anim[0]: "/prefab/tollgate_essers/toll_down_essers.pma"
+
+// 	# red
+// 	state_anim[1]: ""
+
+// 	# orange_to_green
+// 	state_anim[2]: "/prefab/tollgate_essers/toll_up_essers.pma"
+
+// 	# green
+// 	state_anim[3]: ""
+
+
+// }
+
+// tr_semaphore_model : tr_sem_mdl.single.belarus
+// {
+// 	name: "single_by"
+
+// 	model_desc: "/model/traffic_light/single_ru.pmd"
+// 	model_coll: "/model/traffic_light/single_ru.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+// }
+
+// tr_semaphore_model : tr_sem_mdl.duo_left.belarus
+// {
+// 	name: "duo_left_by"
+
+// 	model_desc: "/model/traffic_light/duo_left_ru.pmd"
+// 	model_coll: "/model/traffic_light/duo_left_ru.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+
+// }
+
+// tr_semaphore_model : tr_sem_mdl.duo_right.belarus
+// {
+// 	name: "duo_right_by"
+
+// 	model_desc: "/model/traffic_light/duo_right_ru.pmd"
+// 	model_coll: "/model/traffic_light/duo_right_ru.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+
+// }
+
+// tr_semaphore_model : tr_sem_mdl.duo_str.belarus
+// {
+// 	name: "duo_str_by"
+
+// 	model_desc: "/model/traffic_light/duo_str_ru.pmd"
+// 	model_coll: "/model/traffic_light/duo_str_ru.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+
+// }
+
+// tr_semaphore_model : tr_sem_mdl.single_l.belarus
+// {
+// 	name: "single_left_by"
+
+// 	model_desc: "/model/traffic_light/single_left_ru.pmd"
+// 	model_coll: "/model/traffic_light/single_left_ru.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+
+// }
+
+// tr_semaphore_model : tr_sem_mdl.single_r.belarus
+// {
+// 	name: "single_right_by"
+
+// 	model_desc: "/model/traffic_light/single_right_ru.pmd"
+// 	model_coll: "/model/traffic_light/single_right_ru.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+
+// }
+
+// tr_semaphore_model : tr_sem_mdl.city_str.belarus
+// {
+// 	name: "city_str_by"
+
+// 	model_desc: "/model/traffic_light/city_str_ru.pmd"
+// 	model_coll: "/model/traffic_light/city_str_ru.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+
+// }
+
+// tr_semaphore_model : tr_sem_mdl.city_l.belarus
+// {
+// 	name: "city_left_by"
+
+// 	model_desc: "/model/traffic_light/city_left_ru.pmd"
+// 	model_coll: "/model/traffic_light/city_left_ru.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+
+// }
+
+// tr_semaphore_model : tr_sem_mdl.city.belarus
+// {
+// 	name: "city_by"
+
+// 	model_desc: "/model/traffic_light/city_ru.pmd"
+// 	model_coll: "/model/traffic_light/city_ru.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+
+// }
+
+// tr_semaphore_model : tr_sem_mdl.sicity.belarus
+// {
+// 	name: "singlecity_by"
+
+// 	model_desc: "/model/traffic_light/singlecity_ru.pmd"
+// 	model_coll: "/model/traffic_light/singlecity_ru.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+
+// }
+
+// tr_semaphore_model : tr_sem_mdl.sicity_l.belarus
+// {
+// 	name: "singlecity_left_by"
+
+// 	model_desc: "/model/traffic_light/singlecity_left_ru.pmd"
+// 	model_coll: "/model/traffic_light/singlecity_left_ru.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+
+// }
+// tr_semaphore_model : tr_sem_mdl.singletr.belarus
+// {
+// 	name: "single_tram_by"
+
+// 	model_desc: "/model/traffic_light/single_tram_ru.pmd"
+// 	model_coll: "/model/traffic_light/single_tram_ru.pmc"
+
+// }
+
+// tr_semaphore_model : tr_sem_mdl.crossing_r.belarus
+// {
+
+// 	name: "level_right_by"
+
+// 	model_desc: "/prefab2/level_crossing/level_right_anim_01_ru.pmd"
+// 	model_coll: "/prefab2/level_crossing/level_right_anim_01_ru.pmc"
+
+// 	state_anim: 4
+
+// 	# orange_to_red
+// 	state_anim[0]: ""
+
+// 	# red
+// 	state_anim[1]: "/prefab2/level_crossing/r_dwn_ru.pma"
+
+// 	# orange_to_green
+// 	state_anim[2]: "/prefab2/level_crossing/r_up_ru.pma"
+
+// 	# green
+// 	state_anim[3]: ""
+
+// 	#sound
+// 	sounds[]: "ROY|/sound/world/semaphore_ets.bank#semaphore/train"
+// }
+
+}

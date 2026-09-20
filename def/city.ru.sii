@@ -1,0 +1,41 @@
+SiiNunit
+{
+# RUSSIA
+# ASTRAKHAN OBLAST
+
+#@include "city/astrakhan.sui"
+
+# CHECHEN REPUBLIC
+
+@include "city/grozny.sui"
+
+# REPUBLIC OF DAGESTAN
+
+@include "city/derbent.sui"
+@include "city/khasavyurt.sui"
+@include "city/makhachkala.sui"
+
+# REPUBLIC OF INGUSHETIA
+
+@include "city/magas.sui"
+
+# REPUBLIC OF KABARDINO-BALKARIA
+
+@include "city/nalchik.sui"
+
+# REPUBLIC OF KALMYKIA
+
+#@include "city/elista.sui"
+@include "city/yashkul.sui"
+
+# REPUBLIC OF NORTH OSSETIA-ALANIA
+
+@include "city/vladikavkaz.sui"
+
+# STAVROPOL KRAI
+
+@include "city/divnoye.sui"
+@include "city/ipatovo.sui"
+@include "city/mineral_vody.sui"
+@include "city/pyatigorsk.sui"
+}

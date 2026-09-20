@@ -1,0 +1,15 @@
+SiiNunit
+{
+	mod_package : .package_name
+	{
+		package_version:                "6.0.0"
+		display_name:                   "QS Map Final FIX"
+		author:                         "Quper, Werwolf, hi sora"
+		category[]:	                		"other"
+		icon:                           "image.jpg"
+		description_file:               "mod_description.txt"
+		compatible_versions[]:          "1.61.*" # Mod is compatible with 1.61.X..
+
+
+	}
+}

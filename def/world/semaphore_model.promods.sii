@@ -1,0 +1,3118 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+###############
+### SWEDEN ###
+###############
+
+tr_semaphore_model : tr_sem_mdl.single_l.sweden {
+
+	name: "single_l-s"
+
+	model_desc: "/model/traffic_light/single_se.pmd"
+	model_coll: "/model/traffic_light/single_se.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.city.sweden {
+
+	name: "city-s"
+	
+	model_desc: "/model/traffic_light/single_se.pmd"
+	model_coll: "/model/traffic_light/single_se.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.crossing_r.sweden {
+
+	name: "ab_right_swe"
+
+	model_desc: "/prefab/level_crossing/level_right_anim_se.pmd"
+	model_coll: "/prefab/level_crossing/level_right_anim_se.pmc"
+	
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/level_crossing/se_right_dwn.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/se_right_up.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_pm.bank#semaphore/train_se"
+}
+tr_semaphore_model : tr_sem_mdl.crossing_l.sweden {
+
+	name: "ab_left_swe"
+
+	model_desc: "/prefab/level_crossing/level_left_anim_se.pmd"
+	model_coll: "/prefab/level_crossing/level_left_anim_se.pmc"
+	
+	state_anim: 4
+	# state_collision: 4
+	
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/level_crossing/se_left_dwn.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/se_left_up.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_pm.bank#semaphore/train_se"
+}
+
+tr_semaphore_model : tr_sem_mdl.double_l.sweden {
+	name: "double_left_se"
+
+	model_desc: "/model/traffic_light/double_left_se.pmd"
+	model_coll: "/model/traffic_light/double_left_se.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.double_r.sweden {
+	name: "double_right_se"
+
+	model_desc: "/model/traffic_light/double_right_se.pmd"
+	model_coll: "/model/traffic_light/double_right_se.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.double_s.sweden {
+	name: "double_straight_se"
+
+	model_desc: "/model/traffic_light/double_str_se.pmd"
+	model_coll: "/model/traffic_light/double_str_se.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.col_turn_l.sweden {
+	name: "collumn_turn_left_se"
+
+	model_desc: "/model/traffic_light/collumn_left_se.pmd"
+	model_coll: "/model/traffic_light/collumn_left_se.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.col_turn_r.sweden {
+	name: "collumn_turn_right_se"
+
+	model_desc: "/model/traffic_light/collumn_right_se.pmd"
+	model_coll: "/model/traffic_light/collumn_right_se.pmc"
+}
+
+##############
+### NORWAY ###
+##############
+
+tr_semaphore_model  : tr_sem_mdl.single_l.norway {
+
+	name: "single_l-n"
+
+	model_desc: "/model/traffic_light/single_no.pmd"
+	model_coll: "/model/traffic_light/single_no.pmc"
+}
+tr_semaphore_model  : tr_sem_mdl.city.norway {
+
+	name: "city-n"
+	
+	model_desc: "/model/traffic_light/single_no.pmd"
+	model_coll: "/model/traffic_light/single_no.pmc"
+}
+
+###############
+### ICELAND ###
+###############
+
+tr_semaphore_model : tr_sem_mdl.single.iceland {
+	name: "single_is"
+
+	model_desc: "/model/traffic_light/single_is.pmd"
+	model_coll: "/model/traffic_light/single_is.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_left.iceland {
+	name: "duo_left_is"
+
+	model_desc: "/model/traffic_light/duo_left_is.pmd"
+	model_coll: "/model/traffic_light/duo_left_is.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_right.iceland {
+	name: "duo_right_is"
+
+	model_desc: "/model/traffic_light/duo_right_is.pmd"
+	model_coll: "/model/traffic_light/duo_right_is.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_str.iceland {
+	name: "duo_str_is"
+
+	model_desc: "/model/traffic_light/duo_str_is.pmd"
+	model_coll: "/model/traffic_light/duo_str_is.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.single_l.iceland {
+	name: "single_left_is"
+
+	model_desc: "/model/traffic_light/single_left_is.pmd"
+	model_coll: "/model/traffic_light/single_left_is.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.single_r.iceland {
+	name: "single_right_is"
+
+	model_desc: "/model/traffic_light/single_right_is.pmd"
+	model_coll: "/model/traffic_light/single_right_is.pmc"
+}
+
+tr_semaphore_model  : tr_sem_mdl.city.iceland {
+
+	name: "city-is"
+	
+	model_desc: "/model/traffic_light/city_is.pmd"
+	model_coll: "/model/traffic_light/city_is.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.ab_toll_is {
+
+	name: "ab_toll_is"
+
+	model_desc: "/prefab/tollgate/iceland/tolgate_is_small_anim.pmd"
+	model_coll: "/prefab/tollgate/iceland/tolgate_is_small_anim.pmc"
+	
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/tollgate/large_it_fr_tollgate/t_small_dwn.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/tollgate/large_it_fr_tollgate/t_smal_up.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+}
+
+###############
+### DENMARK ###
+###############
+
+tr_semaphore_model  : tr_sem_mdl.single_l.denmark {
+	name: "single_l-dk"
+
+	model_desc: "/model/traffic_light/single_dk.pmd"
+	model_coll: "/model/traffic_light/single_dk.pmc"
+}
+
+##############
+### CYPRUS ###
+##############
+
+tr_semaphore_model  : tr_sem_mdl.2.cyprus {
+
+	name: "city-irl"
+
+	model_desc: "/model/traffic_light/city_uk.pmd"
+	model_coll: "/model/traffic_light/city_uk.pmc"
+}
+
+tr_semaphore_model  : tr_sem_mdl.single.cyprus  {
+
+	name: "single-cy"
+
+	model_desc: "/model/traffic_light/single_uk.pmd"
+	model_coll: "/model/traffic_light/single_uk.pmc"
+}
+tr_semaphore_model  : tr_sem_mdl.city.cyprus {
+
+	name: "city-cy"
+
+	model_desc: "/model/traffic_light/city_uk.pmd"
+	model_coll: "/model/traffic_light/city_uk.pmc"
+}
+
+###############
+### IRELAND ###
+###############
+
+tr_semaphore_model  : tr_sem_mdl.2.ireland {
+
+	name: "city-irl"
+
+	model_desc: "/model/traffic_light/city_uk.pmd"
+	model_coll: "/model/traffic_light/city_uk.pmc"
+}
+tr_semaphore_model  : tr_sem_mdl.city.ireland {
+
+	name: "city-irl"
+
+	model_desc: "/model/traffic_light/city_uk.pmd"
+	model_coll: "/model/traffic_light/city_uk.pmc"
+}
+
+tr_semaphore_model  : tr_sem_mdl.single.ireland {
+
+	name: "single-irl"
+
+	model_desc: "/model/traffic_light/single_uk.pmd"
+	model_coll: "/model/traffic_light/single_uk.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.crossing_r.ireland {
+
+	name: "ab_right_ie"
+
+	model_desc: "/prefab/level_crossing/level_right_anim_uk.pmd"
+	model_coll: "/prefab/level_crossing/level_right_anim_uk.pmc"
+	
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/level_crossing/uk_right_dwn.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/uk_right_up.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_pm.bank#semaphore/train_uk"
+}
+tr_semaphore_model : tr_sem_mdl.crossing_l.ireland {
+
+	name: "ab_left_ie"
+
+	model_desc: "/prefab/level_crossing/level_left_anim_uk.pmd"
+	model_coll: "/prefab/level_crossing/level_left_anim_uk.pmc"
+	
+	state_anim: 4
+	# state_collision: 4
+	
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/level_crossing/uk_left_dwn.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/uk_left_up.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_ets.bank#semaphore/train"
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.ireland {
+	name: "single_left_ie"
+
+	model_desc: "/model/traffic_light/single_left_uk.pmd"
+	model_coll: "/model/traffic_light/single_left_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.single_r.ireland {
+	name: "single_right_ie"
+
+	model_desc: "/model/traffic_light/single_right_uk.pmd"
+	model_coll: "/model/traffic_light/single_right_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.single_t.ireland {
+	name: "single_thru_ie"
+
+	model_desc: "/model/traffic_light/single_thru_uk.pmd"
+	model_coll: "/model/traffic_light/single_thru_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_left.ireland {
+	name: "duo_left_ie"
+
+	model_desc: "/model/traffic_light/single_left_uk.pmd"
+	model_coll: "/model/traffic_light/single_left_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_right.ireland {
+	name: "duo_right_ie"
+
+	model_desc: "/model/traffic_light/duo_right_ie.pmd"
+	model_coll: "/model/traffic_light/duo_right_ie.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_str.ireland {
+	name: "duo_str_ie"
+
+	model_desc: "/model/traffic_light/single_thru_uk.pmd"
+	model_coll: "/model/traffic_light/single_thru_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_any.ireland {
+	name: "duo_any_ie"
+
+	model_desc: "/model/traffic_light/single_uk.pmd"
+	model_coll: "/model/traffic_light/single_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.double.ireland {
+	name: "double_ie"
+
+	model_desc: "/model/traffic_light/double_uk.pmd"
+	model_coll: "/model/traffic_light/double_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.dbl_left.ireland {
+	name: "dbl_left_ie"
+
+	model_desc: "/model/traffic_light/double_left_uk.pmd"
+	model_coll: "/model/traffic_light/double_left_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.dbl_right.ireland {
+	name: "dbl_right_ie"
+
+	model_desc: "/model/traffic_light/double_right_ie.pmd"
+	model_coll: "/model/traffic_light/double_right_ie.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.dbl_str.ireland {
+	name: "dbl_str_ie"
+
+	model_desc: "/model/traffic_light/double_str_uk.pmd"
+	model_coll: "/model/traffic_light/double_str_uk.pmc"
+}
+
+########################
+### NORTHERN IRELAND ###
+########################
+
+tr_semaphore_model  : tr_sem_mdl.single.nireland {
+
+	name: "single-nireland"
+
+	model_desc: "/model/traffic_light/single_uk.pmd"
+	model_coll: "/model/traffic_light/single_uk.pmc"
+}
+
+tr_semaphore_model  : tr_sem_mdl.2.nireland {
+
+	name: "city-nireland"
+
+	model_desc: "/model/traffic_light/city_uk.pmd"
+	model_coll: "/model/traffic_light/city_uk.pmc"
+}
+tr_semaphore_model  : tr_sem_mdl.city.nireland {
+
+	name: "city-nireland"
+
+	model_desc: "/model/traffic_light/city_uk.pmd"
+	model_coll: "/model/traffic_light/city_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.crossing_r.nireland {
+
+	name: "ab_right_nireland"
+
+	model_desc: "/prefab/level_crossing/level_right_anim_uk.pmd"
+	model_coll: "/prefab/level_crossing/level_right_anim_uk.pmc"
+	
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/level_crossing/uk_right_dwn.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/uk_right_up.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_pm.bank#semaphore/train_uk"
+}
+tr_semaphore_model : tr_sem_mdl.crossing_l.nireland {
+
+	name: "ab_left_nireland"
+
+	model_desc: "/prefab/level_crossing/level_left_anim_uk.pmd"
+	model_coll: "/prefab/level_crossing/level_left_anim_uk.pmc"
+	
+	state_anim: 4
+	# state_collision: 4
+	
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/level_crossing/uk_left_dwn.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/uk_left_up.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_pm.bank#semaphore/train_uk"
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.nireland {
+	name: "single_left_nie"
+
+	model_desc: "/model/traffic_light/single_left_uk.pmd"
+	model_coll: "/model/traffic_light/single_left_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.single_r.nireland {
+	name: "single_right_nie"
+
+	model_desc: "/model/traffic_light/single_right_uk.pmd"
+	model_coll: "/model/traffic_light/single_right_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.single_t.nireland {
+	name: "single_thru_nie"
+
+	model_desc: "/model/traffic_light/single_thru_uk.pmd"
+	model_coll: "/model/traffic_light/single_thru_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_left.nireland {
+	name: "duo_left_nie"
+
+	model_desc: "/model/traffic_light/duo_left_uk.pmd"
+	model_coll: "/model/traffic_light/duo_left_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_right.nireland {
+	name: "duo_right_nie"
+
+	model_desc: "/model/traffic_light/duo_right_uk.pmd"
+	model_coll: "/model/traffic_light/duo_right_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_str.nireland {
+	name: "duo_str_nie"
+
+	model_desc: "/model/traffic_light/duo_str_uk.pmd"
+	model_coll: "/model/traffic_light/duo_str_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_str_m.nireland {
+	name: "duo_str_mirr_nie"
+
+	model_desc: "/model/traffic_light/duo_str_mirr_uk.pmd"
+	model_coll: "/model/traffic_light/duo_str_mirr_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_any.nireland {
+	name: "duo_any_nie"
+
+	model_desc: "/model/traffic_light/duo_any_uk.pmd"
+	model_coll: "/model/traffic_light/duo_any_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_any_m.nireland {
+	name: "duo_any_m_nie"
+
+	model_desc: "/model/traffic_light/duo_any_mirr_uk.pmd"
+	model_coll: "/model/traffic_light/duo_any_mirr_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.double.nireland {
+	name: "double_nie"
+
+	model_desc: "/model/traffic_light/double_uk.pmd"
+	model_coll: "/model/traffic_light/double_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.dbl_left.nireland {
+	name: "dbl_left_nie"
+
+	model_desc: "/model/traffic_light/double_left_uk.pmd"
+	model_coll: "/model/traffic_light/double_left_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.dbl_right.nireland {
+	name: "dbl_right_nie"
+
+	model_desc: "/model/traffic_light/double_right_uk.pmd"
+	model_coll: "/model/traffic_light/double_right_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.dbl_str.nireland {
+	name: "dbl_str_nie"
+
+	model_desc: "/model/traffic_light/double_str_uk.pmd"
+	model_coll: "/model/traffic_light/double_str_uk.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.single_str_l.nireland {
+	name: "single_str_l_nie"
+
+	model_desc: "/model/traffic_light/single_str_left_uk.pmd"
+	model_coll: "/model/traffic_light/single_str_left_uk.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.dbl_str_l.nireland {
+	name: "dbl_str_l_nie"
+
+	model_desc: "/model/traffic_light/double_str_left_uk.pmd"
+	model_coll: "/model/traffic_light/double_str_left_uk.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.city_str.nireland {
+	name: "city_str_nie"
+
+	model_desc: "/model/traffic_light/city_str_uk.pmd"
+	model_coll: "/model/traffic_light/city_str_uk.pmc"
+}
+
+##############
+### JERSEY ###
+##############
+
+tr_semaphore_model  : tr_sem_mdl.single.jersey {
+
+	name: "single-jersey"
+
+	model_desc: "/model/traffic_light/single_uk.pmd"
+	model_coll: "/model/traffic_light/single_uk.pmc"
+}
+
+tr_semaphore_model  : tr_sem_mdl.2.jersey {
+
+	name: "city-jersey"
+
+	model_desc: "/model/traffic_light/city_uk.pmd"
+	model_coll: "/model/traffic_light/city_uk.pmc"
+}
+tr_semaphore_model  : tr_sem_mdl.city.jersey {
+
+	name: "city-jersey"
+
+	model_desc: "/model/traffic_light/city_uk.pmd"
+	model_coll: "/model/traffic_light/city_uk.pmc"
+}
+
+################
+### GUERNSEY ###
+################
+
+tr_semaphore_model  : tr_sem_mdl.single.guernsey {
+
+	name: "single-guernsey"
+
+	model_desc: "/model/traffic_light/single_uk.pmd"
+	model_coll: "/model/traffic_light/single_uk.pmc"
+}
+
+tr_semaphore_model  : tr_sem_mdl.2.guernsey {
+
+	name: "city-guernsey"
+
+	model_desc: "/model/traffic_light/city_uk.pmd"
+	model_coll: "/model/traffic_light/city_uk.pmc"
+}
+tr_semaphore_model  : tr_sem_mdl.city.guernsey {
+
+	name: "city-guernsey"
+
+	model_desc: "/model/traffic_light/city_uk.pmd"
+	model_coll: "/model/traffic_light/city_uk.pmc"
+}
+
+###############
+### HUNGARY ###
+###############
+
+tr_semaphore_model  : tr_sem_mdl.single.hungary {
+
+	name: "single-h"
+
+	model_desc: "/model/traffic_light/single_hu.pmd"
+	model_coll: "/model/traffic_light/single_hu.pmc"
+}
+tr_semaphore_model  : tr_sem_mdl.single_l.hungary {
+
+	name: "single_l-h"
+
+	model_desc: "/model/traffic_light/single_left_hu.pmd"
+	model_coll: "/model/traffic_light/single_left_hu.pmc"
+}
+tr_semaphore_model  : tr_sem_mdl.city.hungary {
+
+	name: "city-h"
+
+	model_desc: "/model/traffic_light/city_hu.pmd"
+	model_coll: "/model/traffic_light/city_hu.pmc"
+}
+
+###################
+### SWITZERLAND ###
+###################
+
+
+##############
+### GREECE ###
+##############
+
+#tr_semaphore_model  : tr_sem_mdl.city.greece {
+#
+#	name: "city-gr"
+#	
+#	model_desc: "/model/traffic_light/greece/city_gr.pmd"
+#	model_coll: "/model/traffic_light/greece/city_gr.pmc"
+#}
+#tr_semaphore_model  : tr_sem_mdl.single.greece {
+#
+#	name: "single-gr"
+#	
+#	model_desc: "/model/traffic_light/greece/single_gr.pmd"
+#	model_coll: "/model/traffic_light/greece/single_gr.pmc"
+#}
+#tr_semaphore_model  : tr_sem_mdl.single_l.greece {
+#
+#	name: "single_l-gr"
+#
+#	model_desc: "/model/traffic_light/greece/single_left_gr.pmd"
+#	model_coll: "/model/traffic_light/greece/single_left_gr.pmc"
+#}
+tr_semaphore_model  : tr_sem_mdl.ab_toll.greece {
+
+	name: "ab_toll_gr"
+
+	model_desc: "/prefab/tollgate/greece/tollgate_anim_gr.pmd"
+	model_coll: "/prefab/tollgate/greece/tollgate_anim_gr.pmc"
+	
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab2/tollgate/t_small_dwn.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab2/tollgate/t_smal_up.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+}
+
+#############
+### SPAIN ###
+#############
+
+#tr_semaphore_model  : tr_sem_mdl.single.spain {
+#
+#	name: "single-e"
+#
+#	model_desc: "/model/traffic_light/single_es.pmd"
+#	model_coll: "/model/traffic_light/single_es.pmc"
+#}
+#tr_semaphore_model  : tr_sem_mdl.single_l.spain {
+#
+#	name: "single_l-e"
+#
+#	model_desc: "/model/traffic_light/single_left_es.pmd"
+#	model_coll: "/model/traffic_light/single_left_es.pmc"
+#}
+#tr_semaphore_model  : tr_sem_mdl.city.spain {
+#
+#	name: "city-e"
+#
+#	model_desc: "/model/traffic_light/city_es.pmd"
+#	model_coll: "/model/traffic_light/city_es.pmc"
+#}
+#
+#tr_semaphore_model : tr_sem_mdl.ab_toll_s_es.spain {
+#
+#	name: "ab_toll_small_es"
+#
+#	model_desc: "/model2/barrier/animated/toll_gate_fr.pmd"
+#	model_coll: "/model2/barrier/animated/toll_gate_fr.pmc"
+#	
+#	state_anim: 4
+#	# state_collision: 4
+#
+#	# orange_to_red
+#	state_anim[0]: "/model2/barrier/animated/t_smal_dw_fr.pma"
+#	# state_collision[0]: true
+#
+#	# red
+#	state_anim[1]: ""
+#	# state_collision[1]: true
+#
+#	# orange_to_green
+#	state_anim[2]: "/model2/barrier/animated/t_smal_up_fr.pma"
+#	# state_collision[2]: true
+#
+#	# green
+#	state_anim[3]: ""
+#	# state_collision[3]: false
+#
+#}
+
+#####################
+### LIECHTENSTEIN ###
+#####################
+tr_semaphore_model : tr_sem_mdl.single.liecht
+{
+
+	name: "single-li"
+
+	model_desc: "/model/traffic_light/single_ch.pmd"
+	model_coll: "/model/traffic_light/single_ch.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.liecht
+{
+
+	name: "single_l-li"
+
+	model_desc: "/model/traffic_light/single_left_ch.pmd"
+	model_coll: "/model/traffic_light/single_left_ch.pmc"
+
+}
+tr_semaphore_model : tr_sem_mdl.city.liecht
+{
+
+	name: "city-li"
+
+	model_desc: "/model/traffic_light/city_ch.pmd"
+	model_coll: "/model/traffic_light/city_ch.pmc"
+
+}
+
+###############
+### ANDORRA ###
+###############
+
+tr_semaphore_model  : tr_sem_mdl.single.andorra {
+
+	name: "single-and"
+
+	model_desc: "/model/traffic_light/single_ad.pmd"
+	model_coll: "/model/traffic_light/single_ad.pmc"
+}
+tr_semaphore_model  : tr_sem_mdl.single_l.andorra {
+
+	name: "single_l-and"
+
+	model_desc: "/model/traffic_light/single_ad.pmd"
+	model_coll: "/model/traffic_light/single_ad.pmc"
+}
+tr_semaphore_model  : tr_sem_mdl.city.andorra {
+
+	name: "city-and"
+
+	model_desc: "/model/traffic_light/city_ad.pmd"
+	model_coll: "/model/traffic_light/city_ad.pmc"
+}
+
+##############
+### MONACO ###
+##############
+tr_semaphore_model : tr_sem_mdl.single.monaco
+{
+
+	name: "single-mc"
+
+	model_desc: "/model/traffic_light/single_mc.pmd"
+	model_coll: "/model/traffic_light/single_mc.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.monaco
+{
+
+	name: "single_l-mc"
+
+	model_desc: "/model/traffic_light/single_mc.pmd"
+	model_coll: "/model/traffic_light/single_mc.pmc"
+
+}
+tr_semaphore_model : tr_sem_mdl.city.monaco
+{
+
+	name: "city-mc"
+
+	model_desc: "/model/traffic_light/city_mc.pmd"
+	model_coll: "/model/traffic_light/city_mc.pmc"
+
+}
+
+###############
+### BELGIUM ###
+###############
+tr_semaphore_model : tr_sem_mdl.ab_toll.belgium {
+
+	name: "ab_toll_b"
+
+	model_desc: "/prefab/tollgate/tollgate_a2_poland/tollgate_anim.pmd"
+	model_coll: "/prefab/tollgate/tollgate_a2_poland/tollgate_anim.pmc"
+	
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/tollgate/tollgate_a2_poland/toll_down.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/tollgate/tollgate_a2_poland/toll_up.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+}
+
+##############
+### GERMANY ##
+##############
+
+#tr_semaphore_model : tr_sem_mdl.city_str.germany {
+#	name: "city_str_d"
+#
+#	model_desc: "/model/traffic_light/city_str_de.pmd"
+#	model_coll: "/model/traffic_light/city_str_de.pmc"
+#}
+#tr_semaphore_model : tr_sem_mdl.city_l.germany {
+#	name: "city_left_d"
+#
+#	model_desc: "/model/traffic_light/city_left_de.pmd"
+#	model_coll: "/model/traffic_light/city_left_de.pmc"
+#}
+tr_semaphore_model : tr_sem_mdl.city_r.germany {
+	name: "city_right_d"
+
+	model_desc: "/model/traffic_light/city_right_de.pmd"
+	model_coll: "/model/traffic_light/city_right_de.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.city_w.germany {
+	name: "city_wide_d"
+
+	model_desc: "/model/traffic_light/city_w_de.pmd"
+	model_coll: "/model/traffic_light/city_w_de.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.city_b1.germany
+{
+
+	name: "city-berlin-v1-de"
+
+	model_desc: "/model/traffic_light/city_berlin_v1_de.pmd"
+	model_coll: "/model/traffic_light/city_berlin_v1_de.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_be1.germany
+{
+
+	name: "city-berlin-extended-v1-de"
+
+	model_desc: "/model/traffic_light/city_berlin_extended_v1_de.pmd"
+	model_coll: "/model/traffic_light/city_berlin_extended_v1_de.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_b1.germany
+{
+
+	name: "single-berlin-v1-de"
+
+	model_desc: "/model/traffic_light/single_berlin_v1_de.pmd"
+	model_coll: "/model/traffic_light/single_berlin_v1_de.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_be1.germany
+{
+
+	name: "single-berlin-extended-v1-de"
+
+	model_desc: "/model/traffic_light/single_berlin_extended_v1_de.pmd"
+	model_coll: "/model/traffic_light/single_berlin_extended_v1_de.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city.germany.berlin
+{
+	name: "city_d_berlin"
+
+	model_desc: "/model/traffic_light/city_berlin_v1_de.pmd"
+	model_coll: "/model/traffic_light/city_berlin_v1_de.pmc"
+
+	locations[]: berlin
+}
+
+tr_semaphore_model : tr_sem_mdl.single.germany.berlin
+{
+	name: "single_d_berlin"
+
+	model_desc: "/model/traffic_light/single_berlin_v1_de.pmd"
+	model_coll: "/model/traffic_light/single_berlin_v1_de.pmc"
+
+	locations[]: berlin
+}
+
+tr_semaphore_model : tr_sem_mdl.city.germany.v1
+{
+	name: "city_d_v1"
+
+	model_desc: "/model/traffic_light/city_de2.pmd"
+	model_coll: "/model/traffic_light/city_de2.pmc"
+
+	locations[]: dusseldorf
+	locations[]: mannheim
+	locations[]: nurnberg
+}
+
+tr_semaphore_model : tr_sem_mdl.city_l.germany.v1
+{
+	name: "city_left_d_v1"
+
+	model_desc: "/model/traffic_light/city_left_de2.pmd"
+	model_coll: "/model/traffic_light/city_left_de2.pmc"
+
+	locations[]: dusseldorf
+	locations[]: mannheim
+	locations[]: nurnberg
+}
+
+tr_semaphore_model : tr_sem_mdl.city_str.germany.v1
+{
+	name: "city_str_d_v1"
+
+	model_desc: "/model/traffic_light/city_str_de2.pmd"
+	model_coll: "/model/traffic_light/city_str_de2.pmc"
+	
+	locations[]: dusseldorf
+	locations[]: mannheim
+	locations[]: nurnberg
+}
+
+tr_semaphore_model : tr_sem_mdl.city_r.germany.v1
+{
+	name: "city_right_d_v1"
+
+	model_desc: "/model/traffic_light/city_right_de2.pmd"
+	model_coll: "/model/traffic_light/city_right_de2.pmc"
+	
+	locations[]: dusseldorf
+	locations[]: mannheim
+	locations[]: nurnberg
+}
+
+tr_semaphore_model : tr_sem_mdl.single.germany.v1
+{
+	name: "single_d_v1"
+
+	model_desc: "/model/traffic_light/single_de2.pmd"
+	model_coll: "/model/traffic_light/single_de2.pmc"
+
+	locations[]: dusseldorf
+	locations[]: mannheim
+	locations[]: nurnberg
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.germany.v1
+{
+	name: "single_l_d_no_board"
+
+	model_desc: "/model/traffic_light/single_left_de2.pmd"
+	model_coll: "/model/traffic_light/single_left_de2.pmc"
+
+	locations[]: dusseldorf
+	locations[]: mannheim
+	locations[]: nurnberg
+}
+
+tr_semaphore_model : tr_sem_mdl.city.germany.v2
+{
+	name: "city_d_v2"
+
+	model_desc: "/model/traffic_light/city_de3.pmd"
+	model_coll: "/model/traffic_light/city_de3.pmc"
+
+	locations[]: duisburg
+	locations[]: dortmund
+	locations[]: frankfurt
+	locations[]: hamburg
+	locations[]: kiel
+	locations[]: koln
+	locations[]: osnabruck
+	locations[]: wurzburg
+}
+
+tr_semaphore_model : tr_sem_mdl.city_l.germany.v2
+{
+	name: "city_left_d_v2"
+
+	model_desc: "/model/traffic_light/city_left_de3.pmd"
+	model_coll: "/model/traffic_light/city_left_de3.pmc"
+
+	locations[]: duisburg
+	locations[]: dortmund
+	locations[]: frankfurt
+	locations[]: hamburg
+	locations[]: kiel
+	locations[]: koln
+	locations[]: osnabruck
+	locations[]: wurzburg
+}
+
+tr_semaphore_model : tr_sem_mdl.city_str.germany.v2
+{
+	name: "city_str_d_v2"
+
+	model_desc: "/model/traffic_light/city_str_de3.pmd"
+	model_coll: "/model/traffic_light/city_str_de3.pmc"
+	
+	locations[]: duisburg
+	locations[]: dortmund
+	locations[]: frankfurt
+	locations[]: hamburg
+	locations[]: kiel
+	locations[]: koln
+	locations[]: osnabruck
+	locations[]: wurzburg
+}
+
+tr_semaphore_model : tr_sem_mdl.city_r.germany.v2
+{
+	name: "city_right_d_v2"
+
+	model_desc: "/model/traffic_light/city_right_de3.pmd"
+	model_coll: "/model/traffic_light/city_right_de3.pmc"
+	
+	locations[]: duisburg
+	locations[]: dortmund
+	locations[]: frankfurt
+	locations[]: hamburg
+	locations[]: kiel
+	locations[]: koln
+	locations[]: osnabruck
+	locations[]: wurzburg
+}
+
+tr_semaphore_model : tr_sem_mdl.single.germany.v2
+{
+	name: "single_d_v2"
+
+	model_desc: "/model/traffic_light/single_de3.pmd"
+	model_coll: "/model/traffic_light/single_de3.pmc"
+
+	locations[]: duisburg
+	locations[]: dortmund
+	locations[]: frankfurt
+	locations[]: hamburg
+	locations[]: kiel
+	locations[]: koln
+	locations[]: osnabruck
+	locations[]: wurzburg
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.germany.v2
+{
+	name: "single_l_d_v2"
+
+	model_desc: "/model/traffic_light/single_left_de3.pmd"
+	model_coll: "/model/traffic_light/single_left_de3.pmc"
+
+	locations[]: duisburg
+	locations[]: dortmund
+	locations[]: frankfurt
+	locations[]: hamburg
+	locations[]: kiel
+	locations[]: koln
+	locations[]: osnabruck
+	locations[]: wurzburg
+}
+
+tr_semaphore_model : tr_sem_mdl.city.germany.v3
+{
+	name: "city_d_v3"
+
+	model_desc: "/model/traffic_light/city_de4.pmd"
+	model_coll: "/model/traffic_light/city_de4.pmc"
+
+	locations[]: bremen
+	locations[]: hannover
+}
+
+tr_semaphore_model : tr_sem_mdl.city_l.germany.v3
+{
+	name: "city_left_d_v3"
+
+	model_desc: "/model/traffic_light/city_left_de4.pmd"
+	model_coll: "/model/traffic_light/city_left_de4.pmc"
+	
+	locations[]: bremen
+	locations[]: hannover
+}
+
+tr_semaphore_model : tr_sem_mdl.city_str.germany.v3
+{
+	name: "city_str_d_v3"
+
+	model_desc: "/model/traffic_light/city_str_de4.pmd"
+	model_coll: "/model/traffic_light/city_str_de4.pmc"
+	
+	locations[]: bremen
+	locations[]: hannover
+}
+
+tr_semaphore_model : tr_sem_mdl.city_r.germany.v3
+{
+	name: "city_right_d_v3"
+
+	model_desc: "/model/traffic_light/city_right_de4.pmd"
+	model_coll: "/model/traffic_light/city_right_de4.pmc"
+	
+	locations[]: bremen
+	locations[]: hannover
+}
+
+tr_semaphore_model : tr_sem_mdl.single.germany.v3
+{
+	name: "single_d_v3"
+
+	model_desc: "/model/traffic_light/single_de4.pmd"
+	model_coll: "/model/traffic_light/single_de4.pmc"
+
+	locations[]: bremen
+	locations[]: hannover
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.germany.v3
+{
+	name: "single_l_d_v3"
+
+	model_desc: "/model/traffic_light/single_left_de4.pmd"
+	model_coll: "/model/traffic_light/single_left_de4.pmc"
+
+	locations[]: bremen
+	locations[]: hannover
+}
+
+
+
+
+##############
+### FRANCE ##
+##############
+
+tr_semaphore_model : tr_sem_mdl.city_str.france {
+	name: "city_str_fr"
+
+	model_desc: "/model/traffic_light/city_str_fr.pmd"
+	model_coll: "/model/traffic_light/city_str_fr.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.city_l.france {
+	name: "city_left_fr"
+
+	model_desc: "/model/traffic_light/city_left_fr.pmd"
+	model_coll: "/model/traffic_light/city_left_fr.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.single_p.france {
+	name: "paris_single"
+
+	model_desc: "/model/traffic_light/single_paris_fr.pmd"
+	model_coll: "/model/traffic_light/single_paris_fr.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.single_p2.france {
+	name: "paris_single_left"
+
+	model_desc: "/model/traffic_light/single_paris_l_fr.pmd"
+	model_coll: "/model/traffic_light/single_paris_l_fr.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.single_p_yb.france {
+	name: "paris_single_yellow_blink"
+
+	model_desc: "/model/traffic_light/single_paris_fr_yellow_blink.pmd"
+	model_coll: "/model/traffic_light/single_paris_fr_yellow_blink.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.single_p2_yb.france {
+	name: "paris_single_left_yellow_blink"
+
+	model_desc: "/model/traffic_light/single_paris_l_fr_yellow_blink.pmd"
+	model_coll: "/model/traffic_light/single_paris_l_fr_yellow_blink.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.col_l.france {
+	name: "collumn_left_fr"
+
+	model_desc: "/model/traffic_light/single_small_fr.pmd"
+	model_coll: "/model/traffic_light/single_small_fr.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.col_r.france {
+	name: "collumn_right_fr"
+
+	model_desc: "/model/traffic_light/single_small_fr.pmd"
+	model_coll: "/model/traffic_light/single_small_fr.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.cty_r.france {
+	name: "city_right_fr"
+
+	model_desc: "/model/traffic_light/city_fr.pmd"
+	model_coll: "/model/traffic_light/city_fr.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.sng_r.france {
+	name: "single_right_fr"
+
+	model_desc: "/model/traffic_light/single_fr.pmd"
+	model_coll: "/model/traffic_light/single_fr.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.coltram_r.france {
+	name: "collumn_tram_fr"
+
+	model_desc: "/model/traffic_light/tram_right_single_fr.pmd"
+	model_coll: "/model/traffic_light/tram_right_single_fr.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.lc_s_right.france
+{
+
+	name: "lc_s_right_fr"
+
+	model_desc: "/prefab/level_crossing/level_right_anim_fr.pmd"
+	model_coll: "/prefab/level_crossing/level_right_anim_fr.pmc"
+
+	state_anim: 4
+	
+	# orange_to_red
+	state_anim[0]: ""
+	
+	# red
+	state_anim[1]: "/prefab/level_crossing/fr_right_dwn.pma"
+	
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/fr_right_up.pma"
+	
+	# green
+	state_anim[3]: ""
+	
+	#sound
+	sounds[]: "Y|/sound/world/semaphore_pm.bank#semaphore/train_fr"
+}
+
+tr_semaphore_model : tr_sem_mdl.lc_s_left.france
+{
+
+	name: "lc_s_left_fr"
+
+	model_desc: "/prefab/level_crossing/level_left_anim_fr.pmd"
+	model_coll: "/prefab/level_crossing/level_left_anim_fr.pmc"
+
+	state_anim: 4
+	
+	# orange_to_red
+	state_anim[0]: ""
+	
+	# red
+	state_anim[1]: "/prefab/level_crossing/fr_left_dwn.pma"
+	
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/fr_left_up.pma"
+	
+	# green
+	state_anim[3]: ""
+	
+	#sound
+	sounds[]: "Y|/sound/world/semaphore_pm.bank#semaphore/train_fr"
+}
+
+##################
+### NETHERLANDS ##
+##################
+
+tr_semaphore_model : tr_sem_mdl.col_turn_l.netherlands {
+	name: "collumn_turn_left_nld"
+
+	model_desc: "/model/traffic_light/collumn_turn_left_nld.pmd"
+	model_coll: "/model/traffic_light/collumn_turn_left_nld.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.city_str.netherlands {
+	name: "city_str_nld"
+
+	model_desc: "/model/traffic_light/city_str_nld.pmd"
+	model_coll: "/model/traffic_light/city_str_nld.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.city_l.netherlands {
+	name: "city_left_nld"
+
+	model_desc: "/model/traffic_light/city_left_nld.pmd"
+	model_coll: "/model/traffic_light/city_left_nld.pmc"
+}
+
+#tr_semaphore_model : tr_sem_mdl.city_r.netherlands {
+#	name: "city_left_nl"
+#
+#	model_desc: "/model/traffic_light/city_right_nl.pmd"
+#	model_coll: "/model/traffic_light/city_right_nl.pmc"
+#}
+
+##############
+### POLAND ###
+##############
+
+tr_semaphore_model : tr_sem_mdl.crossing_r_l.poland {
+
+	name: "ab_right_pl_long"
+
+	model_desc: "/prefab/level_crossing/level_right_anim_pl_long.pmd"
+	model_coll: "/prefab/level_crossing/level_right_anim_pl_long.pmc"
+	
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/level_crossing/pl_right_dwn.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/pl_right_up.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "RY|/sound/world/semaphore_pm.bank#semaphore/train_pl"
+}
+tr_semaphore_model : tr_sem_mdl.crossing_l_l.poland {
+
+	name: "ab_left_pl_long"
+
+	model_desc: "/prefab/level_crossing/level_left_anim_pl_long.pmd"
+	model_coll: "/prefab/level_crossing/level_left_anim_pl_long.pmc"
+	
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab/level_crossing/pl_left_dwn.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab/level_crossing/pl_left_up.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "RY|/sound/world/semaphore_pm.bank#semaphore/train_pl"
+}
+
+tr_semaphore_model : tr_sem_mdl.col_l.poland
+{
+	name: "collumn_left_pl"
+
+	model_desc: "/model/traffic_light/collumn_pl.pmd"
+	model_coll: "/model/traffic_light/collumn_pl.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.col_r.poland
+{
+	name: "collumn_right_pl"
+
+	model_desc: "/model/traffic_light/single_pl.pmd"
+	model_coll: "/model/traffic_light/single_pl.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.sng_r.poland
+{
+	name: "single_right_pl"
+
+	model_desc: "/model/traffic_light/single_pl.pmd"
+	model_coll: "/model/traffic_light/single_pl.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.cty_r.poland
+{
+	name: "city_right_pl"
+
+	model_desc: "/model/traffic_light/city_pl.pmd"
+	model_coll: "/model/traffic_light/city_pl.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.gnt_r.poland
+{
+	name: "gantry_0-2_pl"
+
+	model_desc: "/model/traffic_light/gantry_02_pl.pmd"
+	model_coll: "/model/traffic_light/gantry_02_pl.pmc"
+}
+
+
+########################################
+## NEW SEMAPHORES FOR LEFT-HAND DRIVE ##
+########################################
+
+## GENERIC ##
+
+tr_semaphore_model  : tr_sem_mdl.sin_go_r {
+
+	name: "single_goright"
+
+	model_desc: "/model/traffic_light/single_goright_uk.pmd"
+	model_coll: "/model/traffic_light/single_goright_uk.pmc"
+
+
+}
+tr_semaphore_model  : tr_sem_mdl.sin_no_r {
+
+	name: "single_noright_lhd"
+
+	model_desc: "/model/traffic_light/single_noright_uk.pmd"
+	model_coll: "/model/traffic_light/single_noright_uk.pmc"
+
+
+}
+
+## GREAT BRITAIN ##
+
+tr_semaphore_model  : tr_sem_mdl.sin_go_r.uk {
+
+	name: "single_goright"
+
+	model_desc: "/model/traffic_light/single_goright_uk.pmd"
+	model_coll: "/model/traffic_light/single_goright_uk.pmc"
+
+
+}
+tr_semaphore_model  : tr_sem_mdl.sin_go_l.uk {
+
+	name: "single_goleft"
+
+	model_desc: "/model/traffic_light/single_goleft_uk.pmd"
+	model_coll: "/model/traffic_light/single_goleft_uk.pmc"
+
+
+}
+tr_semaphore_model  : tr_sem_mdl.sin_go_t.uk {
+
+	name: "single_gothru"
+
+	model_desc: "/model/traffic_light/single_gothru_uk.pmd"
+	model_coll: "/model/traffic_light/single_gothru_uk.pmc"
+
+
+}
+tr_semaphore_model  : tr_sem_mdl.sin_no_r.uk {
+
+	name: "single_noright_lhd"
+
+	model_desc: "/model/traffic_light/single_noright_uk.pmd"
+	model_coll: "/model/traffic_light/single_noright_uk.pmc"
+
+
+}
+tr_semaphore_model  : tr_sem_mdl.single.uk {
+
+	name: "single_l-gb"
+
+	model_desc: "/model/traffic_light/single_uk.pmd"
+	model_coll: "/model/traffic_light/single_uk.pmc"
+
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.uk {
+	name: "single_left_gb"
+
+	model_desc: "/model/traffic_light/single_left_uk.pmd"
+	model_coll: "/model/traffic_light/single_left_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.single_r.uk {
+	name: "single_right_gb"
+
+	model_desc: "/model/traffic_light/single_right_uk.pmd"
+	model_coll: "/model/traffic_light/single_right_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.single_t.uk {
+	name: "single_thru_gb"
+
+	model_desc: "/model/traffic_light/single_thru_uk.pmd"
+	model_coll: "/model/traffic_light/single_thru_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_left.uk {
+	name: "duo_left_gb"
+
+	model_desc: "/model/traffic_light/duo_left_uk.pmd"
+	model_coll: "/model/traffic_light/duo_left_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_right.uk {
+	name: "duo_right_gb"
+
+	model_desc: "/model/traffic_light/duo_right_uk.pmd"
+	model_coll: "/model/traffic_light/duo_right_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_str.uk {
+	name: "duo_str_gb"
+
+	model_desc: "/model/traffic_light/duo_str_uk.pmd"
+	model_coll: "/model/traffic_light/duo_str_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_str_m.uk {
+	name: "duo_str_mirr_uk"
+
+	model_desc: "/model/traffic_light/duo_str_mirr_uk.pmd"
+	model_coll: "/model/traffic_light/duo_str_mirr_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.duo_any.uk {
+	name: "duo_any_gb"
+
+	model_desc: "/model/traffic_light/duo_any_uk.pmd"
+	model_coll: "/model/traffic_light/duo_any_uk.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.duo_any_m.uk {
+	name: "duo_any_m_gb"
+
+	model_desc: "/model/traffic_light/duo_any_mirr_uk.pmd"
+	model_coll: "/model/traffic_light/duo_any_mirr_uk.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.double.uk {
+	name: "double_gb"
+
+	model_desc: "/model/traffic_light/double_uk.pmd"
+	model_coll: "/model/traffic_light/double_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.dbl_left.uk {
+	name: "dbl_left_gb"
+
+	model_desc: "/model/traffic_light/double_left_uk.pmd"
+	model_coll: "/model/traffic_light/double_left_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.dbl_right.uk {
+	name: "dbl_right_gb"
+
+	model_desc: "/model/traffic_light/double_right_uk.pmd"
+	model_coll: "/model/traffic_light/double_right_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.dbl_str.uk {
+	name: "dbl_str_gb"
+
+	model_desc: "/model/traffic_light/double_str_uk.pmd"
+	model_coll: "/model/traffic_light/double_str_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.single_str_l.uk {
+	name: "single_str_l_gb"
+
+	model_desc: "/model/traffic_light/single_str_left_uk.pmd"
+	model_coll: "/model/traffic_light/single_str_left_uk.pmc"
+}
+tr_semaphore_model : tr_sem_mdl.dbl_str_l.uk {
+	name: "dbl_str_l_gb"
+
+	model_desc: "/model/traffic_light/double_str_left_uk.pmd"
+	model_coll: "/model/traffic_light/double_str_left_uk.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.city_str.uk {
+	name: "city_str_gb"
+
+	model_desc: "/model/traffic_light/city_str_uk.pmd"
+	model_coll: "/model/traffic_light/city_str_uk.pmc"
+}
+
+## IRELAND ##
+
+tr_semaphore_model  : tr_sem_mdl.sin_go_r.ireland {
+
+	name: "single_goright"
+
+	model_desc: "/model/traffic_light/single_goright_uk.pmd"
+	model_coll: "/model/traffic_light/single_goright_uk.pmc"
+
+
+}
+tr_semaphore_model  : tr_sem_mdl.sin_no_r.ireland {
+
+	name: "single_noright_lhd"
+
+	model_desc: "/model/traffic_light/single_noright_uk.pmd"
+	model_coll: "/model/traffic_light/single_noright_uk.pmc"
+
+
+}
+
+#############
+## CROATIA ##
+#############
+
+tr_semaphore_model : tr_sem_mdl.city_str.croatia {
+	name: "city_str_hr"
+
+	model_desc: "/model/traffic_light/city_str_hr.pmd"
+	model_coll: "/model/traffic_light/city_str_hr.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_l.croatia {
+	name: "city_left_hr"
+
+	model_desc: "/model/traffic_light/city_left_hr.pmd"
+	model_coll: "/model/traffic_light/city_left_hr.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+#############
+## UKRAINE ##
+#############
+
+tr_semaphore_model : tr_sem_mdl.single.ukraine {
+	name: "single_ua"
+
+	model_desc: "/model/traffic_light/single_lt.pmd"
+	model_coll: "/model/traffic_light/single_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+}
+tr_semaphore_model : tr_sem_mdl.duo_left.ukraine {
+	name: "duo_left_ua"
+
+	model_desc: "/model/traffic_light/duo_left_lt.pmd"
+	model_coll: "/model/traffic_light/duo_left_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.duo_right.ukraine {
+	name: "duo_right_ua"
+
+	model_desc: "/model/traffic_light/duo_right_lt.pmd"
+	model_coll: "/model/traffic_light/duo_right_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.duo_str.ukraine {
+	name: "duo_str_ua"
+
+	model_desc: "/model/traffic_light/duo_str_lt.pmd"
+	model_coll: "/model/traffic_light/duo_str_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.ukraine {
+	name: "single_left_ua"
+
+	model_desc: "/model/traffic_light/single_left_lt.pmd"
+	model_coll: "/model/traffic_light/single_left_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_r.ukraine {
+	name: "single_right_ua"
+
+	model_desc: "/model/traffic_light/single_right_lt.pmd"
+	model_coll: "/model/traffic_light/single_right_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_str.ukraine {
+	name: "city_str_ua"
+
+	model_desc: "/model/traffic_light/city_str_lt.pmd"
+	model_coll: "/model/traffic_light/city_str_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_l.ukraine {
+	name: "city_left_ua"
+
+	model_desc: "/model/traffic_light/city_left_lt.pmd"
+	model_coll: "/model/traffic_light/city_left_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city.ukraine {
+	name: "city_ua"
+
+	model_desc: "/model/traffic_light/singlecity_lt.pmd"
+	model_coll: "/model/traffic_light/singlecity_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.sicity.ukraine {
+	name: "singlecity_ua"
+
+	model_desc: "/model/traffic_light/singlecity_lt.pmd"
+	model_coll: "/model/traffic_light/singlecity_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.sicity_l.ukraine {
+	name: "singlecity_left_ua"
+
+	model_desc: "/model/traffic_light/singlecity_left_lt.pmd"
+	model_coll: "/model/traffic_light/singlecity_left_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.singletr.ukraine {
+	name: "single_tram_ua"
+
+	model_desc: "/model/traffic_light/single_tram_lt.pmd"
+	model_coll: "/model/traffic_light/single_tram_lt.pmc"
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.crossing_r.ukraine
+{
+
+	name: "level_right_ua"
+
+	model_desc: "/prefab2/level_crossing/level_right_anim_01_ru.pmd"
+	model_coll: "/prefab2/level_crossing/level_right_anim_01_ru.pmc"
+
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab2/level_crossing/r_dwn_ru.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab2/level_crossing/r_up_ru.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_pm.bank#semaphore/train_lv"
+}
+
+tr_semaphore_model : tr_sem_mdl.col_l.ukraine {
+	name: "collumn_left_ua"
+
+	model_desc: "/model/traffic_light/single_lt.pmd"
+	model_coll: "/model/traffic_light/single_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+}
+
+tr_semaphore_model : tr_sem_mdl.col_r.ukraine {
+	name: "collumn_right_ua"
+
+	model_desc: "/model/traffic_light/single_lt.pmd"
+	model_coll: "/model/traffic_light/single_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+}
+tr_semaphore_model : tr_sem_mdl.cty_r.ukraine {
+	name: "city_right_ua"
+
+	model_desc: "/model/traffic_light/city_lt.pmd"
+	model_coll: "/model/traffic_light/city_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.sng_r.ukraine {
+	name: "single_right_ua"
+
+	model_desc: "/model/traffic_light/singlecity_lt.pmd"
+	model_coll: "/model/traffic_light/singlecity_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.coltram_r.ukraine {
+	name: "collumn_tram_ua"
+
+	model_desc: "/model/traffic_light/single_tram_ru.pmd"
+	model_coll: "/model/traffic_light/single_tram_ru.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.lc_b_right.ukraine
+{
+
+	name: "lc_b_right_ua"
+
+	model_desc: "/prefab2/level_crossing/level_right_anim_01_ru.pmd"
+	model_coll: "/prefab2/level_crossing/level_right_anim_01_ru.pmc"
+
+	state_anim: 4
+	#state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	#state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab2/level_crossing/r_dwn_ru.pma"
+	#state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab2/level_crossing/r_up_ru.pma"
+	#state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	#state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_ets.bank#semaphore/train"
+}
+
+tr_semaphore_model : tr_sem_mdl.lc_b_right2.ukraine
+{
+
+	name: "lc_b_right2_ua"
+
+	model_desc: "/prefab2/level_crossing/level_right_anim_01_ru.pmd"
+	model_coll: "/prefab2/level_crossing/level_right_anim_01_ru.pmc"
+
+	state_anim: 4
+	#state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	#state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab2/level_crossing/r_dwn_ru.pma"
+	#state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab2/level_crossing/r_up_ru.pma"
+	#state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	#state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_ets.bank#semaphore/train"
+}
+
+tr_semaphore_model : tr_sem_mdl.lc_s_right.ukraine
+{
+
+	name: "lc_s_right_ua"
+
+	model_desc: "/prefab2/level_crossing/level_right_anim_01_ru.pmd"
+	model_coll: "/prefab2/level_crossing/level_right_anim_01_ru.pmc"
+
+	state_anim: 4
+	#state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	#state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab2/level_crossing/r_dwn_ru.pma"
+	#state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab2/level_crossing/r_up_ru.pma"
+	#state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	#state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_ets.bank#semaphore/train"
+}
+
+tr_semaphore_model : tr_sem_mdl.lc_s_right2.ukraine
+{
+
+	name: "lc_s_right2_ua"
+
+	model_desc: "/prefab2/level_crossing/level_right_anim_01_ru.pmd"
+	model_coll: "/prefab2/level_crossing/level_right_anim_01_ru.pmc"
+
+	state_anim: 4
+	#state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	#state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab2/level_crossing/r_dwn_ru.pma"
+	#state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab2/level_crossing/r_up_ru.pma"
+	#state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	#state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_ets.bank#semaphore/train"
+}
+
+tr_semaphore_model : tr_sem_mdl.lc_sa.ukraine
+{
+
+	name: "lc_standalone_ua"
+
+	model_desc: "/prefab2/level_crossing/level_right_simple_01_ru.pmd"
+	model_coll: "/prefab2/level_crossing/level_right_simple_01_ru.pmc"
+	
+	#sound
+	sounds[]: "ROY|/sound/world/semaphore_ets.bank#semaphore/train"
+}
+
+tr_semaphore_model : tr_sem_mdl.lc_sa2.ukraine
+{
+
+	name: "lc_standalone 2_ua"
+
+	model_desc: "/prefab2/level_crossing/level_right_simple_01_ru.pmd"
+	model_coll: "/prefab2/level_crossing/level_right_simple_01_ru.pmc"
+	
+	#sound
+	sounds[]: "ROY|/sound/world/semaphore_ets.bank#semaphore/train"
+}
+
+#############
+## GEORGIA ##
+#############
+
+tr_semaphore_model : tr_sem_mdl.single.georgia {
+	name: "single_ge"
+
+	model_desc: "/model/traffic_light/single_ru.pmd"
+	model_coll: "/model/traffic_light/single_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+}
+tr_semaphore_model : tr_sem_mdl.duo_left.georgia {
+	name: "duo_left_ge"
+
+	model_desc: "/model/traffic_light/duo_left_ru.pmd"
+	model_coll: "/model/traffic_light/duo_left_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.duo_right.georgia {
+	name: "duo_right_ge"
+
+	model_desc: "/model/traffic_light/duo_right_ru.pmd"
+	model_coll: "/model/traffic_light/duo_right_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.duo_str.georgia {
+	name: "duo_str_ge"
+
+	model_desc: "/model/traffic_light/duo_str_ru.pmd"
+	model_coll: "/model/traffic_light/duo_str_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.georgia {
+	name: "single_left_ge"
+
+	model_desc: "/model/traffic_light/single_left_ru.pmd"
+	model_coll: "/model/traffic_light/single_left_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_r.georgia {
+	name: "single_right_ge"
+
+	model_desc: "/model/traffic_light/single_right_ru.pmd"
+	model_coll: "/model/traffic_light/single_right_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_str.georgia {
+	name: "city_str_ge"
+
+	model_desc: "/model/traffic_light/city_str_ru.pmd"
+	model_coll: "/model/traffic_light/city_str_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_l.georgia {
+	name: "city_left_ge"
+
+	model_desc: "/model/traffic_light/city_left_ru.pmd"
+	model_coll: "/model/traffic_light/city_left_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city.georgia {
+	name: "city_ge"
+
+	model_desc: "/model/traffic_light/singlecity_ru.pmd"
+	model_coll: "/model/traffic_light/singlecity_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.sicity.georgia {
+	name: "singlecity_ge"
+
+	model_desc: "/model/traffic_light/singlecity_ru.pmd"
+	model_coll: "/model/traffic_light/singlecity_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.sicity_l.georgia {
+	name: "singlecity_left_ge"
+
+	model_desc: "/model/traffic_light/singlecity_left_ru.pmd"
+	model_coll: "/model/traffic_light/singlecity_left_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.singletr.georgia {
+	name: "single_tram_ge"
+
+	model_desc: "/model/traffic_light/single_tram_ru.pmd"
+	model_coll: "/model/traffic_light/single_tram_ru.pmc"
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.crossing_r.georgia 
+{
+
+	name: "level_right_ge"
+
+	model_desc: "/prefab2/level_crossing/level_right_anim_01_ru.pmd"
+	model_coll: "/prefab2/level_crossing/level_right_anim_01_ru.pmc"
+
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab2/level_crossing/r_dwn_ru.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab2/level_crossing/r_up_ru.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_pm.bank#semaphore/train_ru"
+}
+
+################
+## AZERBAIJAN ##
+################
+
+tr_semaphore_model : tr_sem_mdl.single.azerbaijan {
+	name: "single_az"
+
+	model_desc: "/model/traffic_light/single_az.pmd"
+	model_coll: "/model/traffic_light/single_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+}
+
+tr_semaphore_model : tr_sem_mdl.double.azerbaijan {
+	name: "double_az"
+
+	model_desc: "/model/traffic_light/double_az.pmd"
+	model_coll: "/model/traffic_light/double_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+}
+
+tr_semaphore_model : tr_sem_mdl.duo_left.azerbaijan {
+	name: "duo_left_az"
+
+	model_desc: "/model/traffic_light/duo_left_az.pmd"
+	model_coll: "/model/traffic_light/duo_left_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.duo_right.azerbaijan {
+	name: "duo_right_az"
+
+	model_desc: "/model/traffic_light/duo_right_az.pmd"
+	model_coll: "/model/traffic_light/duo_right_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.duo_str.azerbaijan {
+	name: "duo_str_az"
+
+	model_desc: "/model/traffic_light/duo_str_az.pmd"
+	model_coll: "/model/traffic_light/duo_str_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.azerbaijan {
+	name: "single_left_az"
+
+	model_desc: "/model/traffic_light/single_left_az.pmd"
+	model_coll: "/model/traffic_light/single_left_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_r.azerbaijan {
+	name: "single_right_az"
+
+	model_desc: "/model/traffic_light/single_right_az.pmd"
+	model_coll: "/model/traffic_light/single_right_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_str.azerbaijan {
+	name: "city_str_az"
+
+	model_desc: "/model/traffic_light/city_str_az.pmd"
+	model_coll: "/model/traffic_light/city_str_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_l.azerbaijan {
+	name: "city_left_az"
+
+	model_desc: "/model/traffic_light/city_left_az.pmd"
+	model_coll: "/model/traffic_light/city_left_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_r.azerbaijan {
+	name: "city_right_az"
+
+	model_desc: "/model/traffic_light/city_right_az.pmd"
+	model_coll: "/model/traffic_light/city_right_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city.azerbaijan {
+	name: "city_az"
+
+	model_desc: "/model/traffic_light/city_az.pmd"
+	model_coll: "/model/traffic_light/city_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city2.azerbaijan {
+	name: "city_double_az"
+
+	model_desc: "/model/traffic_light/city_double_az.pmd"
+	model_coll: "/model/traffic_light/city_double_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.sicity.azerbaijan {
+	name: "singlecity_az"
+
+	model_desc: "/model/traffic_light/singlecity_az.pmd"
+	model_coll: "/model/traffic_light/singlecity_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.sicity2.azerbaijan {
+	name: "singlecity_az"
+
+	model_desc: "/model/traffic_light/singlecity_double_az.pmd"
+	model_coll: "/model/traffic_light/singlecity_double_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.sicity_l.azerbaijan {
+	name: "singlecity_left_az"
+
+	model_desc: "/model/traffic_light/singlecity_left_az.pmd"
+	model_coll: "/model/traffic_light/singlecity_left_az.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.crossing_r.azerbaijan 
+{
+
+	name: "level_right_az"
+
+	model_desc: "/prefab2/level_crossing/level_right_anim_01_ru.pmd"
+	model_coll: "/prefab2/level_crossing/level_right_anim_01_ru.pmc"
+
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab2/level_crossing/r_dwn_ru.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab2/level_crossing/r_up_ru.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_pm.bank#semaphore/train_ru"
+}
+
+#############
+## ARMENIA ##
+#############
+
+tr_semaphore_model : tr_sem_mdl.single.armenia {
+	name: "single_am"
+
+	model_desc: "/model/traffic_light/single_ru.pmd"
+	model_coll: "/model/traffic_light/single_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+}
+tr_semaphore_model : tr_sem_mdl.duo_left.armenia {
+	name: "duo_left_am"
+
+	model_desc: "/model/traffic_light/duo_left_ru.pmd"
+	model_coll: "/model/traffic_light/duo_left_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.duo_right.armenia {
+	name: "duo_right_am"
+
+	model_desc: "/model/traffic_light/duo_right_ru.pmd"
+	model_coll: "/model/traffic_light/duo_right_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.duo_str.armenia {
+	name: "duo_str_ua"
+
+	model_desc: "/model/traffic_light/duo_str_ru.pmd"
+	model_coll: "/model/traffic_light/duo_str_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.armenia {
+	name: "single_left_am"
+
+	model_desc: "/model/traffic_light/single_left_ru.pmd"
+	model_coll: "/model/traffic_light/single_left_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_r.armenia {
+	name: "single_right_am"
+
+	model_desc: "/model/traffic_light/single_right_ru.pmd"
+	model_coll: "/model/traffic_light/single_right_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_str.armenia {
+	name: "city_str_am"
+
+	model_desc: "/model/traffic_light/city_str_ru.pmd"
+	model_coll: "/model/traffic_light/city_str_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_l.armenia {
+	name: "city_left_am"
+
+	model_desc: "/model/traffic_light/city_left_ru.pmd"
+	model_coll: "/model/traffic_light/city_left_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city.armenia {
+	name: "city_am"
+
+	model_desc: "/model/traffic_light/singlecity_ru.pmd"
+	model_coll: "/model/traffic_light/singlecity_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.sicity.armenia {
+	name: "singlecity_am"
+
+	model_desc: "/model/traffic_light/singlecity_ru.pmd"
+	model_coll: "/model/traffic_light/singlecity_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.sicity_l.armenia {
+	name: "singlecity_left_am"
+
+	model_desc: "/model/traffic_light/singlecity_left_ru.pmd"
+	model_coll: "/model/traffic_light/singlecity_left_ru.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.singletr.armenia {
+	name: "single_tram_am"
+
+	model_desc: "/model/traffic_light/single_tram_ru.pmd"
+	model_coll: "/model/traffic_light/single_tram_ru.pmc"
+
+}
+
+
+tr_semaphore_model : tr_sem_mdl.crossing_r.armenia 
+{
+
+	name: "level_right_am"
+
+	model_desc: "/prefab2/level_crossing/level_right_anim_01_ru.pmd"
+	model_coll: "/prefab2/level_crossing/level_right_anim_01_ru.pmc"
+
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab2/level_crossing/r_dwn_ru.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab2/level_crossing/r_up_ru.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_pm.bank#semaphore/train_ru"
+}
+
+###############
+### SLOVAKIA ###
+###############
+
+tr_semaphore_model  : tr_sem_mdl.single.slovakia {
+
+	name: "single-sk"
+
+	model_desc: "/model/traffic_light/single_sk.pmd"
+	model_coll: "/model/traffic_light/single_sk.pmc"
+}
+tr_semaphore_model  : tr_sem_mdl.single_l.slovakia {
+
+	name: "single_l-sk"
+
+	model_desc: "/model/traffic_light/single_left_sk.pmd"
+	model_coll: "/model/traffic_light/single_left_sk.pmc"
+}
+tr_semaphore_model  : tr_sem_mdl.city.slovakia {
+
+	name: "city-sk"
+
+	model_desc: "/model/traffic_light/city_sk.pmd"
+	model_coll: "/model/traffic_light/city_sk.pmc"
+}
+
+## MALTA ##
+
+tr_semaphore_model  : tr_sem_mdl.city.malta {
+
+	name: "city_l-mt"
+
+	model_desc: "/model/traffic_light/single_uk.pmd"
+	model_coll: "/model/traffic_light/single_uk.pmc"
+
+
+}
+
+tr_semaphore_model  : tr_sem_mdl.single.malta {
+
+	name: "single_l-mt"
+
+	model_desc: "/model/traffic_light/single_uk.pmd"
+	model_coll: "/model/traffic_light/single_uk.pmc"
+
+
+}
+
+###############
+### MOLDOVA ###
+###############
+
+tr_semaphore_model : tr_sem_mdl.single.moldova {
+	name: "single_md"
+
+	model_desc: "/model/traffic_light/single_lt.pmd"
+	model_coll: "/model/traffic_light/single_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+}
+tr_semaphore_model : tr_sem_mdl.duo_left.moldova {
+	name: "duo_left_md"
+
+	model_desc: "/model/traffic_light/duo_left_lt.pmd"
+	model_coll: "/model/traffic_light/duo_left_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.duo_right.moldova {
+	name: "duo_right_md"
+
+	model_desc: "/model/traffic_light/duo_right_lt.pmd"
+	model_coll: "/model/traffic_light/duo_right_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.duo_str.moldova {
+	name: "duo_str_md"
+
+	model_desc: "/model/traffic_light/duo_str_lt.pmd"
+	model_coll: "/model/traffic_light/duo_str_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_l.moldova {
+	name: "single_left_md"
+
+	model_desc: "/model/traffic_light/single_left_lt.pmd"
+	model_coll: "/model/traffic_light/single_left_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single_r.moldova {
+	name: "single_right_md"
+
+	model_desc: "/model/traffic_light/single_right_lt.pmd"
+	model_coll: "/model/traffic_light/single_right_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_str.moldova {
+	name: "city_str_md"
+
+	model_desc: "/model/traffic_light/city_str_lt.pmd"
+	model_coll: "/model/traffic_light/city_str_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_l.moldova {
+	name: "city_left_md"
+
+	model_desc: "/model/traffic_light/city_left_lt.pmd"
+	model_coll: "/model/traffic_light/city_left_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city.moldova {
+	name: "city_md"
+
+	model_desc: "/model/traffic_light/city_md.pmd"
+	model_coll: "/model/traffic_light/city_md.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.sicity.moldova {
+	name: "singlecity_md"
+
+	model_desc: "/model/traffic_light/singlecity_lt.pmd"
+	model_coll: "/model/traffic_light/singlecity_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.sicity_l.moldova {
+	name: "singlecity_left_md"
+
+	model_desc: "/model/traffic_light/singlecity_left_lt.pmd"
+	model_coll: "/model/traffic_light/singlecity_left_lt.pmc"
+
+	state_transition: 4
+	state_transition[0]: 0.0 # orange_to_red
+	state_transition[1]: 0.0 # red
+	state_transition[2]: 0.0 # orange_to_green
+	state_transition[3]: 4.0 # green
+
+}
+
+tr_semaphore_model : tr_sem_mdl.singletr.moldova {
+	name: "single_tram_md"
+
+	model_desc: "/model/traffic_light/single_tram_lt.pmd"
+	model_coll: "/model/traffic_light/single_tram_lt.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.crossing_r.moldova
+{
+
+	name: "level_right_md"
+
+	model_desc: "/prefab2/level_crossing/level_right_anim_01_ru.pmd"
+	model_coll: "/prefab2/level_crossing/level_right_anim_01_ru.pmc"
+
+	state_anim: 4
+	# state_collision: 4
+
+	# orange_to_red
+	state_anim[0]: ""
+	# state_collision[0]: false
+
+	# red
+	state_anim[1]: "/prefab2/level_crossing/r_dwn_ru.pma"
+	# state_collision[1]: true
+
+	# orange_to_green
+	state_anim[2]: "/prefab2/level_crossing/r_up_ru.pma"
+	# state_collision[2]: true
+
+	# green
+	state_anim[3]: ""
+	# state_collision[3]: false
+	
+	sounds[]: "ROY|/sound/world/semaphore_pm.bank#semaphore/train_lv"
+
+}
+
+###############
+## GREENLAND ##
+###############
+
+tr_semaphore_model  : tr_sem_mdl.single_2.greenland {
+	name: "single_2-gl"
+
+	model_desc: "/model/traffic_light/single2_dk.pmd"
+	model_coll: "/model/traffic_light/single2_dk.pmc"
+}
+
+tr_semaphore_model : tr_sem_mdl.city.greenland
+{
+
+	name: "city-gl"
+
+	model_desc: "/model/traffic_light/city_dk.pmd"
+	model_coll: "/model/traffic_light/city_dk.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.single.greenland
+{
+
+	name: "single-gl"
+
+	model_desc: "/model/traffic_light/single_dk.pmd"
+	model_coll: "/model/traffic_light/single_dk.pmc"
+
+}
+
+################
+## LUXEMBOURG ##
+################
+
+tr_semaphore_model : tr_sem_mdl.single1.luxembourg
+{
+
+	name: "single-lu"
+
+	model_desc: "/model/traffic_light/single_lu.pmd"
+	model_coll: "/model/traffic_light/single_lu.pmc"
+
+}
+
+#tr_semaphore_model : tr_sem_mdl.single_l1.luxembourg
+#{
+#
+#	name: "single_l-l"
+#
+#	model_desc: "/model/traffic_light/single_left_be.pmd"
+#	model_coll: "/model/traffic_light/single_left_be.pmc"
+#
+#}
+
+tr_semaphore_model : tr_sem_mdl.city_str1.luxembourg
+{
+
+	name: "city-str-lu"
+
+	model_desc: "/model/traffic_light/city_str_lu.pmd"
+	model_coll: "/model/traffic_light/city_str_lu.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_str2.luxembourg
+{
+
+	name: "city-str2-lu"
+
+	model_desc: "/model/traffic_light/city_str2_lu.pmd"
+	model_coll: "/model/traffic_light/city_str2_lu.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city_l1.luxembourg
+{
+
+	name: "city-left-lu"
+
+	model_desc: "/model/traffic_light/city_left_lu.pmd"
+	model_coll: "/model/traffic_light/city_left_lu.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.city1.luxembourg
+{
+
+	name: "city-lu"
+
+	model_desc: "/model/traffic_light/city_lu.pmd"
+	model_coll: "/model/traffic_light/city_lu.pmc"
+
+}
+
+tr_semaphore_model : tr_sem_mdl.collumn1.luxembourg
+{
+	name: "collumn_lu"
+
+	model_desc: "/model/traffic_light/collumn_lu.pmd"
+	model_coll: "/model/traffic_light/collumn_lu.pmc"
+	
+}
+
+tr_semaphore_model : tr_sem_mdl.collumn2.luxembourg
+{
+	name: "collumn2_lu"
+
+	model_desc: "/model/traffic_light/collumn2_lu.pmd"
+	model_coll: "/model/traffic_light/collumn2_lu.pmc"
+	
+}
+
+tr_semaphore_model : tr_sem_mdl.city_r1.luxembourg
+{
+
+	name: "city-right-lu"
+
+	model_desc: "/model/traffic_light/city_right_lu.pmd"
+	model_coll: "/model/traffic_light/city_right_lu.pmc"
+
+}
+
+}

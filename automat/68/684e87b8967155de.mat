@@ -1,0 +1,13 @@
+effect : "eut2.dif.spec.shadow.rfx" {
+	additional_ambient : 0.000000
+	diffuse : { 1.000000 , 1.000000 , 1.000000 }
+	reflection : 0.000000
+	shadowmap_bias : 0.000000
+	shininess : 50.000000
+	specular : { 0.316698 , 0.316698 , 0.316698 }
+	texture : "texture_base" {
+		source : "/model/sun_umbrella/sun_umbrellaM.tobj"
+		u_address : clamp
+		v_address : clamp
+	}
+}

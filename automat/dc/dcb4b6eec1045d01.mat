@@ -1,0 +1,10 @@
+material : "eut2.dif.spec.decal.over.rfx" {
+	texture[0] : "/material/special/lines_eu_01.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	queue_bias : 0
+	reflection : 0
+	shininess : 65
+	specular : { 0 , 0 , 0 }
+}

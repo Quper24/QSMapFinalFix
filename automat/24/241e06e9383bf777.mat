@@ -1,0 +1,10 @@
+material : "eut2.dif.spec.shadow.rfx" {
+	texture[0] : "/model/Busstop5/Busstop5M.tobj"
+	texture_name[0] : "texture_base"
+	add_ambient : 0
+	diffuse : { 1 , 1 , 1 }
+	reflection : 5
+	shadow_bias : 0
+	shininess : 40
+	specular : { 1 , 1 , 1 }
+}

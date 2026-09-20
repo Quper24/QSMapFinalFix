@@ -1,0 +1,235 @@
+SiiNunit
+{
+
+vegetation_model : vegetmodel.narrow.birch1_sc
+{
+	sprite_model: "/model/vegetation/poly_vegetation/sc_narrow_birch_1_sprite.pmd"
+	med_poly_model: "/model/vegetation/poly_vegetation/sc_narrow_birch_1_high.pmd"
+	hi_poly_model: "/model/vegetation/poly_vegetation/sc_narrow_birch_1_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)
+}
+
+vegetation_model : vegetmodel.narrow.tree1_sc
+{
+	sprite_model: "/model/vegetation/poly_vegetation/sc_narrow_tree_1_sprite.pmd"
+	med_poly_model: "/model/vegetation/poly_vegetation/sc_narrow_tree_1_high.pmd"
+	hi_poly_model: "/model/vegetation/poly_vegetation/sc_narrow_tree_1_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)
+}
+
+vegetation_model : vegetmodel.low.tree1_sc
+{
+	sprite_model: "/model/vegetation/poly_vegetation/sc_low_tree_1_sprite.pmd"
+	med_poly_model: "/model/vegetation/poly_vegetation/sc_low_tree_1_high.pmd"
+	hi_poly_model: "/model/vegetation/poly_vegetation/sc_low_tree_1_high.pmd"
+	use_collision: true
+	colbox_size: (1, 4, 1)
+}
+
+vegetation_model : vegetmodel.narrow.birch2_sc
+{
+	sprite_model: "/model/vegetation/poly_vegetation/sc_narrow_birch_2_sprite.pmd"
+	med_poly_model: "/model/vegetation/poly_vegetation/sc_narrow_birch_2_high.pmd"
+	hi_poly_model: "/model/vegetation/poly_vegetation/sc_narrow_birch_2_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)
+}
+
+vegetation_model : vegetmodel.narrow.tree2_sc
+{
+	sprite_model: "/model/vegetation/poly_vegetation/sc_narrow_tree_2_sprite.pmd"
+	med_poly_model: "/model/vegetation/poly_vegetation/sc_narrow_tree_2_high.pmd"
+	hi_poly_model: "/model/vegetation/poly_vegetation/sc_narrow_tree_2_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)
+}
+
+vegetation_model : vegetmodel.low.birch1_sc
+{
+	sprite_model: "/model/vegetation/poly_vegetation/sc_low_birch_1_sprite.pmd"
+	med_poly_model: "/model/vegetation/poly_vegetation/sc_low_birch_1_high.pmd"
+	hi_poly_model: "/model/vegetation/poly_vegetation/sc_low_birch_1_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)
+}
+
+vegetation_model : vegetmodel.low.tree2_sc
+{
+	sprite_model: "/model/vegetation/poly_vegetation/sc_low_tree_2_sprite.pmd"
+	med_poly_model: "/model/vegetation/poly_vegetation/sc_low_tree_2_high.pmd"
+	hi_poly_model: "/model/vegetation/poly_vegetation/sc_low_tree_2_high.pmd"
+	use_collision: true
+	colbox_size: (1, 4, 1)
+}
+
+// vegetation_model : vegetmodel.bereza {
+// 	sprite_model: "/model/vegetation/poly_vegetation/lime_tree_2_sprite.pmd"
+// 	med_poly_model: "/model/vegetation/poly_vegetation/lime_tree_2_med.pmd"
+// 	hi_poly_model: "/model/vegetation/poly_vegetation/lime_tree_2_high.pmd"
+// 	use_collision: true
+// 	colbox_size: (1, 10, 1)
+// }
+
+vegetation_model : vegetmodel.pine1_rus {
+	sprite_model: "/model/vegetatio1/ats1/pine1_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/ats1/pine1_mid.pmd"
+	hi_poly_model: "/model/vegetatio1/ats1/pine1.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)  
+}
+
+vegetation_model : vegetmodel.pine2_rus {
+	sprite_model: "/model/vegetatio1/ats1/pine2_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/ats1/pine2_mid.pmd"
+	hi_poly_model: "/model/vegetatio1/ats1/pine2.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)  
+}
+
+vegetation_model : vegetmodel.pine3_rus {
+	sprite_model: "/model/vegetatio1/ats1/pine3_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/ats1/pine3_mid.pmd"
+	hi_poly_model: "/model/vegetatio1/ats1/pine3.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)  
+}
+
+vegetation_model : vegetmodel.pine4_rus {
+	sprite_model: "/model/vegetatio1/ats1/pine4_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/ats1/pine4_mid.pmd"
+	hi_poly_model: "/model/vegetatio1/ats1/pine4.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)  
+}
+
+vegetation_model : vegetmodel.pine5_rus {
+	sprite_model: "/model/vegetatio1/ats1/pine5_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/ats1/pine5_mid.pmd"
+	hi_poly_model: "/model/vegetatio1/ats1/pine5.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)  
+}
+
+vegetation_model : vegetmodel.tree2_rus {
+	sprite_model: "/model/vegetatio1/ats/tree2_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/ats/tree2_mid.pmd"
+	hi_poly_model: "/model/vegetatio1/ats/tree2.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)  
+}
+
+vegetation_model : vegetmodel.tree3_rus {
+	sprite_model: "/model/vegetatio1/ats/tree3_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/ats/tree3_mid.pmd"
+	hi_poly_model: "/model/vegetatio1/ats/tree3.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)  
+}
+
+vegetation_model : vegetmodel.tree4_rus {
+	sprite_model: "/model/vegetatio1/ats/tree4_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/ats/tree4_mid.pmd"
+	hi_poly_model: "/model/vegetatio1/ats/tree4.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)  
+}
+
+vegetation_model : vegetmodel.tree6_rus {
+	sprite_model: "/model/vegetatio1/ats/tree6_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/ats/tree6_mid.pmd"
+	hi_poly_model: "/model/vegetatio1/ats/tree6.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)  
+}
+
+vegetation_model : vegetmodel.pine.rus.3.nm {
+	sprite_model: "/model/vegetatio1/coniferous/pines/pine_panderosa3_sprite_nm.pmd"
+	med_poly_model: "/model/vegetatio1/coniferous/pines/pine_panderosa3_nm.pmd"
+	hi_poly_model: "/model/vegetatio1/coniferous/pines/pine_panderosa3_nm.pmd"
+	use_collision: true
+	colbox_size: (0.5, 28, 0.5)
+}
+
+vegetation_model : vegetmodel.pine.rus.4.nm {
+	sprite_model: "/model/vegetatio1/coniferous/pines/pine_panderosa4_sprite_nm.pmd"
+	med_poly_model: "/model/vegetatio1/coniferous/pines/pine_panderosa4_nm.pmd"
+	hi_poly_model: "/model/vegetatio1/coniferous/pines/pine_panderosa4_nm.pmd"
+	use_collision: true
+	colbox_size: (0.5, 26, 0.5)
+}
+
+vegetation_model : vegetmodel.pine.rus.5.nm {
+	sprite_model: "/model/vegetatio1/coniferous/pines/pine_panderosa5_sprite_nm.pmd"
+	med_poly_model: "/model/vegetatio1/coniferous/pines/pine_panderosa5_nm.pmd"
+	hi_poly_model: "/model/vegetatio1/coniferous/pines/pine_panderosa5_nm.pmd"
+	use_collision: true
+	colbox_size: (0.5, 20, 0.5)
+}
+
+vegetation_model : vegetmodel.pine.rus.dry1.nm {
+	sprite_model: "/model/vegetatio1/coniferous/pines/pine_panderosa_dry1_sprite_nm.pmd"
+	med_poly_model: "/model/vegetatio1/coniferous/pines/pine_panderosa_dry1_nm.pmd"
+	hi_poly_model: "/model/vegetatio1/coniferous/pines/pine_panderosa_dry1_nm.pmd"
+	use_collision: true
+	colbox_size: (0.5, 16, 0.5)
+}
+
+vegetation_model : vegetmodel.kust1_rus
+{
+	sprite_model: "/model/vegetatio1/ats1/bush1_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/ats1/bush1.pmd"
+	hi_poly_model: "/model/vegetatio1/ats1/bush1.pmd"
+	use_collision: false
+}
+
+vegetation_model : vegetmodel.kust2_rus
+{
+	sprite_model: "/model/vegetatio1/ats1/bush2_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/ats1/bush2.pmd"
+	hi_poly_model: "/model/vegetatio1/ats1/bush2.pmd"
+	use_collision: false
+}
+
+vegetation_model : vegetmodel.kust3_rus
+{
+	sprite_model: "/model/vegetatio1/ats1/bush3_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/ats1/bush3.pmd"
+	hi_poly_model: "/model/vegetatio1/ats1/bush3.pmd"
+	use_collision: false
+}
+
+vegetation_model : vegetmodel.small.tree.rus {
+	sprite_model: "/model/vegetatio1/volga/sc_small_tree_1_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/volga/sc_small_tree_1_high.pmd"
+	hi_poly_model: "/model/vegetatio1/volga/sc_small_tree_1_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)  
+}
+
+vegetation_model : vegetmodel.medium.bush1.rus {
+	sprite_model: "/model/vegetatio1/volga/bush_medium_1_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/volga/bush_medium_1_med.pmd"
+	hi_poly_model: "/model/vegetatio1/volga/bush_medium_1_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)  
+}
+
+vegetation_model : vegetmodel.medium.bush2.rus {
+	sprite_model: "/model/vegetatio1/volga/bush_medium_2_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/volga/bush_medium_2_med.pmd"
+	hi_poly_model: "/model/vegetatio1/volga/bush_medium_2_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1) 
+}
+
+vegetation_model : vegetmodel.big.bush2.rus {
+	sprite_model: "/model/vegetatio1/volga/bush_big_2_sprite.pmd"
+	med_poly_model: "/model/vegetatio1/volga/bush_big_2_med.pmd"
+	hi_poly_model: "/model/vegetatio1/volga/bush_big_2_high.pmd"
+	use_collision: true
+	colbox_size: (1, 10, 1)  
+
+}
+}

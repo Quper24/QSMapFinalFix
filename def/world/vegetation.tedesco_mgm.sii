@@ -1,0 +1,36 @@
+SiiNunit
+{
+
+// vegetation_data : veg.ted01
+// {
+
+// 	name: "ge - village far low1"
+
+// 	model[]: vegetmodel.village.01.ge
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.village.02.ge
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.village.03.ge
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.village.04.ge
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.village.05.ge
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.village.06.ge
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.village.07.ge
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.village.08.ge
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.village.09.ge
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.village.10.ge
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.village.11.ge
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.village.12.ge
+// 	occurrence[]: 1
+
+// }
+
+}

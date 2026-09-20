@@ -1,0 +1,48 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+
+tr_semaphore_model : tr_sem_mdl.city_uadb.ukraine
+{
+	name: "city_stripe_ua"
+
+	model_desc: "/model/traffic_light/city_stripe_tr.pmd"
+	model_coll: "/model/traffic_light/city_stripe_tr.pmc"
+
+	colored_luminosity: true
+}
+
+// tr_semaphore_model : tr_sem_mdl.duo_left.ukraine
+// {
+// 	name: "duo_left_ua"
+
+// 	model_desc: "/model/traffic_light/duo_left_lv.pmd"
+// 	model_coll: "/model/traffic_light/duo_left_lv.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+
+// }
+
+// tr_semaphore_model : tr_sem_mdl.city_l.ukraine
+// {
+// 	name: "city_left_ua"
+
+// 	model_desc: "/model/traffic_light/city_left_lv.pmd"
+// 	model_coll: "/model/traffic_light/city_left_lv.pmc"
+
+// 	state_transition: 4
+// 	state_transition[0]: 0.0 # orange_to_red
+// 	state_transition[1]: 0.0 # red
+// 	state_transition[2]: 0.0 # orange_to_green
+// 	state_transition[3]: 4.0 # green
+
+// }
+
+}

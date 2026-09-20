@@ -1,0 +1,1005 @@
+SiiNunit
+{
+
+vegetation_data : veg.5000 {
+
+	name: "_prus 1_Pine_Bush - 5m"
+
+	model[]: vegetmodel.pine.big
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush
+	occurrence[]: 1
+}
+
+vegetation_data : veg.5005 {
+
+	name: "_prus 1_Pine_Bush - 40m"
+
+	model[]: vegetmodel.pine.big
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush
+	occurrence[]: 1
+}
+
+vegetation_data : veg.5010 {
+
+	name: "_prus 1_Pine_Bush - 150m"
+
+	model[]: vegetmodel.pine.big
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush
+	occurrence[]: 1
+	model[]: vegetmodel.poplar.tree
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5027 {
+
+	name: "_prus 4_leaved - 5m"
+
+	model[]: vegetmodel.big_bush
+	occurrence[]: 1
+	model[]: vegetmodel.poplar.tree
+	occurrence[]: 1
+	model[]: vegetmodel.maple.tree
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5029 {
+
+	name: "_prus 4_leaved - 21m"
+
+	model[]: vegetmodel.big_bush
+	occurrence[]: 1
+	model[]: vegetmodel.poplar.tree
+	occurrence[]: 1
+	model[]: vegetmodel.maple.tree
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5031 {
+
+	name: "_prus 4_leaved - 40m"
+
+	model[]: vegetmodel.big_bush
+	occurrence[]: 1
+	model[]: vegetmodel.poplar.tree
+	occurrence[]: 1
+	model[]: vegetmodel.maple.tree
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5032 {
+
+	name: "_prus 5_bereza - 5m"
+
+	model[]: vegetmodel.bereza
+	occurrence[]: 1
+}
+
+vegetation_data : veg.5036 {
+
+	name: "_prus 1_Pines - avenue 5m"
+
+	model[]: vegetmodel.pine.big
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5038 {
+
+	name: "_prus 1_Pines - avenue 1m"
+
+	model[]: vegetmodel.pine.big
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2
+	occurrence[]: 1
+}
+
+vegetation_data : veg.5041 {
+
+	name: "_prus 1_Bush - avenue 5m"
+
+	model[]: vegetmodel.big_bush
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5042 {
+
+	name: "_prus 4_leaved - avenue 35m"
+
+	model[]: vegetmodel.big_bush
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5043 {
+
+	name: "_prus 1_Pines - avenue 35m"
+
+	model[]: vegetmodel.pine.big
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2
+	occurrence[]: 1
+}
+
+vegetation_data : veg.5047 {
+
+	name: "_prus 4_leaved - 130m"
+
+	model[]: vegetmodel.big_bush
+	occurrence[]: 1
+	model[]: vegetmodel.poplar.tree
+	occurrence[]: 1
+	model[]: vegetmodel.maple.tree
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5060 {
+
+	name: "_prus 7_tree - avenue 5m dens-400"
+
+	model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5061 {
+
+	name: "_prus 7_tree - avenue 1m dens-400"
+
+	model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5064 {
+
+	name: "_prus _sc- birches"
+
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small2
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small3
+	occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small2
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.low
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small3
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5065 {
+
+	name: "_prus sc- birches - 21m dens-200"
+
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.low
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5067 {
+
+	name: "_prus zzz_Pine_forest dens-400"
+
+	model[]: vegetmodel.pine.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5068 {
+
+	name: "_prus z1_Bush sc - avenue 5m"
+
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big.bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5069 {
+
+	name: "_prus z1_Bush sc - avenue 1m"
+
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big.bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5070 {
+
+	name: "_prus z1_Bush sc - avenue 30m"
+
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big.bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5079 {
+
+	name: "_prus z1_Pines sc - avenue 1m"
+
+	model[]: vegetmodel.pine.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.medium_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5080 {
+
+	name: "_prus z1_Pines sc - avenue 30m"
+
+	model[]: vegetmodel.pine.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.medium_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5081 {
+
+	name: "_prus z1_Pine_Bush sc - 5m"
+
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.medium_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5083 {
+
+	name: "_prus z1_Pine_Bush sc - 21m"
+
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.medium_sc
+	occurrence[]: 1
+}
+
+vegetation_data : veg.5089rus {
+
+	name: "_prus z0_Kust sc - avenue 3 - 25m dens-400"
+
+	model[]: vegetmodel.big.bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big.bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5090rus {
+
+	name: "_prus z3_Spruce - avenue 5m dens-400"
+
+	model[]: vegetmodel.spruce.small_1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.small_2_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5091rus {
+
+	name: "_prus z3_Spruce Big - avenue 5m dens-400"
+
+	model[]: vegetmodel.spruce.mid_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.big_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5093rus {
+
+	name: "_prus z3_Spruce Big - avenue 30m dens-400"
+
+	model[]: vegetmodel.spruce.mid_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.big_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5094rus{
+
+	name: "_prus z_mix avenue 1m dens-450"
+
+	model[]: vegetmodel.poplar.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.maple.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.poplar.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+	model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5097rus {
+
+	name: "_prus sc- narrow trees avenue - 1m dens-100"
+
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.low
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5098rus {
+
+	name: "_prus sc- narrow trees avenue - 5m dens-100"
+
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.low
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5600rus {
+
+	name: "_prus sc- spruces - 280m from the road dens-370"
+
+	model[]: vegetmodel.spruce.small_1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.small_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.mid_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.mid_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5601rus {
+
+	name: "_prus sc- spruces - 200m far from road dens-400"
+
+	model[]: vegetmodel.spruce.small_1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.small_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.mid_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.mid_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5602rus {
+
+	name: "_prus sc- spruces - 250-265m dens-350"
+
+	model[]: vegetmodel.spruce.small_1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.small_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.mid_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.mid_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5606rus {
+
+	name: "_prus sc- pines - 10-50m dens-300"
+
+	model[]: vegetmodel.pine.medium_sc
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small1
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small2
+	occurrence[]: 1
+	model[]: vegetmodel.pine.medium_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small3
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small4
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5607rus {
+
+	name: "_prus sc- spruces - 10-50m dens-300"
+
+	model[]: vegetmodel.spruce.small_1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.small_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.mid_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.mid_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5608rus  {
+
+	name: "_prus 1_Bush sc - avenue city 1m dens-400"
+
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5614rus {
+
+	name: "_prus z0_Kust sc - avenue 1-5m dens-100"
+
+	model[]: vegetmodel.big_bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+	model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5616rus  {
+
+	name: "_prus 1_kust sc - avenue city 1m dens-100"
+
+	model[]: vegetmodel.big_bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5617rus {
+
+	name: "_prus z0_Kust sc - avenue 5 - 25m dens-!250!"
+
+	model[]: vegetmodel.big.bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big.bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big.bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big.bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5621rus {
+
+	name: "_prus sc- mixed forest - 10-300m dens-300"
+
+	model[]: vegetmodel.beech.small1
+	occurrence[]: 1
+	model[]: vegetmodel.maple.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small2
+	occurrence[]: 1
+	model[]: vegetmodel.poplar.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small3
+	occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small4
+	occurrence[]: 1
+	model[]: vegetmodel.maple.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.mid_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.small_1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.pine.big_2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small4
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.mid_sc
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small1
+	occurrence[]: 1
+	model[]: vegetmodel.spruce.big2_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.maple.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small2
+	occurrence[]: 1
+	model[]: vegetmodel.poplar.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.maple.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush_sc
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small3
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+	model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5623rus  {
+
+	name: "_prus sc- birches - 10-50m dens-250"
+
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.low
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5629rus {
+	name: "_prus _bush from road"
+
+	model[]: vegetmodel.big.bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.bush2
+	occurrence[]: 1
+	model[]: vegetmodel.bush3
+	occurrence[]: 1
+	model[]: vegetmodel.bush4
+	occurrence[]: 1
+}
+
+vegetation_data : veg.5630rus {
+
+	name: "_prus _leaved south "
+
+	model[]: vegetmodel.beech.small1
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small2
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small3
+	occurrence[]: 1
+	model[]: vegetmodel.beech.small4
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle1
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle2
+	occurrence[]: 1
+	model[]: vegetmodel.medium.bush1
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.bush.small1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.small.tree_sc
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle1
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle1
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle1
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle1
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle1
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle2
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle2
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle2
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle3
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle3
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle4
+	occurrence[]: 1
+	model[]: vegetmodel.tree.middle4
+	occurrence[]: 1
+}
+
+
+vegetation_data : veg.5638rus {
+	name: "_prus _leaved bush+narrow"
+
+	model[]: vegetmodel.big.bush1_sc
+	occurrence[]: 1
+	model[]: vegetmodel.big_bush1
+	occurrence[]: 1
+	model[]: vegetmodel.bush2
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.bush3
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.bush4
+	occurrence[]: 1
+}
+
+vegetation_data : veg.5640rus {
+
+	name: "_prus _narrow trees"
+
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.low
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+	occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5646rus {
+
+	name: "_prus _sc- birches only"
+
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+	occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+
+
+}
+
+vegetation_data : veg.5647rus {
+
+	name: "_prus _Pine Forest low"
+
+	model[]: vegetmodel.juniperus1
+	occurrence[]: 1
+	model[]: vegetmodel.juniperus1
+	occurrence[]: 1
+	model[]: vegetmodel.juniperus1
+	occurrence[]: 1
+	model[]: vegetmodel.juniperus2
+	occurrence[]: 1
+	model[]: vegetmodel.juniperus2
+	occurrence[]: 1
+	model[]: vegetmodel.juniperus2
+	occurrence[]: 1
+	model[]: vegetmodel.juniperus3	
+	occurrence[]: 1
+	model[]: vegetmodel.juniperus4
+	occurrence[]: 1
+	model[]: vegetmodel.juniperus5
+	occurrence[]: 1
+	model[]: vegetmodel.pine_low1
+	occurrence[]: 1
+	model[]: vegetmodel.pine_low2
+	occurrence[]: 1
+}
+
+}

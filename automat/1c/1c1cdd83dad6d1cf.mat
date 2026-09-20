@@ -1,0 +1,6 @@
+material : "eut2.unlit.tex.paint.add.rfx" {
+	texture[0] : "/model/activation/scan.tobj"
+	texture_name[0] : "texture_base"
+	aux[5] : { -1 , 0 }
+	diffuse : { 0.522522 , 0.522522 , 0.522522 }
+}

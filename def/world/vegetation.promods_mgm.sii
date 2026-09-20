@@ -1,0 +1,211 @@
+SiiNunit
+{
+
+// vegetation_data : veg.abra01 {
+
+// 	name: "snowy spruce"
+
+// 	model[]: vegetmodel.snow_spruce.small
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_spruce.med
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_spruce.big
+// 	occurrence[]: 1
+
+// 	min_offset: 7.0
+// 	max_offset: 40.0
+// 	density: 320.0
+
+// 	min_size_perc: 35
+// 	max_size_perc: 60
+// }
+
+// vegetation_data : veg.abra02 {
+
+// 	name: "snowy spruce - lower"
+
+// 	model[]: vegetmodel.snow_spruce.small
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_spruce.med
+// 	occurrence[]: 1
+
+// 	min_offset: 7.0
+// 	max_offset: 40.0
+// 	density: 320.0
+
+// 	min_size_perc: 35
+// 	max_size_perc: 60
+// }
+
+// vegetation_data : veg.abra03 {
+
+// 	name: "snowy spruce /w some larches"
+
+// 	model[]: vegetmodel.snow_spruce.small
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_spruce.med
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_spruce.big
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_larch.med
+// 	occurrence[]: 1
+
+// 	min_offset: 7.0
+// 	max_offset: 40.0
+// 	density: 320.0
+
+// 	min_size_perc: 35
+// 	max_size_perc: 60
+// }
+
+// vegetation_data : veg.abra04 {
+
+// 	name: "snowy spruce /w some larches - lower"
+
+// 	model[]: vegetmodel.snow_spruce.small
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_spruce.med
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_larch.small
+// 	occurrence[]: 1
+
+// 	min_offset: 7.0
+// 	max_offset: 40.0
+// 	density: 320.0
+
+// 	min_size_perc: 35
+// 	max_size_perc: 60
+// }
+
+
+// vegetation_data : veg.abra05 {
+
+// 	name: "snowy larch - lower"
+
+// 	model[]: vegetmodel.snow_larch.small
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_larch.med
+// 	occurrence[]: 1
+
+// 	min_offset: 7.0
+// 	max_offset: 40.0
+// 	density: 320.0
+
+// 	min_size_perc: 35
+// 	max_size_perc: 60
+// }
+
+// vegetation_data : veg.abra06 {
+
+// 	name: "snowy spruce and larch - lower"
+
+// 	model[]: vegetmodel.snow_larch.small
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_larch.med
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_spruce.small
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_spruce.med
+// 	occurrence[]: 1
+
+// 	min_offset: 7.0
+// 	max_offset: 40.0
+// 	density: 320.0
+
+// 	min_size_perc: 35
+// 	max_size_perc: 60
+// }
+
+// vegetation_data : veg.abra07 {
+
+// 	name: "snowy bush mixed"
+
+// 	model[]: vegetmodel.snow_bush1
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_bush2
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_bush3
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_bush1.naked
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_bush2.naked
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_bush3.naked
+// 	occurrence[]: 1
+
+// 	min_offset: 7.0
+// 	max_offset: 40.0
+// 	density: 320.0
+
+// 	min_size_perc: 35
+// 	max_size_perc: 60
+// }
+
+// vegetation_data : veg.abra08 {
+
+// 	name: "snowy mixed mega party"
+
+// 	model[]: vegetmodel.snow_bush1
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_bush3
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_bush1.naked
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_bush3.naked
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_larch.small
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_larch.med
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_spruce.small
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.snow_spruce.med
+// 	occurrence[]: 1
+
+// 	min_offset: 7.0
+// 	max_offset: 40.0
+// 	density: 320.0
+
+// 	min_size_perc: 35
+// 	max_size_perc: 60
+// }
+// vegetation_data : veg.igf14_01 {
+
+// 	name: "Syprus"
+	
+// 	model[]: vegetmodel.syprus1
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.syprus2
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.syprus3
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.syprus4
+// 	occurrence[]: 1
+
+// 	min_size_perc: 35
+// 	max_size_perc: 60
+// // }
+//    vegetation_data : veg.ostp_01 {
+
+//   name: "spruces young"
+	
+//   model[]: vegetmodel.fir_small1
+// 	occurrence[]: 1
+//   model[]: vegetmodel.spruce.small.young1
+// 	occurrence[]: 1
+//   model[]: vegetmodel.fir_small2
+// 	occurrence[]: 1
+  
+//   }
+  
+//   vegetation_data : veg.ostp_02 {
+
+//   name: "spruces tiny"
+	
+//   model[]: vegetmodel.fir_small1
+// 	occurrence[]: 1
+//   model[]: vegetmodel.fir_small2
+// 	occurrence[]: 1
+  
+//   }
+}

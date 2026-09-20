@@ -1,0 +1,124 @@
+SiiNunit
+{
+
+// road_material_def : road_mat.533 {
+// 	path: "/material/road/asphal1.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.534 {
+// 	path: "/material/road/asphalt_g01.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.535 {
+// 	path: "/material/road/alphalt_side.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.536 {
+// 	path: "/material/road/asphal3.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.537 {
+// 	path: "/material/road/materialg01.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.538 {
+// 	path: "/material/road/asphal4.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.539 {
+// 	path: "/material/road/asphal5.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.540 {
+// 	path: "/material/road/asphal6.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.541 {
+// 	path: "/material/road/y_ground_path7.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.542 {
+// 	path: "/material/road/y_ground_path8.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.543 {
+// 	path: "/material/road/asphalt2_side.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.544 {
+// 	path: "/material/road/asphal7.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.545rus {
+// 	path: "/material/road/alphalt_side_1.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.546rus {
+// 	path: "/material/road/asphalt_old_ru.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.547rus {
+// 	path: "/material/road/asphal8.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.548rus {
+// 	path: "/material/road/asphal9.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.549rus {
+// 	path: "/material/road/asphalt2_sid1.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.550rus {
+// 	path: "/material/road/alphalt_temp.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.551rus {
+// 	path: "/material/road/road_sand.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.552rus {
+// 	path: "/material/road/asphal_10.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.553rus {
+// 	path: "/material/road/asphalt_ground_cur1.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.554rus {
+// 	path: "/material/road/asphalt_ats.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.555rus {
+// 	path: "/material/road/asphalt_at1.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+// road_material_def : road_mat.556rus {
+// 	path: "/material/road/metal_mos.mat"
+// 	kerb: "/material/road/kerb_tile.mat"
+// }
+
+}

@@ -1,0 +1,13 @@
+effect : "eut2.dif.spec.shadow.rfx" {
+	additional_ambient : 0.000000
+	diffuse : { 1.000000 , 1.000000 , 1.000000 }
+	reflection : 0.000000
+	shadowmap_bias : 0.000000
+	shininess : 50.000000
+	specular : { 0.217747 , 0.217747 , 0.217747 }
+	texture : "texture_base" {
+		source : "/model/guardtower/guardtowerM.tobj"
+		u_address : clamp
+		v_address : clamp
+	}
+}

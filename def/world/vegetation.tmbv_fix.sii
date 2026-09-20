@@ -1,0 +1,76 @@
+SiiNunit
+{
+
+// vegetation_data : veg.5064 {
+
+// 	name: "_sc- birches"
+
+// 	models[]: vegetmodel.birch.big_sc
+// 	models[]: vegetmodel.narrow.birch1_sc
+// 	models[]: vegetmodel.beech.small2
+// 	models[]: vegetmodel.narrow.birch2_sc
+// 	models[]: vegetmodel.birch.small_sc
+// 	models[]: vegetmodel.small.tree_sc
+// 	models[]: vegetmodel.beech.small3
+// 	models[]: vegetmodel.birch.big_sc
+// 	models[]: vegetmodel.birch.small_sc
+// 	models[]: vegetmodel.narrow.tree1_sc
+// 	models[]: vegetmodel.narrow.tree2_sc
+// 	models[]: vegetmodel.narrow.birch1_sc
+// 	models[]: vegetmodel.narrow.birch2_sc
+// 	models[]: vegetmodel.narrow.tree1_sc
+// 	models[]: vegetmodel.narrow.tree2_sc
+// 	models[]: vegetmodel.beech.small2
+// 	models[]: vegetmodel.narrow.birch1_sc
+// 	models[]: vegetmodel.low.birch1_sc
+// 	models[]: vegetmodel.birch.small_sc
+// 	models[]: vegetmodel.birch.big_sc
+// 	models[]: vegetmodel.low.tree1_sc
+// 	models[]: vegetmodel.low.tree2_sc
+// 	models[]: vegetmodel.low.tree1_sc
+// 	models[]: vegetmodel.low.tree2_sc
+// 	models[]: vegetmodel.beech.small3
+// }
+
+// vegetation_data : veg.5068 {
+
+// 	name: "z1_Bush sc - avenue 5m"
+
+// 	models[]: vegetmodel.big_bush_sc
+// 	models[]: vegetmodel.big_bush1_sc
+// 	models[]: vegetmodel.big.bush1_sc
+// 	models[]: vegetmodel.medium.bush1
+
+// 	min_offset: 5.0
+// 	max_offset: 25.0
+// 	density: 400.0
+
+// 	min_size_perc: 80
+// 	max_size_perc: 110	
+// }
+
+// vegetation_data : veg.5631rus {
+// 	name: "_leaved poplar "
+// 	models: 1
+// 	models[]: vegetmodel.poplar.tall
+// }
+
+// vegetation_data : veg.5636rus {
+// 	name: "_pines_low_ats"
+// 	models: 3
+// 	models[]: vegetmodel.pine1_rus
+// 	models[]: vegetmodel.pine2_rus
+// 	models[]: vegetmodel.pine4_rus
+// }
+
+// vegetation_data : veg.5646rus {
+
+// 	name: "_sc- birches only"
+// 	models: 3
+
+// 	models[]: vegetmodel.birch.big_sc
+// 	models[]: vegetmodel.birch.small_sc
+// 	models[]: vegetmodel.birch.big_sc
+
+// }
+}

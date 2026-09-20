@@ -1,0 +1,112 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+// vegetation_data : veg.med0 {
+
+// 	name: "med - leaved"
+
+// 	model[]: vegetmodel.med.tree1
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.tree2
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.tree3
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.tree4
+// 	occurrence[]: 1
+	
+// }
+
+// vegetation_data : veg.med1 {
+
+// 	name: "med - olives"
+
+// 	model[]: vegetmodel.med.olive
+// 	occurrence[]: 1
+	
+// }
+
+// vegetation_data : veg.med2 {
+
+// 	name: "med - olives dry"
+
+// 	model[]: vegetmodel.med.olivedry
+// 	occurrence[]: 1
+	
+// }
+
+// vegetation_data : veg.med3 {
+
+// 	name: "med - orange trees"
+
+// 	model[]: vegetmodel.med.orange
+// 	occurrence[]: 1
+	
+// }
+
+// vegetation_data : veg.med4 {
+
+// 	name: "med - pines small"
+
+// 	model[]: vegetmodel.med.pinesmall1
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.pinesmall2
+// 	occurrence[]: 1
+	
+// }
+
+// vegetation_data : veg.med5 {
+
+// 	name: "med - pines tall"
+
+// 	model[]: vegetmodel.med.pinetall1
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.pinetall2
+// 	occurrence[]: 1
+	
+// }
+
+// vegetation_data : veg.med6 {
+
+// 	name: "med - pines & leaved"
+
+// 	model[]: vegetmodel.med.pinetall1
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.pinetall2
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.pinesmall1
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.pinesmall2
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.tree1
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.tree2
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.tree3
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.tree4
+// 	occurrence[]: 1
+	
+// }
+
+// vegetation_data : veg.med7 {
+
+// 	name: "med - bushes low"
+
+// 	model[]: vegetmodel.med.bush1
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.bush2
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.bush3
+// 	occurrence[]: 1
+// 	model[]: vegetmodel.med.bush4
+// 	occurrence[]: 1
+	
+// }
+}

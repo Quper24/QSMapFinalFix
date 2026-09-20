@@ -1,0 +1,13 @@
+SiiNunit
+{
+
+// vegetation_data : veg.52
+// {
+// name: "sequoia"
+
+// 	#models[]: vegetmodel.sequoia.v01
+// 	model[]: vegetmodel.sequoia.v02
+// 	occurrence[]: 1
+// }
+
+}

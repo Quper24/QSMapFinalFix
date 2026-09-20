@@ -1,0 +1,56 @@
+# SCS Font (SDF format)
+#
+# The following metrics assume rendering at a reference resolution of 1024x768 without add'l scaling.
+# Max width: 13.254213
+# Max advance: 16.362501
+# Typical height 'above the line': 24.069597 (height of letter 'M')
+# Max pixels 'above the line': 24.253550
+# Max pixels 'below the line': 0.073861
+
+vert_span:24.327410  # max difference between lowest and highest pixel in any two glyphs
+line_spacing:1  # suggested number of pixels to put between lines
+default_scale:1.000000  # default font scale
+
+# Texture descriptors.
+# File path, width, height, scale X, scale Y, SDF padding
+
+image:/font/license_plate/belarus_0.mat,  128,  128, 0.750183, 0.937729, 2.666016
+
+# Atlas X: starting column of glyph rectangle in the font bitmap
+# Atlas Y: starting row of glyph rectangle in the font bitmap
+# Width:   width of the glyph rectangle
+# Height:  height of the glyph rectangle
+# Plane X: left offset of the rectangle when placing it relative to current 'pen position'
+#    (negative value can be thought of as 'hard' kerning, but is used at the beginning of line too!)
+# Plane Y: top offset of the rectangle when placing it relative to current 'pen position'
+#    (the 'pen' is expected to be at the level of topmost pixel of highest glyph)
+# Advance: advance of the 'pen' for rendering of the following glyph
+# Image:   image index
+
+# NUM,   Atlas X,   Atlas Y,     Width,    Height,   Plane X,   Plane Y,   Advance,  Image # Character / glyph name
+
+x0020,    0.0000,    0.0000,    0.0000,    0.0000,    0.0000,    0.0000,    7.7981,      0 # ' ' / 'SPACE'
+x002d,  115.1660,    3.1660,    9.6680,    3.6680,    2.2809,   11.2000,   13.6967,      0 # '-' / 'HYPHEN-MINUS'
+x0030,    3.1660,    3.1660,   14.6680,   25.6680,    2.1804,    0.2000,   18.4955,      0 # '0' / 'DIGIT ZERO'
+x0031,   83.1660,   96.1660,    6.6680,   25.6680,    6.1637,    0.2083,   18.4622,      0 # '1' / 'DIGIT ONE'
+x0032,   63.1660,   96.1660,   14.6680,   25.6680,    2.1804,    0.2000,   18.4955,      0 # '2' / 'DIGIT TWO'
+x0033,   43.1660,   96.1660,   14.6680,   25.6680,    2.1637,    0.2000,   18.4788,      0 # '3' / 'DIGIT THREE'
+x0034,   23.1660,   96.1660,   14.6680,   25.6680,    2.1804,    0.2000,   18.4955,      0 # '4' / 'DIGIT FOUR'
+x0035,    3.1660,   96.1660,   14.6680,   25.6680,    2.1470,    0.0000,   18.4788,      0 # '5' / 'DIGIT FIVE'
+x0036,  109.1660,   65.1660,   14.6680,   25.6680,    2.1970,    0.2749,   18.5288,      0 # '6' / 'DIGIT SIX'
+x0037,   89.1660,   65.1660,   14.6680,   25.6680,    2.1804,    0.2000,   18.4955,      0 # '7' / 'DIGIT SEVEN'
+x0038,   69.1660,   65.1660,   14.6680,   25.6680,    2.1637,    0.2000,   18.4622,      0 # '8' / 'DIGIT EIGHT'
+x0039,   49.1660,   65.1660,   14.6680,   25.6680,    2.1970,    0.2749,   18.5455,      0 # '9' / 'DIGIT NINE'
+x0041,   26.1660,   65.1660,   17.6680,   25.6680,    2.3050,    0.2000,   21.7447,      0 # 'A' / 'LATIN CAPITAL LETTER A'
+x0042,    3.1660,   65.1660,   17.6680,   25.6680,    2.3300,    0.2000,   21.7947,      0 # 'B' / 'LATIN CAPITAL LETTER B'
+x0043,  104.1660,   34.1660,   17.6680,   25.6680,    2.1800,    0.2000,   21.4948,      0 # 'C' / 'LATIN CAPITAL LETTER C'
+x0044,   81.1660,   34.1660,   17.6680,   25.6680,    2.3300,    0.2000,   21.7947,      0 # 'D' / 'LATIN CAPITAL LETTER D'
+x0045,   58.1660,   34.1660,   17.6680,   25.6680,    2.3383,    0.2000,   21.8113,      0 # 'E' / 'LATIN CAPITAL LETTER E'
+x0048,   35.1660,   34.1660,   17.6680,   25.6680,    2.3300,    0.2000,   21.7947,      0 # 'H' / 'LATIN CAPITAL LETTER H'
+x0049,   26.1660,   34.1660,    3.6680,   25.6680,    9.3300,    0.2000,   21.7947,      0 # 'I' / 'LATIN CAPITAL LETTER I'
+x004b,    3.1660,   34.1660,   17.6680,   25.6680,    2.3300,    0.2000,   21.7947,      0 # 'K' / 'LATIN CAPITAL LETTER K'
+x004d,   95.1660,   96.1660,   17.6680,   25.6680,    2.3300,    0.2000,   21.7947,      0 # 'M' / 'LATIN CAPITAL LETTER M'
+x004f,   92.1660,    3.1660,   17.6680,   25.6680,    2.3300,    0.2000,   21.7947,      0 # 'O' / 'LATIN CAPITAL LETTER O'
+x0050,   69.1660,    3.1660,   17.6680,   25.6680,    2.3300,    0.2000,   21.7947,      0 # 'P' / 'LATIN CAPITAL LETTER P'
+x0054,   46.1660,    3.1660,   17.6680,   25.6680,    2.3300,    0.2000,   21.7947,      0 # 'T' / 'LATIN CAPITAL LETTER T'
+x0058,   23.1660,    3.1660,   17.6680,   25.6680,    2.3300,    0.2000,   21.7947,      0 # 'X' / 'LATIN CAPITAL LETTER X'

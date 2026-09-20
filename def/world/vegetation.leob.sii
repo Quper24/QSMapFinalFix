@@ -1,0 +1,379 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+vegetation_data : veg.5068leob {
+
+	name: "1_ess_Bush_sc - avenue"
+
+	model[]: vegetmodel.oak_tall1.balt
+	occurrence[]: 1
+	model[]: vegetmodel.oak_tall2.balt
+	occurrence[]: 1
+	model[]: vegetmodel.maple1.balt
+	occurrence[]: 1
+	model[]: vegetmodel.maple.yellow3.balt
+	occurrence[]: 1
+	model[]: vegetmodel.maple.yellow4.balt
+	occurrence[]: 1
+	model[]: vegetmodel.maple1.balt
+	occurrence[]: 1
+
+}
+
+vegetation_data : veg.5079leob {
+
+	name: "1_ess_Pines sc - avenue"
+
+	model[]: vegetmodel.pine_middle1.balt
+		occurrence[]: 1
+	model[]: vegetmodel.pine_middle1.balt
+		occurrence[]: 1
+	model[]: vegetmodel.pine_middle2.balt
+		occurrence[]: 1
+	model[]: vegetmodel.pine_middle2.balt
+		occurrence[]: 1
+	model[]: vegetmodel.pine_middle3.balt
+		occurrence[]: 1
+	model[]: vegetmodel.pine_middle3.balt
+		occurrence[]: 1
+	model[]: vegetmodel.pine_tall1.balt
+		occurrence[]: 1
+	model[]: vegetmodel.pine_tall2.balt
+		occurrence[]: 1
+
+}
+
+vegetation_data : veg.5064leob {
+
+	name: "1_ess_sc_birches"
+
+	model[]: vegetmodel.birch.big_sc
+	occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+		occurrence[]: 1
+	model[]: vegetmodel.beech.small2
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+		occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+		occurrence[]: 1
+	model[]: vegetmodel.small.tree_sc
+		occurrence[]: 1
+	model[]: vegetmodel.beech.small3
+		occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+		occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+		occurrence[]: 1
+	model[]: vegetmodel.beech.small2
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.low
+		occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+		occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+		occurrence[]: 1
+	model[]: vegetmodel.beech.small3
+		occurrence[]: 1
+
+}
+
+vegetation_data : veg.5646leob {
+
+	name: "1_ess_sc_birches_only"
+
+	model[]: vegetmodel.birch.tall1
+		occurrence[]: 1
+	model[]: vegetmodel.birch.tall1
+		occurrence[]: 1
+	model[]: vegetmodel.birch.tall1
+		occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+		occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+		occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+		occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+		occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+		occurrence[]: 1
+
+
+}
+
+vegetation_data : veg.5615leob {
+
+	name: "1_ess_birches"
+
+	model[]: vegetmodel.birch.big_sc
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+		occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+		occurrence[]: 1
+	model[]: vegetmodel.small.tree_sc
+		occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+		occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.low
+		occurrence[]: 1
+	model[]: vegetmodel.birch.small_sc
+		occurrence[]: 1
+	model[]: vegetmodel.birch.big_sc
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+		occurrence[]: 1
+
+}
+
+vegetation_data : veg.5643leob {
+
+	name: "1_ess_Pine Forest FR"
+
+	model[]: vegetmodel.maple.dense.tree01
+		occurrence[]: 1
+    model[]: vegetmodel.maple.dense.tree02
+		occurrence[]: 1
+    model[]: vegetmodel.maple.dense.tree03
+		occurrence[]: 1
+    model[]: vegetmodel.maple.dense.tree04
+		occurrence[]: 1
+    model[]: vegetmodel.maple.dense.tree05
+		occurrence[]: 1
+	model[]: vegetmodel.douglas.fir.medium01
+		occurrence[]: 1
+    model[]: vegetmodel.douglas.fir.medium02
+		occurrence[]: 1
+    model[]: vegetmodel.douglas.fir.medium03
+		occurrence[]: 1
+    model[]: vegetmodel.douglas.fir.tall01
+		occurrence[]: 1
+    model[]: vegetmodel.douglas.fir.tall02
+		occurrence[]: 1
+	model[]: vegetmodel.birch.slim2
+		occurrence[]: 1
+	model[]: vegetmodel.birch.slim3
+		occurrence[]: 1
+	model[]: vegetmodel.birch.slim.group1
+		occurrence[]: 1
+	model[]: vegetmodel.birch.slim.group2
+		occurrence[]: 1
+	model[]: vegetmodel.nuttall.oak_2
+		occurrence[]: 1
+	model[]: vegetmodel.nuttall.oak_3
+		occurrence[]: 1
+	model[]: vegetmodel.nuttall.oak_4
+		occurrence[]: 1
+	model[]: vegetmodel.nuttall.oak_5
+		occurrence[]: 1
+	model[]: vegetmodel.pine.lodgepole.tall02.id
+		occurrence[]: 1
+	model[]: vegetmodel.pine.silver.tall02.id
+		occurrence[]: 1
+
+}
+
+vegetation_data : veg.5640leob {
+
+	name: "1_ess_narrow trees"
+
+
+	model[]: vegetmodel.young.tree.aspen
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.aspen
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.birch
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.02
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.birch.low
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.1
+		occurrence[]: 1
+	model[]: vegetmodel.young.tree.under.growth.big.2
+		occurrence[]: 1
+	model[]: vegetmodel.young.trees.group.aspen
+		occurrence[]: 1
+
+}
+
+vegetation_data : veg.5644leob {
+
+	name: "1_ess_Pine Forest"
+
+	model[]: vegetmodel.maple.dense.tree01
+		occurrence[]: 1
+    model[]: vegetmodel.maple.dense.tree02
+		occurrence[]: 1
+    model[]: vegetmodel.maple.dense.tree03
+		occurrence[]: 1
+    model[]: vegetmodel.maple.dense.tree04
+		occurrence[]: 1
+    model[]: vegetmodel.maple.dense.tree05
+		occurrence[]: 1
+	model[]: vegetmodel.douglas.fir.medium01
+		occurrence[]: 1
+    model[]: vegetmodel.douglas.fir.medium02
+		occurrence[]: 1
+    model[]: vegetmodel.douglas.fir.medium03
+		occurrence[]: 1
+    model[]: vegetmodel.douglas.fir.tall01
+		occurrence[]: 1
+    model[]: vegetmodel.douglas.fir.tall02
+		occurrence[]: 1
+	model[]: vegetmodel.birch.slim2
+		occurrence[]: 1
+	model[]: vegetmodel.birch.slim3
+		occurrence[]: 1
+	model[]: vegetmodel.birch.slim.group1
+		occurrence[]: 1
+	model[]: vegetmodel.birch.slim.group2
+		occurrence[]: 1
+	model[]: vegetmodel.nuttall.oak_2
+		occurrence[]: 1
+	model[]: vegetmodel.nuttall.oak_3
+		occurrence[]: 1
+	model[]: vegetmodel.nuttall.oak_4
+		occurrence[]: 1
+	model[]: vegetmodel.nuttall.oak_5
+		occurrence[]: 1
+	model[]: vegetmodel.pine.lodgepole.tall02.id
+		occurrence[]: 1
+	model[]: vegetmodel.pine.silver.tall02.id
+		occurrence[]: 1
+
+}
+
+vegetation_data : veg.5631leob {
+
+	name: "1_ess_leaved poplar"
+
+	model[]: vegetmodel.poplar.tall
+		occurrence[]: 1
+}
+
+vegetation_data : veg.5641leob {
+
+	name: "1_ess_leaved north"
+
+	model[]: vegetmodel.maple.dense.tree01
+		occurrence[]: 1
+    model[]: vegetmodel.maple.dense.tree02
+		occurrence[]: 1
+    model[]: vegetmodel.maple.dense.tree03
+		occurrence[]: 1
+    model[]: vegetmodel.maple.dense.tree04
+		occurrence[]: 1
+    model[]: vegetmodel.maple.dense.tree05
+		occurrence[]: 1
+	model[]: vegetmodel.douglas.fir.medium01
+		occurrence[]: 1
+    model[]: vegetmodel.douglas.fir.medium02
+		occurrence[]: 1
+    model[]: vegetmodel.douglas.fir.medium03
+		occurrence[]: 1
+    model[]: vegetmodel.douglas.fir.tall01
+		occurrence[]: 1
+    model[]: vegetmodel.douglas.fir.tall02
+		occurrence[]: 1
+	model[]: vegetmodel.birch.slim2
+		occurrence[]: 1
+	model[]: vegetmodel.birch.slim3
+		occurrence[]: 1
+	model[]: vegetmodel.birch.slim.group1
+		occurrence[]: 1
+	model[]: vegetmodel.birch.slim.group2
+		occurrence[]: 1
+	model[]: vegetmodel.nuttall.oak_2
+		occurrence[]: 1
+	model[]: vegetmodel.nuttall.oak_3
+		occurrence[]: 1
+	model[]: vegetmodel.nuttall.oak_4
+		occurrence[]: 1
+	model[]: vegetmodel.nuttall.oak_5
+		occurrence[]: 1
+	model[]: vegetmodel.pine.lodgepole.tall02.id
+		occurrence[]: 1
+	model[]: vegetmodel.pine.silver.tall02.id
+		occurrence[]: 1
+
+}
+
+vegetation_data : veg.5648leob {
+
+	name: "1_ess_Pine dry"
+
+	model[]: vegetmodel.pine.big_sc
+		occurrence[]: 1
+
+}
+
+
+
+}
