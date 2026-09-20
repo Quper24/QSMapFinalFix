@@ -1,0 +1,22 @@
+SiiNunit
+{
+
+building_scheme : bld_scheme.01rumod {
+	name: "trolley onesided single 01 ru"
+	models[]: bld_model.01rumod
+	category: "ru_mod"
+}
+
+// building_scheme : bld_scheme.02rumod {
+// 	name: "lamp_ru_07_elektro"
+// 	models[]: bld_model.02rumod
+// 	category: "ru_mod"
+// }
+
+building_scheme : bld_scheme.03rumod {
+	name: "lamp_rus_08_elektro"
+	models[]: bld_model.03rumod
+	category: "ru_mod"
+}
+
+}

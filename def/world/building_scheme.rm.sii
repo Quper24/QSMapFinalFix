@@ -1,0 +1,272 @@
+SiiNunit
+{
+#RUSMAP
+building_scheme : bld_scheme.scheme002ess {
+	name: "_RM_ _RM_ 1.25"
+	models[]: bld_model.002ess
+}
+
+building_scheme : bld_scheme.003ess {
+	name: "_RM_ _RM_ [SRM]Речные волны(течение)"
+	models[]: bld_model.003ess
+	models[]: bld_model.004ess
+	models[]: bld_model.005ess
+	models[]: bld_model.006ess
+}
+
+building_scheme : bld_scheme.011ess {
+	name: "_RM_ _RM_ bridge 3a one 1 silwer"
+	models[]: bld_model.011ess
+}
+
+building_scheme : bld_scheme.012ess {
+	name: "_RM_ _RM_ bridge 3a one 1 red"
+	models[]: bld_model.012ess
+}
+
+building_scheme : bld_scheme.015ess {
+	name: "_RM_ _RM_ bridge hw 3a oneway cz one "
+	models[]: bld_model.015ess
+}
+
+building_scheme : bld_scheme.018ess {
+	name: "_RM_ shifer_zabor"
+	models[]: bld_model.018ess
+}
+
+building_scheme : bld_scheme.019ess {
+	name: "_RM_ shifer_zabor_1"
+	models[]: bld_model.019ess
+}
+
+building_scheme : bld_scheme.020ess {
+	name: "_RM_ lines road 02p"
+	models[]: bld_model.020ess
+}
+
+building_scheme : bld_scheme.021ess {
+	name: "_RM_ wall_kad_1"
+	models[]: bld_model.021ess
+}
+
+building_scheme : bld_scheme.022ess {
+	name: "_RM_ wall_kad_2"
+	models[]: bld_model.022ess
+}
+
+building_scheme : bld_scheme.scheme01klip {
+	name: "_RM_ concrete wall"
+	models[]: bld_model.01klip
+}
+
+building_scheme : bld_scheme.02rumod {
+	name: "_RM_ lamp_ru_07_elektro"
+	models[]: bld_model.02rumod
+}
+
+building_scheme : bld_scheme.scheme503 {
+	name: "_RM_ zabor_stroika"
+	models[]: bld_model.503
+}
+
+building_scheme : bld_scheme.scheme504 {
+	name: "_RM_ road_x1"
+	models[]: bld_model.504
+}
+
+building_scheme : bld_scheme.scheme50004 {
+	name: "_RM_ road_koleya"
+	models[]: bld_model.50004	
+}
+
+building_scheme : bld_scheme.scheme50005 {
+	name: "_RM_ road_bumps"
+	models[]: bld_model.50005
+}
+
+building_scheme : bld_scheme.scheme03rus {
+	name: "_RM_ road_wood_koleya_1"
+	models[]: bld_model.03rus
+}
+
+building_scheme : bld_scheme.scheme04rus {
+	name: "_RM_ road_wood_skol"
+	models[]: bld_model.04rus	
+}
+
+building_scheme : bld_scheme.scheme05rus {
+	name: "_RM_ road_gravel"
+	models[]: bld_model.05rus
+}
+
+building_scheme : bld_scheme.scheme06rus {
+	name: "_RM_ zabor_stroika_small"
+	models[]: bld_model.06rus
+}
+
+building_scheme : bld_scheme.scheme14rus {
+	name: "_RM_ z_road_crack_x1"
+	models[]: bld_model.07rus
+}
+
+building_scheme : bld_scheme.scheme16rus {
+	name: "_RM_ z_road_zaplatka"
+	models[]: bld_model.09rus
+}
+
+building_scheme : bld_scheme.scheme17rus {
+	name: "_RM_ z_road_bugor"
+	models[]: bld_model.10rus
+}
+
+building_scheme : bld_scheme.scheme18rus {
+	name: "_RM_ wooden fence with stone base green"
+	models[]: bld_model.11rus
+}
+
+building_scheme : bld_scheme.scheme19rus {
+	name: "_RM_ wooden fence with stone base yellow"
+	models[]: bld_model.12rus
+}
+
+building_scheme : bld_scheme.scheme21rus {
+	name: "_RM_ zabor_city"
+	models[]: bld_model.14rus
+}
+
+building_scheme : bld_scheme.scheme23rus {
+	name: "_RM_ z_road_bugor_1"
+	models[]: bld_model.15rus
+}
+
+building_scheme : bld_scheme.scheme24rus {
+	name: "_RM_ z_road_crack_x2"
+	models[]: bld_model.16rus
+}
+
+building_scheme : bld_scheme.scheme25rus {
+	name: "_RM_ z_road_bugor_2"
+	models[]: bld_model.17rus
+}
+
+building_scheme : bld_scheme.scheme27rus {
+	name: "_RM_ z_powerline_wood_1"
+	models[]: bld_model.19rus
+}
+
+building_scheme : bld_scheme.scheme28rus {
+	name: "_RM_ z_powerline_wood_2"
+	models[]: bld_model.20rus
+}
+
+building_scheme : bld_scheme.scheme29rus {
+	name: "_RM_ z_powerline_wood_3"
+	models[]: bld_model.21rus
+}
+
+building_scheme : bld_scheme.scheme30rus {
+	name: "_RM_ z_powerline_wood_4"
+	models[]: bld_model.23rus
+}
+
+building_scheme : bld_scheme.scheme31rus {
+	name: "_RM_ z_powerline_wood_5"
+	models[]: bld_model.24rus
+}
+
+building_scheme : bld_scheme.scheme32rus {
+	name: "_RM_ wooden fence with stone base ideas"
+	models[]: bld_model.25rus
+}
+
+building_scheme : bld_scheme.scheme35rus {
+	name: "_RM_ red_white barrier_ru"
+	models[]: bld_model.27rus
+}
+
+building_scheme : bld_scheme.scheme36rus {
+	name: "_RM_ curb_concrete_01.ru"
+	models[]: bld_model.28rus
+}
+
+building_scheme : bld_scheme.scheme37rus {
+	name: "_RM_ crash_barrier_ru"
+	models[]: bld_model.29rus
+}
+
+building_scheme : bld_scheme.scheme38rus {
+	name: "_RM_ crash_barrier_ru_st"
+	models[]: bld_model.30rus
+}
+
+building_scheme : bld_scheme.scheme40rus {
+	name: "_RM_ ca_cliff_coast01"
+	models[]: bld_model.40rus
+}
+
+building_scheme : bld_scheme.scheme41rus {
+	name: "_RM_ ca_cliff_eroded01"
+	models[]: bld_model.41rus
+}
+
+building_scheme : bld_scheme.scheme42rus {
+	name: "_RM_ fence_metal5"
+	models[]: bld_model.42rus
+}
+
+building_scheme : bld_scheme.scheme44rus {
+	name: "_RM_ pillar_chain"
+	models[]: bld_model.44rus
+}
+
+building_scheme : bld_scheme.scheme47rus {
+	name: "_RM_ rest_area"
+	models[]: bld_model.47rus
+}
+
+building_scheme : bld_scheme.scheme48rus {
+	name: "_RM_ rest_area_flat"
+	models[]: bld_model.48rus
+}
+
+building_scheme : bld_scheme.scheme55rus {
+	name: "_RM_ dirt_side_road"
+	models[]: bld_model.55rus
+}
+
+building_scheme : bld_scheme.scheme59rus {
+	name: "_RM_ _crash_bar"
+	models[]: bld_model.59rus
+}
+
+building_scheme : bld_scheme.scheme60rus {
+	name: "_RM_ _crash_bar_1"
+	models[]: bld_model.60rus
+}
+
+building_scheme : bld_scheme.62rus {
+	name: "_RM_ lines broken"
+	models[]: bld_model.62rus
+}
+
+building_scheme : bld_scheme.63rus {
+	name: "_RM_ wooden power lines_rus"
+	models[]: bld_model.63rus
+}
+
+building_scheme : bld_scheme.64rus {
+	name: "_RM_ newapsh_decal"
+	models[]: bld_model.64rus
+}
+
+building_scheme : bld_scheme.65rus {
+	name: "_RM_ newapsh_decal_1"
+	models[]: bld_model.65rus
+}
+
+building_scheme : bld_scheme.66rus {
+	name: "_RM_ newapsh_decal_2"
+	models[]: bld_model.66rus
+}
+
+}

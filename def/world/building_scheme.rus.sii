@@ -1,0 +1,310 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+// building_scheme : bld_scheme.scheme503 {
+// 	name: "zabor_stroika"
+// 	models[]: bld_model.503
+// 	category: "Заборы/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme504 {
+// 	name: "road_x1"
+// 	models[]: bld_model.504
+// 	category: "Для дороги/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme50004 {
+// 	name: "road_koleya"
+// 	models[]: bld_model.50004
+// 	category: "Для дороги/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme50005 {
+// 	name: "road_bumps"
+// 	models[]: bld_model.50005
+// 	category: "Для дороги/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme03rus {
+// 	name: "road_wood_koleya_1"
+// 	models[]: bld_model.03rus
+// 	category: "Для дороги/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme04rus {
+// 	name: "road_wood_skol"
+// 	models[]: bld_model.04rus
+// 	category: "Для дороги/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme05rus {
+// 	name: "road_gravel"
+// 	models[]: bld_model.05rus
+// 	category: "Для дороги/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme06rus {
+// 	name: "zabor_stroika_small"
+// 	models[]: bld_model.06rus
+// 	category: "Заборы/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme14rus {
+// 	name: "z_road_crack_x1"
+// 	models[]: bld_model.07rus
+// 	category: "Для дороги/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme16rus {
+// 	name: "z_road_zaplatka"
+// 	models[]: bld_model.09rus
+// 	category: "Для дороги/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme17rus {
+// 	name: "z_road_bugor"
+// 	models[]: bld_model.10rus
+// 	category: "Для дороги/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme18rus {
+// 	name: "wooden fence with stone base green"
+// 	models[]: bld_model.11rus
+// 	category: "Заборы/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme19rus {
+// 	name: "wooden fence with stone base yellow"
+// 	models[]: bld_model.12rus
+// 	category: "Заборы/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme21rus {
+// 	name: "zabor_city"
+// 	models[]: bld_model.14rus
+// 	category: "Заборы/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme23rus {
+// 	name: "z_road_bugor_1"
+// 	models[]: bld_model.15rus
+// 	category: "Для дороги/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme24rus {
+// 	name: "z_road_crack_x2"
+// 	models[]: bld_model.16rus
+// 	category: "Для дороги/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme25rus {
+// 	name: "z_road_bugor_2"
+// 	models[]: bld_model.17rus
+// 	category: "Для дороги/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme27rus {
+// 	name: "z_powerline_wood_1"
+// 	models[]: bld_model.19rus
+// 	category: "Электроопоры/rusmap"
+// }
+
+// building_scheme : bld_scheme.scheme28rus {
+// 	name: "z_powerline_wood_2"
+// 	models[]: bld_model.20rus
+// 	category: "Электроопоры/rusmap"
+// }
+
+// building_scheme : bld_scheme.scheme29rus {
+// 	name: "z_powerline_wood_3"
+// 	models[]: bld_model.21rus
+// 	category: "Электроопоры/rusmap"
+// }
+
+// building_scheme : bld_scheme.scheme30rus {
+// 	name: "z_powerline_wood_4"
+// 	models[]: bld_model.23rus
+// 	category: "Электроопоры/rusmap"
+// }
+
+// building_scheme : bld_scheme.scheme31rus {
+// 	name: "z_powerline_wood_5"
+// 	models[]: bld_model.24rus
+// 	category: "Электроопоры/rusmap"
+// }
+
+// building_scheme : bld_scheme.scheme32rus {
+// 	name: "wooden fence with stone base ideas"
+// 	models[]: bld_model.25rus
+// 	category: "Заборы/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme35rus {
+// 	name: "red_white barrier_ru"
+// 	models[]: bld_model.27rus
+// 	category: "Отбойники/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme36rus {
+// 	name: "curb_concrete_01.ru"
+// 	models[]: bld_model.28rus
+// 	category: "Бордюр/rusmap"
+// }
+
+// building_scheme : bld_scheme.scheme37rus {
+// 	name: "crash_barrier_ru"
+// 	models[]: bld_model.29rus
+// 	category: "Отбойники/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme38rus {
+// 	name: "crash_barrier_ru_st"
+// 	models[]: bld_model.30rus
+// 	category: "Отбойники/rusmap"	
+// }
+
+// building_scheme : bld_scheme.scheme40rus {
+// 	name: "ca_cliff_coast01"
+// 	models[]: bld_model.40rus
+// 	category: "Горы/rusmap"
+// }
+
+// building_scheme : bld_scheme.scheme41rus {
+// 	name: "ca_cliff_eroded01"
+// 	models[]: bld_model.41rus
+// 	category: "Горы/rusmap/"
+// }
+
+// building_scheme : bld_scheme.scheme42rus {
+// 	name: "fence_metal5"
+// 	models[]: bld_model.42rus
+// 	category: "Заборы/rusmap"
+// }
+
+building_scheme : bld_scheme.scheme43rus {
+	name: "ca_railbridge"
+	models[]: bld_model.43rus
+	category: "Для жд моста/rusmap"
+}
+
+// building_scheme : bld_scheme.scheme44rus {
+// 	name: "pillar_chain"
+// 	models[]: bld_model.44rus
+// 	category: "Ограждение/rusmap"
+// }
+
+// building_scheme : bld_scheme.scheme47rus {
+// 	name: "rest_area"
+// 	models[]: bld_model.47rus
+// 	category: "Обочина/rusmap"
+// }
+
+// building_scheme : bld_scheme.scheme48rus {
+// 	name: "rest_area_flat"
+// 	models[]: bld_model.48rus
+// 	category: "Обочина/rusmap"
+// }
+
+building_scheme : bld_scheme.scheme49rus {
+	name: "bush_1"
+	models[]: bld_model.49rus
+	category: "Заросли/rusmap"
+}
+
+building_scheme : bld_scheme.scheme50rus {
+	name: "bush_2"
+	models[]: bld_model.50rus
+	category: "Заросли/rusmap"
+}
+
+building_scheme : bld_scheme.scheme51rus {
+	name: "bush_3"
+	models[]: bld_model.51rus
+	category: "Заросли/rusmap"
+}
+
+building_scheme : bld_scheme.scheme52rus {
+	name: "bush_4"
+	models[]: bld_model.52rus
+	category: "Заросли/rusmap"
+}
+
+building_scheme : bld_scheme.scheme53rus {
+	name: "dry bigbushes"
+	models[]: bld_model.53rus
+	category: "Сухие деревья/rusmap"
+}
+
+building_scheme : bld_scheme.scheme54rus {
+	name: "dry smallbushes"
+	models[]: bld_model.54rus
+	category: "Сухие деревья/rusmap"
+}
+
+// building_scheme : bld_scheme.scheme55rus {
+// 	name: "dirt_side_road"
+// 	models[]: bld_model.55rus
+// 	category: "Для дороги/rusmap"	
+// }
+building_scheme : bld_scheme.scheme56rus {
+	name: "kamish"
+	models[]: bld_model.56rus
+	category: "Камыш/rusmap"
+}
+building_scheme : bld_scheme.scheme57rus {
+	name: "cypress avenue1"
+	models[]: bld_model.57rus
+	category: "Деревья/rusmap"  
+}
+building_scheme : bld_scheme.scheme58rus {
+	name: "apple trees 1"
+	models[]: bld_model.58rus
+	category: "Деревья/rusmap" 
+}
+// building_scheme : bld_scheme.scheme59rus {
+// name: "_crash_bar"
+// models[]: bld_model.59rus
+// 	category: "Отбойники/rusmap"
+// }
+ 
+// building_scheme : bld_scheme.scheme60rus {
+// name: "_crash_bar_1"
+// models[]: bld_model.60rus
+// 	category: "Отбойники/rusmap"
+// }
+
+// building_scheme : bld_scheme.62rus {
+// 	name: "lines broken"
+// 	models[]: bld_model.62rus
+// 	category: "Линии/rusmap"
+// }
+
+// building_scheme : bld_scheme.63rus {
+// 	name: "wooden power lines_rus"
+// 	models[]: bld_model.63rus
+// 	category: "Электроопоры/rusmap"	
+// }
+// building_scheme : bld_scheme.64rus {
+// 	name: "newapsh_decal"
+// 	models[]: bld_model.64rus
+// 	category: "Для дороги/rusmap"
+// }
+// building_scheme : bld_scheme.65rus {
+// 	name: "newapsh_decal_1"
+// 	models[]: bld_model.65rus
+// 	category: "Для дороги/rusmap"
+// }
+// building_scheme : bld_scheme.66rus {
+// 	name: "newapsh_decal_2"
+// 	models[]: bld_model.66rus
+// 	category: "Для дороги/rusmap"
+// }
+
+}

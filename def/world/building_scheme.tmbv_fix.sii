@@ -1,0 +1,30 @@
+SiiNunit
+{
+// building_scheme : bld_scheme.scheme49rus {
+// 	name: "bush_1"
+// 	models[]: bld_model.49rus
+//   category: "dlc_north/vegetation"
+// }
+// building_scheme : bld_scheme.scheme50rus {
+// 	name: "bush_2"
+// 	models[]: bld_model.50rus
+//   category: "dlc_north/vegetation"
+// }
+// building_scheme : bld_scheme.scheme51rus {
+// 	name: "bush_3"
+// 	models[]: bld_model.51rus
+//   category: "dlc_north/vegetation"
+// }
+// building_scheme : bld_scheme.scheme53rus {
+// 	name: "dry bigbushes"
+// 	models[]: bld_model.53rus
+//   category: "dlc_north/vegetation"
+// }
+// building_scheme : bld_scheme.scheme56rus {
+// 	name: "kamish"
+// 	models[]: bld_model.56rus
+//   category: "dlc_north/vegetation"
+ 
+// }
+
+}
