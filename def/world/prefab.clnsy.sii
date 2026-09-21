@@ -1,0 +1,20 @@
+SiiNunit
+{
+// prefab_model : prefab.rr_garage
+// {
+// 	name: "garage/Garage RR"
+// 	model_desc: "/prefab/garage/garage_rr.pmd"
+// 	prefab_desc: "/prefab/garage/garage_rr.ppd"
+// 	use_perlin: false
+
+// }
+// prefab_model : prefab.rr_garage2
+// {
+// 	name: "garage/Garage RR2"
+// 	model_desc: "/prefab/garage/garage_rr2.pmd"
+// 	prefab_desc: "/prefab/garage/garage_rr2.ppd"
+// 	use_perlin: false
+
+// }
+
+}

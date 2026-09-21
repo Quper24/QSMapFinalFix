@@ -1,0 +1,52 @@
+SiiNunit
+{
+// prefab_model : prefab.b_1_way_l {
+// 	model_desc: "/prefab/alin/border_one_way_left.pmd"
+// 	prefab_desc: "/prefab/alin/border_one_way_left.ppd"
+// 	use_semaphores: true
+// 	category: "Border Alin"
+// }
+// prefab_model : prefab.b_1_way_r {
+// 	model_desc: "/prefab/alin/border_one_way_right.pmd"
+// 	prefab_desc: "/prefab/alin/border_one_way_right.ppd"
+// 	use_semaphores: true
+// 	category: "Border Alin"
+// }
+// prefab_model : prefab.border_right {
+// 	model_desc: "/prefab/alin/border_right.pmd"
+// 	prefab_desc: "/prefab/alin/border_right.ppd"
+// 	use_semaphores: true
+//     category: "Border Alin"
+// } 
+// prefab_model : prefab.border_left {
+// 	model_desc: "/prefab/alin/border_left.pmd"
+// 	prefab_desc: "/prefab/alin/border_left.ppd"
+// 	use_semaphores: true
+//     category: "Border Alin"
+// } 
+// prefab_model : prefab.b_ai_right {
+// 	model_desc: "/prefab/alin/border_ai_right.pmd"
+// 	prefab_desc: "/prefab/alin/border_ai_right.ppd"
+// 	use_semaphores: true
+//     category: "Border Alin"
+// } 
+// prefab_model : prefab.b_ai_left {
+// 	model_desc: "/prefab/alin/border_ai_left.pmd"
+// 	prefab_desc: "/prefab/alin/border_ai_left.ppd"
+// 	use_semaphores: true
+//     category: "Border Alin"
+// } 
+prefab_model : prefab.bor1l {
+	model_desc: "/prefab/alin/bor1l.pmd"
+	prefab_desc: "/prefab/alin/bor1l.ppd"
+	use_semaphores: true
+	category: "Border Alin"
+}
+prefab_model : prefab.bor1r {
+	model_desc: "/prefab/alin/bor1r.pmd"
+	prefab_desc: "/prefab/alin/bor1r.ppd"
+	use_semaphores: true
+	category: "Border Alin"
+}
+}
+

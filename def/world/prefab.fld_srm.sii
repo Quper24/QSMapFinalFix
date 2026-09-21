@@ -1,0 +1,189 @@
+SiiNunit
+{
+# by FLD / TZ express map
+# prefab_model : prefab.106fld {
+# 	model_desc: "/prefab/ew/2x2_med_oneway_2a_v1.pmd"
+# 	prefab_desc: "/prefab/ew/2x2_med_oneway_2a_v1.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.160fld {
+# 	model_desc: "/prefab/land_2/2x1y_t_small_1a.pmd"
+# 	prefab_desc: "/prefab/land_2/2x1y_t_small_1a.ppd"
+# 	category: "land_2 TZ map"
+# }
+# prefab_model : prefab.109fld {
+# 	model_desc: "/prefab/ew/3x2_med_oneway_2a_mirror.pmd"
+# 	prefab_desc: "/prefab/ew/3x2_med_oneway_2a_mirror.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.95fld {
+# 	model_desc: "/prefab/ew/2x3_oneway_1a.pmd"
+# 	prefab_desc: "/prefab/ew/2x3_oneway_1a.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.96fld {
+# 	model_desc: "/prefab/ew/2x3_oneway_1a_mirror.pmd"
+# 	prefab_desc: "/prefab/ew/2x3_oneway_1a_mirror.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.59fld {
+# 	model_desc: "/prefab/hw/3x4_oneway_1a.pmd"
+# 	prefab_desc: "/prefab/hw/3x4_oneway_1a.ppd"
+# 	category: "hw TZ map"
+# }
+# prefab_model : prefab.2286fld {
+# 	model_desc: "/prefab/ew/4x2_1a.pmd"
+# 	prefab_desc: "/prefab/ew/4x2_1a.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.1928fld {
+# 	model_desc: "/prefab/land_2/2_t_small_1a.pmd"
+# 	prefab_desc: "/prefab/land_2/2_t_small_1a.ppd"
+# 	category: "land_2 TZ map"
+# }
+# prefab_model : prefab.499fld {
+# 	model_desc: "/prefab/land_1/2_t_small_5a.pmd"
+# 	prefab_desc: "/prefab/land_1/2_t_small_5a.ppd"
+# 	category: "land_1 TZ map"
+# }
+# prefab_model : prefab.40fld {
+# 	model_desc: "/prefab/land_1/2_t_small_1a.pmd"
+# 	prefab_desc: "/prefab/land_1/2_t_small_1a.ppd"
+# 	category: "land_1 TZ map"
+# }
+# prefab_model : prefab.44fld {
+# 	model_desc: "/prefab/roundabout/road1_t_med_3a.pmd"
+# 	prefab_desc: "/prefab/roundabout/road1_t_med_3a.ppd"
+# 	category: "roundabout TZ map"
+# }
+# prefab_model : prefab.115fld {
+# 	model_desc: "/prefab/ew/2x3_med_oneway_3a_mirror.pmd"
+# 	prefab_desc: "/prefab/ew/2x3_med_oneway_3a_mirror.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.03fld {
+# 	model_desc: "/prefab/hw/2x3_med_oneway_2a.pmd"
+# 	prefab_desc: "/prefab/hw/2x3_med_oneway_2a.ppd"
+# 	category: "hw TZ map"
+# }
+# prefab_model : prefab.30fld {
+# 	model_desc: "/prefab/land_1/2_y_oneway_1a.pmd"
+# 	prefab_desc: "/prefab/land_1/2_y_oneway_1a.ppd"
+# 	category: "land_1 TZ map"
+# }
+# prefab_model : prefab.53fld {
+# 	model_desc: "/prefab/ew/1x1_med_oneway_1a.pmd"
+# 	prefab_desc: "/prefab/ew/1x1_med_oneway_1a.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.191fld {
+# 	model_desc: "/prefab/ew/2x1_oneway_1a.pmd"
+# 	prefab_desc: "/prefab/ew/2x1_oneway_1a.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.130fld {
+# 	model_desc: "/prefab/ew/1a_fork_med.pmd"
+# 	prefab_desc: "/prefab/ew/1a_fork_med.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.56fld {
+# 	model_desc: "/prefab/ew/2x1_med_oneway_2a_mirror.pmd"
+# 	prefab_desc: "/prefab/ew/2x1_med_oneway_2a_mirror.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.571fld {
+# 	model_desc: "/prefab/land_1/2_y_oneway_2a_mirror.pmd"
+# 	prefab_desc: "/prefab/land_1/2_y_oneway_2a_mirror.ppd"
+# 	category: "land_1 TZ map"
+# }
+# prefab_model : prefab.55fld {
+# 	model_desc: "/prefab/ew/2x1_med_oneway_2a.pmd"
+# 	prefab_desc: "/prefab/ew/2x1_med_oneway_2a.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.02fld {
+# 	model_desc: "/prefab/ew/2x1_med_oneway_1a_mirror.pmd"
+# 	prefab_desc: "/prefab/ew/2x1_med_oneway_1a_mirror.ppd"
+# 	category: "ew TZ map"	
+# }
+# prefab_model : prefab.192fld {
+# 	model_desc: "/prefab/ew/2x1_oneway_1a_mirror.pmd"
+# 	prefab_desc: "/prefab/ew/2x1_oneway_1a_mirror.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.07fld {
+# 	model_desc: "/prefab/hw/2x3_oneway_1a.pmd"
+# 	prefab_desc: "/prefab/hw/2x3_oneway_1a.ppd"
+# 	category: "hw TZ map"
+# }
+# prefab_model : prefab.54fld {
+# 	model_desc: "/prefab/ew/1x1_med_oneway_1a_mirror.pmd"
+# 	prefab_desc: "/prefab/ew/1x1_med_oneway_1a_mirror.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.51fld {
+# 	model_desc: "/prefab/roundabout/road1_med_4a.pmd"
+# 	prefab_desc: "/prefab/roundabout/road1_med_4a.ppd"
+# 	category: "roundabout TZ map"
+# }
+# prefab_model : prefab.101fld {
+# 	model_desc: "/prefab/gas/gas_icon.pmd"
+# 	prefab_desc: "/prefab/service/service_icon.ppd"
+# 	category: "service"
+# }
+# prefab_model : prefab.1139fld {
+# 	model_desc: "/prefab/land_0/2_x_small_1a.pmd"
+# 	prefab_desc: "/prefab/land_0/2_x_small_1a.ppd"
+# 	category: "land_0 TZ map"
+# }
+# prefab_model : prefab.1154fld {
+# 	model_desc: "/prefab/land_0/2_t_small_1a.pmd"
+# 	prefab_desc: "/prefab/land_0/2_t_small_1a.ppd"
+# 	category: "land_0 TZ map"
+# }
+# prefab_model : prefab.27fld {
+# 	model_desc: "/prefab/ew/2a_0_fork.pmd"
+# 	prefab_desc: "/prefab/ew/2a_0_fork.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.29fld {
+# 	model_desc: "/prefab/ew/2x2_med_oneway_1a_mirror.pmd"
+# 	prefab_desc: "/prefab/ew/2x2_med_oneway_1a_mirror.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.105fld {
+# 	model_desc: "/prefab/ew/2x2_med_oneway_2a_mirror.pmd"
+# 	prefab_desc: "/prefab/ew/2x2_med_oneway_2a_mirror.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.104fld {
+# 	model_desc: "/prefab/ew/2x2_med_oneway_2a.pmd"
+# 	prefab_desc: "/prefab/ew/2x2_med_oneway_2a.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.428fld {
+# 	model_desc: "/prefab/roundabout/1_1y_oneway_v2_mirror.pmd"
+# 	prefab_desc: "/prefab/roundabout/1_1y_oneway_v2_mirror.ppd"
+# 	category: "roundabout TZ map"
+# }
+# prefab_model : prefab.67fld {
+# 	model_desc: "/prefab/hw/2x3x1_med_oneway_1a.pmd"
+# 	prefab_desc: "/prefab/hw/2x3x1_med_oneway_1a.ppd"
+# 	category: "hw TZ map"
+# }
+# prefab_model : prefab.107fld {
+# 	model_desc: "/prefab/ew/2x2_med_oneway_2a_v1_mirror.pmd"
+# 	prefab_desc: "/prefab/ew/2x2_med_oneway_2a_v1_mirror.ppd"
+# 	category: "ew TZ map"
+# }
+# prefab_model : prefab.225fld {
+# 	model_desc: "/prefab/hw/3x2_2a.pmd"
+# 	prefab_desc: "/prefab/hw/3x2_2a.ppd"
+# 	category: "hw TZ map"
+# }
+# prefab_model : prefab.60fld {
+# 	model_desc: "/prefab/hw/3x4_oneway_1a_mirror.pmd"
+# 	prefab_desc: "/prefab/hw/3x4_oneway_1a_mirror.ppd"
+# 	category: "hw TZ map"
+# }
+}

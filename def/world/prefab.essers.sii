@@ -1,0 +1,261 @@
+SiiNunit
+{
+# prefab_model : prefab.tamognya_ess
+# {
+# 	model_desc: "/model_essers/tamognya_essers/prefab/tamognya_essers.pmd"
+# 	prefab_desc: "/model_essers/tamognya_essers/prefab/tamognya_essers.ppd"
+# 	category: "**essers**"
+# 	use_perlin: false
+
+# }
+prefab_model : prefab.004ess
+{
+	model_desc: "/prefab.essers/tollgate_essers/tollgate_essers.pmd"
+	prefab_desc: "/prefab.essers/tollgate_essers/tollgate_essers.ppd"
+	category: "**essers**"
+
+}
+# prefab_model : prefab.005ess
+# {
+# 	model_desc: "/prefab.essers/tollgate_essers/tollgate_essers1.pmd"
+# 	prefab_desc: "/prefab.essers/tollgate_essers/tollgate_essers1.ppd"
+# 	category: "**essers**"
+# }
+# prefab_model : prefab.006ess
+# {
+# 	model_desc: "/prefab.essers/gas_station/gas_highway_2lanes_2m_offset/gasprom_2lane_2m_offset_01_ess.pmd"
+# 	prefab_desc: "/prefab.essers/gas_station/gas_highway_2lanes_2m_offset/gasprom_2lane_2m_offset_01_ess.ppd"
+# 	category: "**essers**"
+	
+# }
+
+# prefab_model : prefab.007ess
+# {
+# 	model_desc: "/prefab.essers/gas_station/gas_small_road/gasstation_small_road_gasprom_1_ess.pmd"
+# 	prefab_desc: "/prefab.essers/gas_station/gas_small_road/gasstation_small_road_gasprom_1_ess.ppd"
+# 	category: "**essers**"
+	
+# }
+prefab_model : prefab.tnk_ess 
+{
+	model_desc: "/prefab.essers/gas_station/tnk/tnk_ess.pmd"
+	prefab_desc: "/prefab.essers/gas_station/tnk/tnk_ess.ppd"
+	category: "**essers**"
+}
+# prefab_model : prefab.200_ess
+# {
+# 	model_desc: "/prefab.essers/company_ess/agro_ess.pmd"
+# 	prefab_desc: "/prefab.essers/company_ess/agro_ess.ppd"
+# 	use_perlin: false
+# 	category: "**essers**"
+# }
+# prefab_model : prefab.200_ess1
+# {
+# 	model_desc: "/prefab.essers/company_ess/agro_ess1.pmd"
+# 	prefab_desc: "/prefab.essers/company_ess/agro_ess1.ppd"
+# 	use_perlin: false
+# 	category: "**essers**"
+# }
+# prefab_model : prefab.200_ess2
+# {
+# 	model_desc: "/prefab.essers/company_ess/agro_ess2.pmd"
+# 	prefab_desc: "/prefab.essers/company_ess/agro_ess2.ppd"
+# 	use_perlin: false
+# 	category: "**essers**"
+# }
+prefab_model : prefab.200_ess_ust
+{
+	model_desc: "/prefab.essers/company_ess/agro_ust.pmd"
+	prefab_desc: "/prefab.essers/company_ess/agro_ust.ppd"
+	use_perlin: false
+	category: "**essers**"
+}
+#prefab_model : prefab.201_ess
+#{
+#	model_desc: "/prefab.essers/company_ess/magnit_ess.pmd"
+#	prefab_desc: "/prefab.essers/company_ess/magnit_ess.ppd"
+#	use_perlin: false
+#	category: "**essers**"
+#}
+#prefab_model : prefab.201_ess_ust
+#{
+#	model_desc: "/prefab.essers/company_ess/magnit_ust.pmd"
+#	prefab_desc: "/prefab.essers/company_ess/magnit_ust.ppd"
+#	use_perlin: false
+#	category: "**essers**"
+#}
+# prefab_model : prefab.202_ess
+# {
+# 	model_desc: "/prefab.essers/company_ess/uot_ess.pmd"
+# 	prefab_desc: "/prefab.essers/company_ess/uot_ess.ppd"
+# 	use_perlin: false
+# 	category: "**essers**"
+# }
+# prefab_model : prefab.202_ess1
+# {
+# 	model_desc: "/prefab.essers/company_ess/uot_ess1.pmd"
+# 	prefab_desc: "/prefab.essers/company_ess/uot_ess1.ppd"
+# 	use_perlin: false
+# 	category: "**essers**"
+# }
+# prefab_model : prefab.202_ess2
+# {
+# 	model_desc: "/prefab.essers/company_ess/kafe_ess.pmd"
+# 	prefab_desc: "/prefab.essers/company_ess/kafe_ess.ppd"
+# 	use_perlin: false
+# 	category: "**essers**"
+# }
+prefab_model : prefab.202_ess2_ust
+{
+	model_desc: "/prefab.essers/company_ess/kafe_ust.pmd"
+	prefab_desc: "/prefab.essers/company_ess/kafe_ust.ppd"
+	use_perlin: false
+	category: "**essers**"
+}
+prefab_model : prefab.202_ess_ust
+{
+	model_desc: "/prefab.essers/company_ess/uot_ust.pmd"
+	prefab_desc: "/prefab.essers/company_ess/uot_ust.ppd"
+	use_perlin: false
+	category: "**essers**"	
+
+}
+# prefab_model : prefab.203_ess
+# {
+# 	model_desc: "/prefab.essers/cross_temp/essers_r2_no_offset_x_r2_no_offset_t_narrow_tmpl.pmd"
+# 	prefab_desc: "/prefab.essers/cross_temp/essers_r2_no_offset_x_r2_no_offset_t_narrow_tmpl.ppd"
+# 	category: "**essers**"
+
+# 	corner0[]: blke45
+# 	corner0[]: blke46
+# 	corner0[]: blke47
+# 	corner0[]: blke48
+# 	corner0[]: blke49
+# 	corner0[]: blke50
+# 	corner0[]: blke51
+# 	corner0[]: blke52
+
+# 	corner1[]: blke45
+# 	corner1[]: blke46
+# 	corner1[]: blke47
+# 	corner1[]: blke48
+# 	corner1[]: blke49
+# 	corner1[]: blke50
+# 	corner1[]: blke51
+# 	corner1[]: blke52
+
+# 	corner2[]: blke245
+# 	corner2[]: blke320
+
+# 	semaphore_profile[]: cr_2x2_ess
+
+# }
+# prefab_model : prefab.203a_ess
+# {
+# 	model_desc: "/prefab.essers/cross_temp/essers_r2_no_offset_x_r1_narrow_tmpl.pmd"
+# 	prefab_desc: "/prefab.essers/cross_temp/essers_r2_no_offset_x_r1_narrow_tmpl.ppd"
+# 	category: "**essers**"
+
+# 	corner0[]: blke45
+# 	corner0[]: blke46
+# 	corner0[]: blke47
+# 	corner0[]: blke48
+# 	corner0[]: blke49
+# 	corner0[]: blke50
+# 	corner0[]: blke51
+# 	corner0[]: blke52
+
+# 	corner1[]: blke45
+# 	corner1[]: blke46
+# 	corner1[]: blke47
+# 	corner1[]: blke48
+# 	corner1[]: blke49
+# 	corner1[]: blke50
+# 	corner1[]: blke51
+# 	corner1[]: blke52
+
+# 	corner2[]: blke45
+# 	corner2[]: blke46
+# 	corner2[]: blke47
+# 	corner2[]: blke48
+# 	corner2[]: blke49
+# 	corner2[]: blke50
+# 	corner2[]: blke51
+# 	corner2[]: blke52
+
+# 	corner3[]: blke45
+# 	corner3[]: blke46
+# 	corner3[]: blke47
+# 	corner3[]: blke48
+# 	corner3[]: blke49
+# 	corner3[]: blke50
+# 	corner3[]: blke51
+# 	corner3[]: blke52
+
+# 	semaphore_profile[]: cr_2x1_ess
+
+# }
+# prefab_model : prefab.almaz_ess
+# {
+# 	model_desc: "/prefab.essers/almaz/almaz_ess/almaz_ess.pmd"
+# 	prefab_desc: "/prefab.essers/almaz/almaz_ess/almaz_ess.ppd"
+# 	use_perlin: false
+# 	category: "**essers**"
+# }
+# prefab_model : prefab.204ess
+# {
+# 	model_desc: "/prefab.essers/gas_icon_essers/gas_icon_2_ess.pmd"
+# 	prefab_desc: "/prefab.essers/gas_icon_essers/gas_icon_2_ess.ppd"
+# 	category: "**essers**"
+
+# }
+prefab_model : prefab.204ess_ust
+{
+	model_desc: "/prefab.essers/gas_icon_essers/gas_icon_2_ust_ess.pmd"
+	prefab_desc: "/prefab.essers/gas_icon_essers/gas_icon_2_ust_ess.ppd"
+	category: "**essers**"
+
+}
+# prefab_model : prefab.205ess
+# {
+# 	model_desc: "/prefab.essers/gas_icon_essers/gas_icon_ess.pmd"
+# 	prefab_desc: "/prefab.essers/gas_icon_essers/gas_icon_ess.ppd"
+# 	category: "**essers**"
+
+# }
+prefab_model : prefab.205ess_ust
+{
+	model_desc: "/prefab.essers/gas_icon_essers/gas_icon_ust_ess.pmd"
+	prefab_desc: "/prefab.essers/gas_icon_essers/gas_icon_ust_ess.ppd"
+	category: "**essers**"
+
+}
+# prefab_model : prefab.206ess
+# {
+# 	model_desc: "/prefab.essers/service_essers/service_ess.pmd"
+# 	prefab_desc: "/prefab.essers/service_essers/service_ess.ppd"
+# 	category: "**essers**"
+	
+# }
+prefab_model : prefab.206ess_ust
+{
+	model_desc: "/prefab.essers/service_essers/service_ust_ess.pmd"
+	prefab_desc: "/prefab.essers/service_essers/service_ust_ess.ppd"
+	category: "**essers**"
+	
+}
+# prefab_model : prefab.207ess
+# {
+# 	model_desc: "/prefab.essers/weigh_station_essers/weigh_station_ess.pmd"
+# 	prefab_desc: "/prefab.essers/weigh_station_essers/weigh_station_ess.ppd"
+# 	category: "**essers**"
+
+# }
+prefab_model : prefab.207ess_ust
+{
+	model_desc: "/prefab.essers/weigh_station_essers/weigh_station_ust_ess.pmd"
+	prefab_desc: "/prefab.essers/weigh_station_essers/weigh_station_ust_ess.ppd"
+	category: "**essers**"
+
+}
+}

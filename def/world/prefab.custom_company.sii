@@ -1,0 +1,116 @@
+SiiNunit
+{
+# For modders: Please do not modify this file if you want to add a new entry. Create in
+# this directory a new file "<base_name>.<idofyourmod>.sii" where <base_name> is name of
+# base file without the extension (e.g. "city" for "/def/city.sii") and <idofyourmod> is
+# some string which is unlikely to conflict with other mod.
+#
+# Warning: Even if the units are specified in more than one source file, they share the
+# same namespace so suffixes or prefixes should be used to avoid conflicts.
+
+// prefab_model : prefab.01cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_01.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_01.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.02cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_02.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_02.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.03cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_03.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_03.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.04cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_04.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_04.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.05cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_05.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_05.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.06cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_06.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_06.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.07cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_07.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_07.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.08cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_08.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_08.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.09cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_09.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_09.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.10cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_10.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_10.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.11cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_11.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_11.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.12cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_12.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_12.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.13cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_13.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_13.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.14cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_14.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_14.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+// prefab_model : prefab.15cust{
+// 	model_desc: "/prefab/Custom_company/custom_company_15.pmd"
+// 	prefab_desc: "/prefab/Custom_company/custom_company_15.ppd"
+// 	use_perlin: false
+// 	tweak_detail_vegetation: true
+// 	category: "Custom Company"
+// }
+}

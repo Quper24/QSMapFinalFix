@@ -1,0 +1,860 @@
+SiiNunit
+{
+
+############################
+####	ALGERIA   		####
+############################
+
+prefab_model : prefab.alg_1 {
+	model_desc: "/prefab2/fork_temp/alg/alg_hw3-hw3_one_lane_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/alg/alg_hw3-hw3_one_lane_tmpl.ppd"
+	category: "/maghreb/algeria"
+}
+
+prefab_model : prefab.alg_2 {
+	model_desc: "/prefab2/fork_temp/alg/alg_hw3_exit_joint_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/alg/alg_hw3_exit_joint_mirrored_tmpl.ppd"
+	category: "/maghreb/algeria"
+}
+
+prefab_model : prefab.alg_3 {
+	model_desc: "/prefab2/fork_temp/alg/alg_hw3_exit_joint_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/alg/alg_hw3_exit_joint_tmpl.ppd"
+	category: "/maghreb/algeria"
+}
+
+prefab_model : prefab.alg_4 {
+	model_desc: "/prefab2/fork_temp/alg/alg_hw3_exit_one_lane_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/alg/alg_hw3_exit_one_lane_tmpl.ppd"
+	category: "/maghreb/algeria"
+}
+
+prefab_model : prefab.alg_5 {
+	model_desc: "/prefab2/fork_temp/alg/alg_hw3_fork_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/alg/alg_hw3_fork_tmpl.ppd"
+	category: "/maghreb/algeria"
+}
+
+prefab_model : prefab.alg_6 {
+	model_desc: "/prefab2/fork_temp/alg/alg_hw3_split_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/alg/alg_hw3_split_mirrored_tmpl.ppd"
+	category: "/maghreb/algeria"
+}
+
+prefab_model : prefab.alg_7 {
+	model_desc: "/prefab2/fork_temp/alg/alg_hw3_split_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/alg/alg_hw3_split_tmpl.ppd"
+	category: "/maghreb/algeria"
+}
+
+prefab_model : prefab.alg_11 {
+	model_desc: "/prefab2/fork_temp/alg/fr_hw3_exit_joint_mirrored_2_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/alg/fr_hw3_exit_joint_mirrored_2_tmpl.ppd"
+	category: "Algeria/Prefab"
+}
+
+prefab_model : prefab.alg_12 {
+	model_desc: "/prefab2/fork_temp/alg/fr_hw3-hw3_exit_mirrored_2_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/alg/fr_hw3-hw3_exit_mirrored_2_tmpl.ppd"
+	category: "Algeria/Prefab"
+}
+
+
+############################
+####	TUNISIA   		####
+############################
+
+
+prefab_model : prefab.tun_1 {
+	model_desc: "/prefab2/fork_temp/tun/tu_2lane_road_joint_short_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_2lane_road_joint_short_mirrored_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_2 {
+	model_desc: "/prefab2/fork_temp/tun/tu_2lane_road_joint_short_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_2lane_road_joint_short_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_3 {
+	model_desc: "/prefab2/fork_temp/tun/tu_hw2_fork_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_hw2_fork_narrow_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_4 {
+	model_desc: "/prefab2/fork_temp/tun/tu_hw3_exit_double.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_hw3_exit_double.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_5 {
+	model_desc: "/prefab2/fork_temp/tun/tu_hw3_exit_double_mirrored.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_hw3_exit_double_mirrored.ppd"
+	category: "maghreb/tunisia"   
+}
+
+prefab_model : prefab.tun_7 {
+	model_desc: "/prefab2/fork_temp/tun/tu_1lane_road_joint_short_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_1lane_road_joint_short_tmpl.ppd"
+	category: "maghreb/tunisia"
+
+}
+
+prefab_model : prefab.tun_8 {
+	model_desc: "/prefab2/fork_temp/tun/tu_1lane_road_joint_short_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_1lane_road_joint_short_mirrored_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_9 {
+	model_desc: "/prefab2/fork_temp/tun/tu_narrow_hw2_one_way_fork_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_narrow_hw2_one_way_fork_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_10 {
+	model_desc: "/prefab2/fork_temp/tun/tu_narrow_hw2_one_way_fork_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_narrow_hw2_one_way_fork_mirrored_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_11 {
+	model_desc: "/prefab2/fork_temp/tun/tu_hw2-hw1_merge.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_hw2-hw1_merge.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_12 {
+	model_desc: "/prefab2/fork_temp/tun/tu_hw2-hw1_merge_mirrored.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_hw2-hw1_merge_mirrored.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_13 {
+	model_desc: "/prefab2/fork_temp/tun/tu_hw4_exit_joint_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_hw4_exit_joint_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_14 {
+	model_desc: "/prefab2/fork_temp/tun/tu_hw4_exit_joint_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_hw4_exit_joint_mirrored_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_15 {
+	model_desc: "/prefab2/fork_temp/tun/tu_hw4_exit_double.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_hw4_exit_double.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_16 {
+	model_desc: "/prefab2/fork_temp/tun/tu_hw4_exit_double_mirrored.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_hw4_exit_double_mirrored.ppd"
+	category: "maghreb/tunisia"    
+}
+
+prefab_model : prefab.tun_17 {
+	model_desc: "/prefab2/fork_temp/tun/tu_hw4-hw5_exit_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_hw4-hw5_exit_mirrored_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_18 {
+	model_desc: "/prefab2/fork_temp/tun/tu_hw4-hw5_exit_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_hw4-hw5_exit_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_19 {
+	model_desc: "/prefab2/fork_temp/tun/tu_r1_oneway_to_hw1_exit_mirrored.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_r1_oneway_to_hw1_exit_mirrored.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_20 {
+	model_desc: "/prefab2/fork_temp/tun/tu_r1_oneway_to_hw1_exit.pmd"
+	prefab_desc: "/prefab2/fork_temp/tun/tu_r1_oneway_to_hw1_exit.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_21
+{
+	model_desc: "/prefab2/fork_temp/tun/tu_2lane_road_joint_short_straight_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/blke/blke_2lane_road_joint_short_straight_tmpl.ppd"
+	category: "maghreb/tunisia"
+
+	corner0[]: blke424
+	corner0[]: blke427
+	corner0[]: blke430
+
+	corner1[]: blke425
+	corner1[]: blke428
+	corner1[]: blke431
+
+	corner2[]: blke426
+	corner2[]: blke429
+}
+
+prefab_model : prefab.tun_22
+{
+	model_desc: "/prefab2/fork_temp/tun/tun_2lane_1lane_road_joint_short_straight_right_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/blke/blke_2lane_1lane_road_joint_short_straight_right_tmpl.ppd"
+	category: "maghreb/tunisia"
+
+	corner2[]: blke426
+	corner2[]: blke429
+
+	corner1[]: blke424
+	corner1[]: blke427
+	corner1[]: blke430
+
+	corner0[]: blke502
+	corner0[]: blke503
+	corner0[]: blke504
+}
+
+prefab_model : prefab.tun_23
+{
+	model_desc: "/prefab2/fork_temp/tun/tun_2lane_1lane_road_joint_short_straight_tmpl_mirrored.pmd"
+	prefab_desc: "/prefab2/fork_temp/blke/blke_2lane_1lane_road_joint_short_straight_tmpl_mirrored.ppd"
+	category: "maghreb/tunisia"
+
+	corner0[]: blke426
+	corner0[]: blke429
+
+	corner1[]: blke424
+	corner1[]: blke427
+	corner1[]: blke430
+
+	corner2[]: blke499
+	corner2[]: blke500
+	corner2[]: blke501
+
+}
+
+prefab_model : prefab.tun_24
+{
+	model_desc: "/prefab2/fork_temp/tun/tun_2lane_road_joint_short_straight_right_tmpl.pmd"
+    prefab_desc: "/prefab2/fork_temp/blke/blke_2lane_road_joint_short_straight_right_tmpl_mirrored.ppd"
+	category: "maghreb/tunisia"
+
+	corner0[]: blke451
+	corner0[]: blke453
+	corner0[]: blke455
+
+	corner1[]: blke424
+	corner1[]: blke427
+	corner1[]: blke430
+
+	corner2[]: blke452
+	corner2[]: blke454
+}
+
+prefab_model : prefab.tun_25 {
+	name: "tun_r1_merge_r2"
+	model_desc: "/prefab2/fork_temp/tun/tun_r1_split_r2.pmd"
+	prefab_desc: "/prefab2/fork_temp/balt/balt_r1_split_r2_merge.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_26
+{
+	model_desc: "/prefab2/cross_temp/tun/tun_hw2_join_short_round_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/blke/blke_hw2_join_short_round_tmpl.ppd"
+	category: "maghreb/tunisia"
+	
+	semaphore_profile[]: cr_2x2r_alt
+}
+
+prefab_model : prefab.tun_27
+{
+	model_desc: "/prefab2/cross_temp/tun/tun_r2_no_offset_x_r1_sw_round_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/blke/blke_r2_no_offset_x_r1_sw_round_narrow_tmpl.ppd"
+	category: "maghreb/tunisia"
+
+	corner0[]: blke248
+	corner1[]: blke247
+	corner2[]: blke248
+	corner3[]: blke247
+
+	corner0[]: blke328
+	corner1[]: blke327
+	corner2[]: blke328
+	corner3[]: blke327
+
+}
+
+prefab_model : prefab.tun_28
+{
+	model_desc: "/prefab2/fork_temp/tun/tun_rw_hw2-hw2_exit_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/fr/fr_hw2-hw2_exit_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_30
+{
+	model_desc: "/prefab2/fork_temp/tun/tun_rw_hw2-hw2_exit_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/fr/fr_hw2-hw2_exit_mirrored_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_31
+{
+	model_desc: "/prefab2/fork_temp/tun/tun_hw2_fork_tmpl_5m_offset.pmd"
+	prefab_desc: "/prefab2/fork_temp/blke/blke_hw2_fork_tmpl_5m_offset.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_32
+{
+	model_desc: "/prefab2/fork_temp/tun/tun_rw_hw2_fork_tmpl_5m_offset.pmd"
+	prefab_desc: "/prefab2/fork_temp/blke/blke_hw2_fork_tmpl_5m_offset.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_33
+{
+	model_desc: "/prefab2/fork_temp/tun/tun_rw_hw2_exit_joint_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/fr/fr_hw2_exit_joint_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_34
+{
+	model_desc: "/prefab2/fork_temp/tun/tun_rw_hw2_exit_joint_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/fr/fr_hw2_exit_joint_mirrored_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_35
+{
+	model_desc: "/prefab2/fork_temp/tun/tun_fork_r2_no_offset_x_r1_short_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/blke/blke_fork_r2_no_offset_x_r1_short_tmpl.ppd"
+	category: "maghreb/tunisia"
+
+	corner0[]: blke379
+	corner0[]: blke381
+	corner0[]: blke432
+
+	corner1[]: blke380
+	corner1[]: blke382
+	corner1[]: blke433
+}
+
+prefab_model : prefab.tun_36
+{
+	model_desc: "/prefab2/fork_temp/tun/tun_r1_r2_plus_2_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/balt/balt_r1_r2_plus_2_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_37
+{
+	model_desc: "/prefab2/fork_temp/tun/tun_rw_road1_split_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/fr/fr_road1_split_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+
+prefab_model : prefab.tun_38
+{
+	model_desc: "/prefab2/cross_temp/tun/tun_r1_x_r1_y_sharp_large_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/blke/blke_r1_x_r1_y_sharp_large_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+prefab_model : prefab.tun_39 {
+	model_desc: "/prefab2/cross_temp/balt/tu_r1_narrow_x_oneway_in.pmd"
+	prefab_desc: "/prefab2/cross_temp/balt/balt_r1_narrow_x_oneway_in.ppd"
+	category: "maghreb/tunisia"
+  
+  
+  corner0[]: ba3
+	corner0[]: ba1
+  corner0[]: ba2
+  corner0[]: ba98
+
+  corner1[]: ba180
+  corner1[]: ba183
+  corner1[]: ba184
+  corner1[]: ba206
+ 
+  corner2[]: ba3
+	corner2[]: ba1
+  corner2[]: ba2
+  corner2[]: ba98
+}
+
+prefab_model : prefab.tun_40
+{
+	model_desc: "/prefab2/toll_norway_big_tun.pmd"
+	prefab_desc: "/prefab2/toll_norway_big_tun.ppd"
+	category: "maghreb/tunisia"
+	slow_time: true
+	use_semaphores: false
+      use_perlin: false
+}
+
+prefab_model : prefab.tun_41
+{
+	model_desc: "/prefab2/cross_temp/tun/mag_r1_x_r1_y_sw_round_narrow_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/tun/mag_r1_x_r1_y_sw_round_narrow_tmpl.ppd"
+	category: "maghreb/tunisia"
+}
+
+############################
+####	MOROCCO   		####
+############################
+
+
+prefab_model : prefab.ma1
+{
+	model_desc: "/prefab2/fork_temp/ma/ma_2lane_road_joint_short_mirrored_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/blke/blke_2lane_road_joint_short_mirrored_tmpl.ppd"
+	category: "maghreb/morocco"
+
+	corner0[]: blke363
+	corner0[]: blke366
+	corner0[]: blke368
+
+	corner1[]: blke364
+	corner1[]: blke367
+	corner1[]: blke369
+
+	corner2[]: blke365
+	corner2[]: blke370
+
+}
+
+prefab_model : prefab.ma2
+{
+	model_desc: "/prefab2/fork_temp/ma/ma_2lane_road_joint_short_tmpl.pmd"
+	prefab_desc: "/prefab2/fork_temp/blke/blke_2lane_road_joint_short_tmpl.ppd"
+	category: "maghreb/morocco"
+
+	corner0[]: blke363
+	corner0[]: blke366
+	corner0[]: blke368
+
+	corner1[]: blke364
+	corner1[]: blke367
+	corner1[]: blke369
+
+	corner2[]: blke365
+	corner2[]: blke370
+}
+
+prefab_model : prefab.ma3
+{
+	model_desc: "/prefab2/cross_temp/ma/ma_r2_one_way_x_r1_enter_t_tmpl.pmd"
+	prefab_desc: "/prefab2/cross_temp/blke/blke_r2_one_way_x_r1_enter_t_tmpl.ppd"
+	category: "maghreb/morocco"
+
+	corner2[]: blke93
+	corner2[]: blke95
+	corner2[]: blke97
+	corner2[]: blke99
+	corner2[]: blke101
+	corner2[]: blke103
+	corner2[]: blke105
+	corner2[]: blke107
+
+	corner0[]: blke53
+	corner0[]: blke56
+	corner0[]: blke59
+	corner0[]: blke62
+	corner0[]: blke65
+	corner0[]: blke68
+	corner0[]: blke71
+	corner0[]: blke74
+
+	corner1[]: blke94
+	corner1[]: blke96
+	corner1[]: blke98
+	corner1[]: blke100
+	corner1[]: blke102
+	corner1[]: blke104
+	corner1[]: blke106
+	corner1[]: blke108
+}
+
+
+####	PREFAB PACK BY Veritas1983       ####		
+
+prefab_model : prefab.29base {
+	
+model_desc: "/prefab/sellplan_alt/sellplan_alt.pmd"
+prefab_desc: "/prefab/sellplan_alt/sellplan_alt.ppd"
+use_perlin: false
+tweak_detail_vegetation: true
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.31base {
+	model_desc: "/prefab/tradeaux_warehouse_alt/tradeaux_alt.pmd"
+	prefab_desc: "/prefab/tradeaux_warehouse_alt/tradeaux_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.32base {
+	model_desc: "/prefab/warehouse_orange_alt/warehouse_orange_alt.pmd"
+	prefab_desc: "/prefab/warehouse_orange_alt/warehouse_orange_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.33base {
+	model_desc: "/prefab/warehouse_small_alt/warehouse_small_alt.pmd"
+	prefab_desc: "/prefab/warehouse_small_alt/warehouse_small_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.34base {
+	
+model_desc: "/prefab/warehouse_grey_alt/warehouse_large_grey_alt.pmd"
+prefab_desc: "/prefab/warehouse_grey_alt/warehouse_large_grey_alt.ppd"
+	category: "base_prefab"	
+}
+
+prefab_model : prefab.36base {
+	
+model_desc: "/prefab/warehouse_grey_v2alt/warehouse_large_grey_v2alt.pmd"
+prefab_desc: "/prefab/warehouse_grey_v2alt/warehouse_large_grey_v2alt.ppd"
+	category: "base_prefab"	
+}
+
+prefab_model : prefab.39base {
+	model_desc: "/prefab/service_alt/service_alt.pmd"
+	prefab_desc: "/prefab/service_alt/service_alt.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.39base_np {
+	model_desc: "/prefab/service_alt/service_nopark.pmd"
+	prefab_desc: "/prefab/service_alt/service_nopark.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.43base {
+	model_desc: "/prefab/truck_dealer_alt/truck_dealer_02_alt.pmd"
+	prefab_desc: "/prefab/truck_dealer_alt/truck_dealer_02_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.43base_np {
+	model_desc: "/prefab/truck_dealer_alt/truck_dealer_02_nopark.pmd"
+	prefab_desc: "/prefab/truck_dealer_alt/truck_dealer_02_nopark.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.79base {
+	model_desc: "/prefab/recruitment_agency_alt/recruitment_agency_alt.pmd"
+	prefab_desc: "/prefab/recruitment_agency_alt/recruitment_agency_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.81base {
+	model_desc: "/prefab/garage_alt/garage_alt.pmd"
+	prefab_desc: "/prefab/garage_alt/garage_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.81base_a {
+	model_desc: "/prefab/garage_alt/garage_alt.pmd"
+	prefab_desc: "/prefab/garage_alt/garage_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.81base_b {
+	model_desc: "/prefab/garage_alt/garage_alt.pmd"
+	prefab_desc: "/prefab/garage_alt/garage_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.81base_c {
+	model_desc: "/prefab/garage_alt/garage_alt.pmd"
+	prefab_desc: "/prefab/garage_alt/garage_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.82base {
+	model_desc: "/prefab/garage_alt/garage_expensive_alt.pmd"
+	prefab_desc: "/prefab/garage_alt/garage_expensive_alt.ppd"
+	use_perlin: false
+
+}
+
+prefab_model : prefab.82base_g {
+	model_desc: "/prefab/garage_alt/garage_expensive_garage.pmd"
+	prefab_desc: "/prefab/garage_alt/garage_expensive_garage.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.82base_gas {
+	model_desc: "/prefab/garage_alt/garage_expensive_gas.pmd"
+	prefab_desc: "/prefab/garage_alt/garage_expensive_gas.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.82base_s {
+	model_desc: "/prefab/garage_alt/garage_expensive_shed.pmd"
+	prefab_desc: "/prefab/garage_alt/garage_expensive_shed.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.83base {
+	model_desc: "/prefab/truck_dealer_small_alt/truck_dealer_small_02_alt.pmd"
+	prefab_desc: "/prefab/truck_dealer_small_alt/truck_dealer_small_02_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.83base_np {
+	model_desc: "/prefab/truck_dealer_small_alt/truck_dealer_small_02_nopark.pmd"
+	prefab_desc: "/prefab/truck_dealer_small_alt/truck_dealer_small_02_nopark.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.poor_gara_b {
+	model_desc: "/prefab/garage_alt/garage_poor_alt.pmd"
+	prefab_desc: "/prefab/garage_alt/garage_poor_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.poor_gara_ba {
+	model_desc: "/prefab/garage_alt/garage_poor_alt.pmd"
+	prefab_desc: "/prefab/garage_alt/garage_poor_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.poor_gara_bb {
+	model_desc: "/prefab/garage_alt/garage_poor_alt.pmd"
+	prefab_desc: "/prefab/garage_alt/garage_poor_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.poor_gara_bc {
+	model_desc: "/prefab/garage_alt/garage_poor_alt.pmd"
+	prefab_desc: "/prefab/garage_alt/garage_poor_alt.ppd"
+	use_perlin: false
+	category: "base_prefab"	
+
+}
+
+prefab_model : prefab.01cust{
+	model_desc: "/prefab/Custom_company/custom_company_01.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_01.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.02cust{
+	model_desc: "/prefab/Custom_company/custom_company_02.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_02.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.03cust{
+	model_desc: "/prefab/Custom_company/custom_company_03.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_03.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.04cust{
+	model_desc: "/prefab/Custom_company/custom_company_04.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_04.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.05cust{
+	model_desc: "/prefab/Custom_company/custom_company_05.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_05.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.06cust{
+	model_desc: "/prefab/Custom_company/custom_company_06.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_06.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.07cust{
+	model_desc: "/prefab/Custom_company/custom_company_07.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_07.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.08cust{
+	model_desc: "/prefab/Custom_company/custom_company_08.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_08.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.09cust{
+	model_desc: "/prefab/Custom_company/custom_company_09.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_09.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.10cust{
+	model_desc: "/prefab/Custom_company/custom_company_10.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_10.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.11cust{
+	model_desc: "/prefab/Custom_company/custom_company_11.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_11.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.12cust{
+	model_desc: "/prefab/Custom_company/custom_company_12.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_12.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.13cust{
+	model_desc: "/prefab/Custom_company/custom_company_13.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_13.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.14cust{
+	model_desc: "/prefab/Custom_company/custom_company_14.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_14.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+prefab_model : prefab.15cust{
+	model_desc: "/prefab/Custom_company/custom_company_15.pmd"
+	prefab_desc: "/prefab/Custom_company/custom_company_15.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	category: "Custom Company"
+}
+
+####	PREFAB PACK BY FARMERS       ####
+
+prefab_model : prefab.farmers001
+{
+	name: "genoa bridge depot 01 it"
+	model_desc: "/prefab2/genoa/genoa_bridge_depot_01_it.pmd"
+	prefab_desc: "/prefab2/genoa/genoa_bridge_depot_01_it.ppd"
+	category: "maghreb/company"
+	
+	dynamic_lod_desc[]: "/prefab2/genoa/genoa_bridge_depot_01_it_lod1.pmd"
+	dynamic_lod_dist[]: 115
+
+}
+
+prefab_model : prefab.farmers002
+{
+	name: "genoa bridge depot 02 it"
+	model_desc: "/prefab2/genoa/genoa_bridge_depot_02_it.pmd"
+	prefab_desc: "/prefab2/genoa/genoa_bridge_depot_02_it.ppd"
+	category: "maghreb/company"
+
+	dynamic_lod_desc[]: "/prefab2/genoa/genoa_bridge_depot_02_it_lod1.pmd"
+	dynamic_lod_dist[]: 115
+
+}
+
+####	PREFAB PACK BY TODOR ALIN       ####
+
+prefab_model : prefab.b_1_way_l {
+	model_desc: "/prefab/alin/border_one_way_left.pmd"
+	prefab_desc: "/prefab/alin/border_one_way_left.ppd"
+	use_semaphores: true
+	category: "Border Alin"
+}
+prefab_model : prefab.b_1_way_r {
+	model_desc: "/prefab/alin/border_one_way_right.pmd"
+	prefab_desc: "/prefab/alin/border_one_way_right.ppd"
+	use_semaphores: true
+	category: "Border Alin"
+}
+prefab_model : prefab.border_right {
+	model_desc: "/prefab/alin/border_right.pmd"
+	prefab_desc: "/prefab/alin/border_right.ppd"
+	use_semaphores: true
+    category: "Border Alin"
+} 
+prefab_model : prefab.border_left {
+	model_desc: "/prefab/alin/border_left.pmd"
+	prefab_desc: "/prefab/alin/border_left.ppd"
+	use_semaphores: true
+    category: "Border Alin"
+} 
+prefab_model : prefab.b_ai_right {
+	model_desc: "/prefab/alin/border_ai_right.pmd"
+	prefab_desc: "/prefab/alin/border_ai_right.ppd"
+	use_semaphores: true
+    category: "Border Alin"
+} 
+prefab_model : prefab.b_ai_left {
+	model_desc: "/prefab/alin/border_ai_left.pmd"
+	prefab_desc: "/prefab/alin/border_ai_left.ppd"
+	use_semaphores: true
+    category: "Border Alin"
+} 
+
+
+}

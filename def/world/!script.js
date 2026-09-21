@@ -4,33 +4,82 @@ const fs = require("fs");
 // НАСТРОЙКИ
 // ========================================
 
-const MAIN_FILE = "./model.rm.sii";
-const SECOND_FILE = "./model.rus.sii";
-const OUTPUT_FILE = "./model.rus_result.sii";
+const MAIN_FILE = "./prefab_corner.fld.sii";
+const SECOND_FILE = "./prefab_corner.fldtranssib.sii";
+const OUTPUT_FILE = "./prefab_corner.fldtranssib_result.sii";
+
+// Какой ключ ищем
+// Например:
+// "model_def"
+// "prefab_model"
+// "building_scheme"
+// "vehicle"
+// и т.д.
+const KEY = "prefab_corner";
 
 // ========================================
-// ЧТЕНИЕ MAIN
+// ФУНКЦИЯ ЭКРАНИРОВАНИЯ REGEX
+// ========================================
+
+function escapeRegExp(string) {
+  return string.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+// ========================================
+// REGEX ДЛЯ ПОИСКА КЛЮЧА
+// ========================================
+
+// Поддерживает оба варианта:
+//
+// prefab_model : prefab.test {
+// prefab_model : prefab.test
+// {
+//
+// Также допускает табы и несколько пробелов.
+function getKeyRegex(key) {
+  const escapedKey = escapeRegExp(key);
+
+  return new RegExp(`^\\s*${escapedKey}\\s*:\\s*([^\\s{]+)`, "i");
+}
+
+// ========================================
+// ПОЛУЧЕНИЕ ИМЁН ИЗ MAIN
+// ========================================
+
+function getNamesFromMain(content, key) {
+  const names = new Set();
+
+  const lines = content.split(/\r?\n/);
+
+  const regex = getKeyRegex(key);
+
+  for (const line of lines) {
+    const match = line.match(regex);
+
+    if (match) {
+      names.add(match[1]);
+    }
+  }
+
+  return names;
+}
+
+// ========================================
+// ЧИТАЕМ MAIN
 // ========================================
 
 const mainContent = fs.readFileSync(MAIN_FILE, "utf8");
 
-// Имена model_def из MAIN
-const mainModels = new Set();
+const mainNames = getNamesFromMain(mainContent, KEY);
 
-// Ищем:
-// model_def : model.7041rus {
-const modelRegex = /^\s*model_def\s*:\s*([^\s{]+)\s*\{/gm;
-
-let match;
-
-while ((match = modelRegex.exec(mainContent)) !== null) {
-  mainModels.add(match[1]);
-}
-
-console.log(`Найдено model_def в MAIN: ${mainModels.size}`);
+console.log("========================================");
+console.log(`Ключ: ${KEY}`);
+console.log(`Файл MAIN: ${MAIN_FILE}`);
+console.log(`Найдено блоков в MAIN: ${mainNames.size}`);
+console.log("========================================");
 
 // ========================================
-// ЧТЕНИЕ ВТОРОГО ФАЙЛА
+// ЧИТАЕМ ВТОРОЙ ФАЙЛ
 // ========================================
 
 const secondContent = fs.readFileSync(SECOND_FILE, "utf8");
@@ -39,68 +88,106 @@ const lines = secondContent.split(/\r?\n/);
 
 const result = [];
 
-let i = 0;
+const keyRegex = getKeyRegex(KEY);
+
 let commentedCount = 0;
+let foundCount = 0;
+
+let i = 0;
+
+// ========================================
+// ОБХОД ВТОРОГО ФАЙЛА
+// ========================================
 
 while (i < lines.length) {
   const line = lines[i];
 
-  // Проверяем начало model_def
-  const modelMatch = line.match(/^\s*model_def\s*:\s*([^\s{]+)\s*\{/);
+  // ========================================
+  // Ищем нужный KEY
+  // ========================================
 
-  // Обычная строка
-  if (!modelMatch) {
+  const match = line.match(keyRegex);
+
+  // Это обычная строка
+  if (!match) {
     result.push(line);
     i++;
     continue;
   }
 
-  const modelName = modelMatch[1];
+  const blockName = match[1];
+
+  foundCount++;
 
   // ========================================
-  // Если модель есть в MAIN
+  // Если имя найдено в MAIN
   // ========================================
 
-  if (mainModels.has(modelName)) {
-    // Собираем весь блок
+  if (mainNames.has(blockName)) {
     const block = [];
 
     let braceLevel = 0;
+    let opened = false;
+
+    // ========================================
+    // Забираем весь блок
+    // ========================================
 
     while (i < lines.length) {
       const currentLine = lines[i];
 
       block.push(currentLine);
 
-      // Считаем фигурные скобки
-      braceLevel += (currentLine.match(/\{/g) || []).length;
-      braceLevel -= (currentLine.match(/\}/g) || []).length;
+      // Считаем открывающие скобки
+      const openBraces = (currentLine.match(/\{/g) || []).length;
+
+      // Считаем закрывающие скобки
+      const closeBraces = (currentLine.match(/\}/g) || []).length;
+
+      braceLevel += openBraces;
+      braceLevel -= closeBraces;
+
+      // Запомнили, что встретили {
+      if (openBraces > 0) {
+        opened = true;
+      }
 
       i++;
 
-      // Закрыли исходный блок
-      if (braceLevel === 0) {
+      // ====================================
+      // Блок полностью закрыт
+      // ====================================
+
+      if (opened && braceLevel === 0) {
         break;
       }
     }
 
-    // Комментируем каждую строку блока
+    // ========================================
+    // Комментируем весь блок
+    // ========================================
+
     for (const blockLine of block) {
-      // Не добавляем # перед уже пустой строкой
+      // Пустые строки оставляем пустыми
       if (blockLine.trim() === "") {
         result.push(blockLine);
       } else {
-        result.push("# " + blockLine);
+        // Если строка уже закомментирована,
+        // второй # не добавляем
+        if (blockLine.trimStart().startsWith("#")) {
+          result.push(blockLine);
+        } else {
+          result.push("# " + blockLine);
+        }
       }
     }
 
     commentedCount++;
 
-    console.log(`Закомментирован: ${modelName}`);
+    console.log(`Закомментирован: ${KEY} : ${blockName}`);
   } else {
     // ========================================
-    // Модель не найдена в MAIN
-    // Оставляем как есть
+    // В MAIN такого имени нет
     // ========================================
 
     result.push(line);
@@ -114,9 +201,17 @@ while (i < lines.length) {
 
 fs.writeFileSync(OUTPUT_FILE, result.join("\n"), "utf8");
 
+// ========================================
+// РЕЗУЛЬТАТ
+// ========================================
+
 console.log("");
 console.log("========================================");
-console.log(`Готово!`);
-console.log(`Совпадений: ${commentedCount}`);
-console.log(`Результат: ${OUTPUT_FILE}`);
+console.log("ГОТОВО");
+console.log("========================================");
+console.log(`Ключ:              ${KEY}`);
+console.log(`Блоков в MAIN:     ${mainNames.size}`);
+console.log(`Блоков во втором:  ${foundCount}`);
+console.log(`Закомментировано:  ${commentedCount}`);
+console.log(`Результат:         ${OUTPUT_FILE}`);
 console.log("========================================");

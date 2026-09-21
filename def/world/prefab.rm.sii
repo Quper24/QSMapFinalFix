@@ -1,0 +1,417 @@
+SiiNunit
+{
+prefab_model : prefab.tamognya_ess
+{
+	model_desc: "/model_essers/tamognya_essers/prefab/tamognya_essers.pmd"
+	prefab_desc: "/model_essers/tamognya_essers/prefab/tamognya_essers.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.005ess
+{
+	model_desc: "/prefab.essers/tollgate_essers/tollgate_essers1.pmd"
+	prefab_desc: "/prefab.essers/tollgate_essers/tollgate_essers1.ppd"
+}
+prefab_model : prefab.006ess
+{
+	model_desc: "/prefab.essers/gas_station/gas_highway_2lanes_2m_offset/gasprom_2lane_2m_offset_01_ess.pmd"
+	prefab_desc: "/prefab.essers/gas_station/gas_highway_2lanes_2m_offset/gasprom_2lane_2m_offset_01_ess.ppd"
+}
+prefab_model : prefab.007ess
+{
+	model_desc: "/prefab.essers/gas_station/gas_small_road/gasstation_small_road_gasprom_1_ess.pmd"
+	prefab_desc: "/prefab.essers/gas_station/gas_small_road/gasstation_small_road_gasprom_1_ess.ppd"
+}
+prefab_model : prefab.200_ess
+{
+	model_desc: "/prefab.essers/company_ess/agro_ess.pmd"
+	prefab_desc: "/prefab.essers/company_ess/agro_ess.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.200_ess1
+{
+	model_desc: "/prefab.essers/company_ess/agro_ess1.pmd"
+	prefab_desc: "/prefab.essers/company_ess/agro_ess1.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.200_ess2
+{
+	model_desc: "/prefab.essers/company_ess/agro_ess2.pmd"
+	prefab_desc: "/prefab.essers/company_ess/agro_ess2.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.202_ess
+{
+	model_desc: "/prefab.essers/company_ess/uot_ess.pmd"
+	prefab_desc: "/prefab.essers/company_ess/uot_ess.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.202_ess1
+{
+	model_desc: "/prefab.essers/company_ess/uot_ess1.pmd"
+	prefab_desc: "/prefab.essers/company_ess/uot_ess1.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.202_ess2
+{
+	model_desc: "/prefab.essers/company_ess/kafe_ess.pmd"
+	prefab_desc: "/prefab.essers/company_ess/kafe_ess.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.203_ess
+{
+	model_desc: "/prefab.essers/cross_temp/essers_r2_no_offset_x_r2_no_offset_t_narrow_tmpl.pmd"
+	prefab_desc: "/prefab.essers/cross_temp/essers_r2_no_offset_x_r2_no_offset_t_narrow_tmpl.ppd"
+	corner0[]: blke45
+	corner0[]: blke46
+	corner0[]: blke47
+	corner0[]: blke48
+	corner0[]: blke49
+	corner0[]: blke50
+	corner0[]: blke51
+	corner0[]: blke52
+	corner1[]: blke45
+	corner1[]: blke46
+	corner1[]: blke47
+	corner1[]: blke48
+	corner1[]: blke49
+	corner1[]: blke50
+	corner1[]: blke51
+	corner1[]: blke52
+	corner2[]: blke245
+	corner2[]: blke320
+	semaphore_profile[]: cr_2x2_ess
+}
+prefab_model : prefab.203a_ess
+{
+	model_desc: "/prefab.essers/cross_temp/essers_r2_no_offset_x_r1_narrow_tmpl.pmd"
+	prefab_desc: "/prefab.essers/cross_temp/essers_r2_no_offset_x_r1_narrow_tmpl.ppd"
+	corner0[]: blke45
+	corner0[]: blke46
+	corner0[]: blke47
+	corner0[]: blke48
+	corner0[]: blke49
+	corner0[]: blke50
+	corner0[]: blke51
+	corner0[]: blke52
+	corner1[]: blke45
+	corner1[]: blke46
+	corner1[]: blke47
+	corner1[]: blke48
+	corner1[]: blke49
+	corner1[]: blke50
+	corner1[]: blke51
+	corner1[]: blke52
+	corner2[]: blke45
+	corner2[]: blke46
+	corner2[]: blke47
+	corner2[]: blke48
+	corner2[]: blke49
+	corner2[]: blke50
+	corner2[]: blke51
+	corner2[]: blke52
+	corner3[]: blke45
+	corner3[]: blke46
+	corner3[]: blke47
+	corner3[]: blke48
+	corner3[]: blke49
+	corner3[]: blke50
+	corner3[]: blke51
+	corner3[]: blke52
+	semaphore_profile[]: cr_2x1_ess
+}
+prefab_model : prefab.almaz_ess
+{
+	model_desc: "/prefab.essers/almaz/almaz_ess/almaz_ess.pmd"
+	prefab_desc: "/prefab.essers/almaz/almaz_ess/almaz_ess.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.204ess
+{
+	model_desc: "/prefab.essers/gas_icon_essers/gas_icon_2_ess.pmd"
+	prefab_desc: "/prefab.essers/gas_icon_essers/gas_icon_2_ess.ppd"
+}
+prefab_model : prefab.205ess
+{
+	model_desc: "/prefab.essers/gas_icon_essers/gas_icon_ess.pmd"
+	prefab_desc: "/prefab.essers/gas_icon_essers/gas_icon_ess.ppd"
+}
+prefab_model : prefab.206ess
+{
+	model_desc: "/prefab.essers/service_essers/service_ess.pmd"
+	prefab_desc: "/prefab.essers/service_essers/service_ess.ppd"
+}
+prefab_model : prefab.207ess
+{
+	model_desc: "/prefab.essers/weigh_station_essers/weigh_station_ess.pmd"
+	prefab_desc: "/prefab.essers/weigh_station_essers/weigh_station_ess.ppd"
+}
+
+prefab_model : prefab.07rus  {
+	model_desc: "/prefab/supermarket/mega1.pmd"
+	prefab_desc: "/prefab/supermarket/mega1.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true		
+}
+prefab_model : prefab.09rus {
+	model_desc: "/prefab/gas_bi1/gas_big_new.pmd"
+	prefab_desc: "/prefab/gas_bi1/gas_big_new.ppd"
+	slow_time: true
+}
+prefab_model : prefab.11rus {
+	model_desc: "/prefab/gas_bi3/gas_big_new.pmd"
+	prefab_desc: "/prefab/gas_bi3/gas_big_new.ppd"
+	slow_time: true
+}
+prefab_model : prefab.12rus {
+	model_desc: "/prefab/gas_bi1/gas_big_3lane_new.pmd"
+	prefab_desc: "/prefab/gas_bi1/gas_big_3lane_new.ppd"
+	slow_time: true
+}
+prefab_model : prefab.16rus {
+	model_desc: "/prefab/gas_small_road/gasstation_small_road_luk_ru.pmd"
+	prefab_desc: "/prefab/gas_small_road/gasstation_small_road_luk_ru.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	slow_time: true
+}
+prefab_model : prefab.17rus {
+	model_desc: "/prefab/construction_dock/small_blocks_of_flats_sc.pmd"
+	prefab_desc: "/prefab/construction_dock/small_blocks_of_flats_sc.ppd"
+	use_perlin: false
+	lod_dist: 150
+}
+prefab_model : prefab.18rus {
+	model_desc: "/prefab/seafood_company/seafood_company_sc.pmd"
+	prefab_desc: "/prefab/seafood_company/seafood_company_sc.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.19rus {
+	model_desc: "/prefab/meat_processing_co/meat_processing_co_sc.pmd"
+	prefab_desc: "/prefab/meat_processing_co/meat_processing_co_sc.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.21rus {
+	model_desc: "/prefab/construction_dock/bridge_sc.pmd"
+	prefab_desc: "/prefab/construction_dock/bridge_sc.ppd"
+	use_perlin: false
+	lod_dist: 150
+}
+prefab_model : prefab.25rus {
+	model_desc: "/prefab/logistic_company/logistic_company_sc_03.pmd"
+	prefab_desc: "/prefab/logistic_company/logistic_company_sc_03.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	dynamic_lod_desc[]:"/prefab/logistic_company/logistic_company_sc_03_lod1.pmd"
+	dynamic_lod_dist[]: 150
+}
+prefab_model : prefab.33rus {
+	model_desc: "/prefab/promods/hw/se/ramp_1x_hw3_med_hw2-2_v3.pmd"
+	prefab_desc: "/prefab/promods/hw/se/ramp_1x_hw3_med_hw2-2_v3.ppd"
+	use_perlin: false
+	lod_dist: 150
+}
+prefab_model : prefab.34rus {
+	model_desc: "/prefab/promods/hw/se/ramp_1x_hw3_med_hw2-2_v3_m.pmd"
+	prefab_desc: "/prefab/promods/hw/se/ramp_1x_hw3_med_hw2-2_v3_m.ppd"
+	use_perlin: false
+	lod_dist: 150
+}
+prefab_model : prefab.37rus {
+	model_desc: "/prefab/gas_small_road/rosneft_road0.5_oneway.pmd"
+	prefab_desc: "/prefab/gas_small_road/rosneft_road0.5_oneway.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	slow_time: true
+}
+prefab_model : prefab.38rus {
+	model_desc: "/prefab/bridge/bridge_road_1.pmd"
+	prefab_desc: "/prefab/bridge/bridge_road_1.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.39rus {
+	model_desc: "/prefab/bridge/bridge_road_1_easyarch.pmd"
+	prefab_desc: "/prefab/bridge/bridge_road_1_easyarch.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.67rus {
+	model_desc: "/prefab/cros1/road1_x_road1_t.pmd"
+	prefab_desc: "/prefab/cros1/road1_x_road1_t.ppd"
+	use_perlin: true
+}
+prefab_model : prefab.69rus {
+	model_desc: "/prefab/cros1/road1_x_road1_tshape.pmd"
+	prefab_desc: "/prefab/cros1/road1_x_road1_tshape.ppd"
+	use_perlin: true
+}
+prefab_model : prefab.71rus {
+	model_desc: "/prefab/cros1/road1_x_small_turn_t.pmd"
+	prefab_desc: "/prefab/cros1/road1_x_small_turn_t.ppd"
+	use_perlin: true
+}
+
+prefab_model : prefab.jazzy0001 {
+	model_desc: "/prefab/ad_russia/ad_russia_new.pmd"
+	prefab_desc: "/prefab/ad_russia/shate_m_orsha.ppd"
+}
+prefab_model : prefab.jazzy0002 {
+	model_desc: "/prefab/ad_russia/ad_russia_new.pmd"
+	prefab_desc: "/prefab/ad_russia/shate_m_msti.ppd"
+}
+prefab_model : prefab.jazzy0004 {
+	model_desc: "/prefab_jazzycat/belarus/trameri/light_factory.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/trameri/light_factory.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.jazzy0006 {
+	model_desc: "/prefab_jazzycat/belarus/sawmill2/sawmill_bre.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/sawmill2/sawmill_bre.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0008 {
+	model_desc: "/prefab_jazzycat/truck_service/truck_service.pmd"
+	prefab_desc: "/prefab_jazzycat/truck_service/truck_service.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0009 {
+	model_desc: "/prefab_jazzycat/in_only/in_only.pmd"
+	prefab_desc: "/prefab_jazzycat/in_only/in_only.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0010 {
+	model_desc: "/prefab/truck_dealer/truck_dealer_02.pmd"
+	prefab_desc: "/prefab_jazzycat/truck_dealer/truck_dealer_volvo.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0011 {
+	model_desc: "/prefab/truck_dealer/truck_dealer_02.pmd"
+	prefab_desc: "/prefab_jazzycat/truck_dealer/truck_dealer_scania.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0012 {
+	model_desc: "/prefab_jazzycat/in_only/in_only.pmd"
+	prefab_desc: "/prefab_jazzycat/in_only/in_only.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0014 {
+	model_desc: "/prefab_jazzycat/belarus/tollgate/tollgate_brest/tollgate_brest.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/tollgate/tollgate_brest/tollgate_brest.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	slow_time: true
+}
+prefab_model : prefab.jazzy0014b {
+	model_desc: "/prefab_jazzycat/belarus/tollgate/tollgate_brest/tollgate_brest_b.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/tollgate/tollgate_brest/tollgate_brest_b.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	slow_time: true
+}
+prefab_model : prefab.jazzy0015 {
+	model_desc: "/prefab_jazzycat/belarus/zapravki/gasstation_small_road/gasstation_small_road1.pmd"
+	prefab_desc: "/prefab/gas_small_road/gasstation_small_road.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	slow_time: true
+}
+prefab_model : prefab.jazzy0016 {
+	model_desc: "/prefab_jazzycat/belarus/zapravki/gasstation_small_road/gasstation_small_road2.pmd"
+	prefab_desc: "/prefab/gas_small_road/gasstation_small_road.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	slow_time: true
+}
+prefab_model : prefab.jazzy0017 {
+	model_desc: "/prefab_jazzycat/belarus/zapravki/gas_small/gasstation_small_2_2_ja.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/zapravki/gas_small/gasstation_small_2_2_ja.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+	slow_time: true
+}
+prefab_model : prefab.jazzy0019 {
+	model_desc: "/prefab_jazzycat/belarus/zapravki/gas_small_road_sc/gas_small_road_sc.pmd"
+	prefab_desc: "/prefab/gas_scandinavia/gas_small_road_sc.ppd"
+	use_perlin: false
+	slow_time: true
+}
+prefab_model : prefab.jazzy0020 {
+	model_desc: "/prefab_jazzycat/belarus/zapravki/fuel_big/fuel_big.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/zapravki/fuel_big/fuel_big.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0021 {
+	model_desc: "/prefab_jazzycat/in_only/in_only.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/zapravki/fuel_small/fuel_small_bel.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0022 {
+	model_desc: "/prefab_jazzycat/in_only/in_only.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/zapravki/fuel_small/fuel_small_luk.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0023 {
+	model_desc: "/prefab_jazzycat/in_only/in_only.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/zapravki/fuel_small/fuel_small_gaz.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0024 {
+	model_desc: "/prefab_jazzycat/in_only/in_only.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/zapravki/fuel_small/fuel_small_100.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0025 {
+	model_desc: "/prefab_jazzycat/in_only/in_only.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/zapravki/fuel_small/fuel_small_uko.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0026 {
+	model_desc: "/prefab_jazzycat/belarus/zapravki/fuel_small/fuel_small2.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/zapravki/fuel_small/fuel_small2_bel.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0027 {
+	model_desc: "/prefab_jazzycat/belarus/zapravki/fuel_small/fuel_small2.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/zapravki/fuel_small/fuel_small2_luk.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0028 {
+	model_desc: "/prefab_jazzycat/belarus/zapravki/fuel_small/fuel_small2.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/zapravki/fuel_small/fuel_small2_gaz.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0029 {
+	model_desc: "/prefab_jazzycat/belarus/bridge/highway_bridge_sc.pmd"
+	prefab_desc: "/prefab/bridge/highway_bridge_sc.ppd"
+	use_perlin: false
+}
+prefab_model : prefab.jazzy0030 {
+	model_desc: "/prefab_jazzycat/belarus/belneft/belneft.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/belneft/belneft.ppd"
+	use_perlin: false
+	slow_time: true
+}
+prefab_model : prefab.jazzy0031 {
+	model_desc: "/prefab_jazzycat/belarus/hotel/hotel_b.pmd"
+	prefab_desc: "/prefab/hotel/hotel_b.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.jazzy0032 {
+	model_desc: "/prefab_jazzycat/belarus/hotel/hotel_a.pmd"
+	prefab_desc: "/prefab/hotel/hotel_a.ppd"
+	use_perlin: false
+	tweak_detail_vegetation: true
+}
+prefab_model : prefab.jazzy0033 {
+	model_desc: "/prefab_jazzycat/in_only/in_only.pmd"
+	prefab_desc: "/prefab_jazzycat/belarus/hotel/hotel.ppd"
+	use_perlin: false
+}
+
+prefab_model : prefab.rm_balt_103
+{
+	model_desc: "/prefab2/fork_temp/balt/balt_fork_1_2_to_1_road.pmd"
+	prefab_desc: "/prefab2/fork_temp/balt/balt_fork_1_2_to_1_road.ppd"
+}
+
+}

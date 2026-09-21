@@ -1,0 +1,1834 @@
+SiiNunit
+# by FLD / TZ express
+{
+prefab_corner : corner.fld00 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_sh_left.ppd"
+}
+prefab_corner : corner.fld01 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_sh_right.ppd"
+}
+prefab_corner : corner.fld02 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_sw_left.ppd"
+}
+prefab_corner : corner.fld03 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_sw_right.ppd"
+}
+prefab_corner : corner.fld04 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x2_oneway_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2_oneway_sh_right.ppd"
+}
+prefab_corner : corner.fld05 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x2_oneway_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2_oneway_sw_right.ppd"
+}
+prefab_corner : corner.fld06 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_sh_left.ppd"
+}
+prefab_corner : corner.fld07 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_sh_right.ppd"
+}
+prefab_corner : corner.fld08 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld09 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_sw_left.ppd"
+}
+prefab_corner : corner.fld10 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_sw_right.ppd"
+}
+prefab_corner : corner.fld11 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld12 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sh_left.ppd"
+}
+prefab_corner : corner.fld13 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld14 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sw_left.ppd"
+}
+prefab_corner : corner.fld15 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld16 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld17 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld18 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld19 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_60m_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld20 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_sh_left.ppd"
+}
+prefab_corner : corner.fld21 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_sh_center_2m.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_sh_center_2m.ppd"
+}
+prefab_corner : corner.fld22 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_sw_left.ppd"
+}
+prefab_corner : corner.fld23 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_sw_center_2m.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_sw_center_2m.ppd"
+}
+prefab_corner : corner.fld24 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_sh_center_1m.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_sh_center_1m.ppd"
+}
+prefab_corner : corner.fld25 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_sw_center_1m.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_sw_center_1m.ppd"
+}
+prefab_corner : corner.fld26 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_sh_center_5m.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_sh_center_5m.ppd"
+}
+prefab_corner : corner.fld27 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_sw_center_5m.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_sw_center_5m.ppd"
+}
+prefab_corner : corner.fld28 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_left.ppd"
+}
+prefab_corner : corner.fld29 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_right.ppd"
+}
+prefab_corner : corner.fld30 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_center.ppd"
+}
+prefab_corner : corner.fld31 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_left.ppd"
+}
+prefab_corner : corner.fld32 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_right.ppd"
+}
+prefab_corner : corner.fld33 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_center.ppd"
+}
+prefab_corner : corner.fld34 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld35 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld36 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_center_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_center_mirr.ppd"
+}
+prefab_corner : corner.fld37 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_center_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_center_mirr.ppd"
+}
+prefab_corner : corner.fld38 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit_long_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit_long_sh_left.ppd"
+}
+prefab_corner : corner.fld39 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit_long_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit_long_sw_left.ppd"
+}
+prefab_corner : corner.fld40 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit_long_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit_long_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld41 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit_long_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit_long_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld42 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_0_2m_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_2m_sh_left.ppd"
+}
+prefab_corner : corner.fld43 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_0_2m_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_2m_sh_right.ppd"
+}
+prefab_corner : corner.fld44 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_0_2m_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_2m_sw_left.ppd"
+}
+prefab_corner : corner.fld45 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_0_2m_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_2m_sw_right.ppd"
+}
+prefab_corner : corner.fld46 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_0_1m_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_1m_sh_left.ppd"
+}
+prefab_corner : corner.fld47 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_0_1m_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_1m_sh_right.ppd"
+}
+prefab_corner : corner.fld48 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_0_1m_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_1m_sw_left.ppd"
+}
+prefab_corner : corner.fld49 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_0_1m_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_1m_sw_right.ppd"
+}
+prefab_corner : corner.fld50 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_0_1m_sh_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_1m_sh_center.ppd"
+}
+prefab_corner : corner.fld51 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_0_1m_sw_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_1m_sw_center.ppd"
+}
+prefab_corner : corner.fld52 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_0_2m_sh_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_2m_sh_center.ppd"
+}
+prefab_corner : corner.fld53 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_0_2m_sw_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_2m_sw_center.ppd"
+}
+prefab_corner : corner.fld54 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_fork_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_fork_sh_right.ppd"
+}
+prefab_corner : corner.fld55 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_fork_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_fork_sw_right.ppd"
+}
+prefab_corner : corner.fld56 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_fork_0_1m_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_fork_0_1m_sh_left.ppd"
+}
+prefab_corner : corner.fld57 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_fork_0_1m_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_fork_0_1m_sw_left.ppd"
+}
+prefab_corner : corner.fld58 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_fork_0_1m_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_fork_0_1m_sh_right.ppd"
+}
+prefab_corner : corner.fld59 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_fork_0_1m_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_fork_0_1m_sw_right.ppd"
+}
+prefab_corner : corner.fld60 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_fork_0_2m_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_fork_0_2m_sh_left.ppd"
+}
+prefab_corner : corner.fld61 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_fork_0_2m_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_fork_0_2m_sh_right.ppd"
+}
+prefab_corner : corner.fld62 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_fork_0_2m_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_fork_0_2m_sw_left.ppd"
+}
+prefab_corner : corner.fld63 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_fork_0_2m_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_fork_0_2m_sw_right.ppd"
+}
+prefab_corner : corner.fld64 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_sh_right.ppd"
+}
+prefab_corner : corner.fld65 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_sh_left.ppd"
+}
+prefab_corner : corner.fld66 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_sw_left.ppd"
+}
+prefab_corner : corner.fld67 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_sw_right.ppd"
+}
+prefab_corner : corner.fld68 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld69 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld70 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sh_left.ppd"
+}
+prefab_corner : corner.fld71 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld72 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sw_left.ppd"
+}
+prefab_corner : corner.fld73 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld74 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld75 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld76 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld77 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_oneway_30m_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld78 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld79 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld80 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld81 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld82 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v2_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v2_sh_left.ppd"
+}
+prefab_corner : corner.fld83 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v2_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v2_sw_left.ppd"
+}
+prefab_corner : corner.fld84 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v2_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v2_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld85 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v2_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_0m_v2_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld86 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld87 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld88 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld89 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld90 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld91 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld92 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld93 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld94 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v2_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v2_sh_right.ppd"
+}
+prefab_corner : corner.fld95 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v2_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v2_sw_right.ppd"
+}
+prefab_corner : corner.fld96 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v2_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v2_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld97 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v2_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_1m_v2_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld98 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v2_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v2_sh_right.ppd"
+}
+prefab_corner : corner.fld99 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v2_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v2_sw_right.ppd"
+}
+prefab_corner : corner.fld100 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v2_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v2_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld101 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v2_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_0_2m_v2_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld102 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_4joint_x_0_0m_v1_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_4joint_x_0_0m_v1_sh_left.ppd"
+}
+prefab_corner : corner.fld103 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_4joint_x_0_0m_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_4joint_x_0_0m_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld104 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_4joint_x_0_0m_v1_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_4joint_x_0_0m_v1_sw_left.ppd"
+}
+prefab_corner : corner.fld105 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_4joint_x_0_0m_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_4joint_x_0_0m_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld106 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_4joint_x_0_0m_v2_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_4joint_x_0_0m_v2_sh_right.ppd"
+}
+prefab_corner : corner.fld107 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_4joint_x_0_0m_v2_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_4joint_x_0_0m_v2_sw_right.ppd"
+}
+prefab_corner : corner.fld108 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_0_0m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_0_0m_v1_sh.ppd"
+}
+prefab_corner : corner.fld109 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_0_0m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_0_0m_v1_sw.ppd"
+}
+prefab_corner : corner.fld110 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_0_0m_v2_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_0_0m_v2_sh.ppd"
+}
+prefab_corner : corner.fld111 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_0_0m_v2_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_0_0m_v2_sw.ppd"
+}
+prefab_corner : corner.fld112 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_0_0m_v3_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_0_0m_v3_sh.ppd"
+}
+prefab_corner : corner.fld113 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_0_0m_v3_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_0_0m_v3_sw.ppd"
+}
+prefab_corner : corner.fld114 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_1_1m_v3_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_1_1m_v3_sh.ppd"
+}
+prefab_corner : corner.fld115 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_1_1m_v3_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_1_1m_v3_sw.ppd"
+}
+prefab_corner : corner.fld116 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_2_2m_v3_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_2_2m_v3_sh.ppd"
+}
+prefab_corner : corner.fld117 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_2_2m_v3_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_2_2m_v3_sw.ppd"
+}
+prefab_corner : corner.fld118 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_sh_left.ppd"
+}
+prefab_corner : corner.fld119 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_sw_left.ppd"
+}
+prefab_corner : corner.fld120 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_sh_right.ppd"
+}
+prefab_corner : corner.fld121 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_sw_right.ppd"
+}
+prefab_corner : corner.fld122 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_4joint_x_0_0m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_4joint_x_0_0m_v1_sh.ppd"
+}
+prefab_corner : corner.fld123 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_4joint_x_0_0m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_4joint_x_0_0m_v1_sw.ppd"
+}
+prefab_corner : corner.fld124 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_fld_scs_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_fld_scs_sh_left.ppd"
+}
+prefab_corner : corner.fld125 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_fld_scs_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_fld_scs_sw_left.ppd"
+}
+prefab_corner : corner.fld126 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_fld_scs_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_fld_scs_sh_right.ppd"
+}
+prefab_corner : corner.fld127 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_fld_scs_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_fld_scs_sw_right.ppd"
+}
+prefab_corner : corner.fld128 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_3joint_t_0_0m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_t_0_0m_v1_sh.ppd"
+}
+prefab_corner : corner.fld129 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_3joint_t_0_0m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_t_0_0m_v1_sw.ppd"
+}
+prefab_corner : corner.fld130 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_3joint_t_1_1m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_t_1_1m_v1_sh.ppd"
+}
+prefab_corner : corner.fld131 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_3joint_t_1_1m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_t_1_1m_v1_sw.ppd"
+}
+prefab_corner : corner.fld132 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_3joint_t_2_2m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_t_2_2m_v1_sh.ppd"
+}
+prefab_corner : corner.fld133 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_3joint_t_2_2m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_t_2_2m_v1_sw.ppd"
+}
+prefab_corner : corner.fld134 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_sh_bus.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_sh_bus.ppd"
+}
+prefab_corner : corner.fld135 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_sw_bus.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_sw_bus.ppd"
+}
+prefab_corner : corner.fld136 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_4joint_exit_sh_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_4joint_exit_sh_center.ppd"
+}
+prefab_corner : corner.fld137 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_4joint_exit_sh_center_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_4joint_exit_sh_center_mirr.ppd"
+}
+prefab_corner : corner.fld138 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_4joint_exit_sw_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_4joint_exit_sw_center.ppd"
+}
+prefab_corner : corner.fld139 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_4joint_exit_sw_center_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_4joint_exit_sw_center_mirr.ppd"
+}
+prefab_corner : corner.fld140 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_3joint_exit_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_exit_sh_right.ppd"
+}
+prefab_corner : corner.fld141 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_3joint_exit_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_exit_sw_right.ppd"
+}
+prefab_corner : corner.fld142 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x1_exit_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_exit_sh_left.ppd"
+}
+prefab_corner : corner.fld143 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x1_exit_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_exit_sw_left.ppd"
+}
+prefab_corner : corner.fld144 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x1_exit_sh_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_exit_sh_center.ppd"
+}
+prefab_corner : corner.fld145 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x1_exit_sw_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_exit_sw_center.ppd"
+}
+prefab_corner : corner.fld146 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x1_exit_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_exit_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld147 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x1_exit_sh_center_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_exit_sh_center_mirr.ppd"
+}
+prefab_corner : corner.fld148 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x1_exit_sw_center_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_exit_sw_center_mirr.ppd"
+}
+prefab_corner : corner.fld149 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x1_exit_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_exit_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld150 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sh_left.ppd"
+}
+prefab_corner : corner.fld151 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sh_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sh_center.ppd"
+}
+prefab_corner : corner.fld152 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld153 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sw_left.ppd"
+}
+prefab_corner : corner.fld154 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sw_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sw_center.ppd"
+}
+prefab_corner : corner.fld155 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld156 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld157 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sh_center_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sh_center_mirr.ppd"
+}
+prefab_corner : corner.fld158 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld159 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld160 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sw_center_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sw_center_mirr.ppd"
+}
+prefab_corner : corner.fld161 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld162 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit_long_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit_long_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld163 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit_long_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit_long_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld164 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit_long_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit_long_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld165 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit_long_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit_long_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld166 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x2_4joint_x_0_0m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2_4joint_x_0_0m_v1_sh.ppd"
+}
+prefab_corner : corner.fld167 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x2_4joint_x_0_0m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2_4joint_x_0_0m_v1_sw.ppd"
+}
+prefab_corner : corner.fld168 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x2_3joint_t_2_2m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2_3joint_t_2_2m_v1_sh.ppd"
+}
+prefab_corner : corner.fld169 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x2_3joint_t_2_2m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2_3joint_t_2_2m_v1_sw.ppd"
+}
+prefab_corner : corner.fld170 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x2_3joint_t_2_2m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2_3joint_t_2_2m_v1_sh.ppd"
+}
+prefab_corner : corner.fld171 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x2_3joint_t_2_2m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2_3joint_t_2_2m_v1_sw.ppd"
+}
+prefab_corner : corner.fld172 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x1_3joint_t_0_0m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_3joint_t_0_0m_v1_sh.ppd"
+}
+prefab_corner : corner.fld173 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x1_3joint_t_0_0m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_3joint_t_0_0m_v1_sw.ppd"
+}
+prefab_corner : corner.fld174 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x1_3joint_t_1_1m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_3joint_t_1_1m_v1_sh.ppd"
+}
+prefab_corner : corner.fld175 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x1_3joint_t_1_1m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_3joint_t_1_1m_v1_sw.ppd"
+}
+prefab_corner : corner.fld176 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x1_3joint_t_2_2m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_3joint_t_2_2m_v1_sh.ppd"
+}
+prefab_corner : corner.fld177 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x1_3joint_t_2_2m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_3joint_t_2_2m_v1_sw.ppd"
+}
+prefab_corner : corner.fld178 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x3_4joint_x_0_0m_v2_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/2x3_4joint_x_0_0m_v2_sh_left.ppd"
+}
+prefab_corner : corner.fld179 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x3_4joint_x_0_0m_v2_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/2x3_4joint_x_0_0m_v2_sw_left.ppd"
+}
+prefab_corner : corner.fld180 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x3_3joint_t_0_0m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/2x3_3joint_t_0_0m_v1_sh.ppd"
+}
+prefab_corner : corner.fld181 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x3_3joint_t_0_0m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/2x3_3joint_t_0_0m_v1_sw.ppd"
+}
+prefab_corner : corner.fld182 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x3_3joint_t_0_0m_v2_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/2x3_3joint_t_0_0m_v2_sh.ppd"
+}
+prefab_corner : corner.fld183 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x3_3joint_t_0_0m_v2_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/2x3_3joint_t_0_0m_v2_sw.ppd"
+}
+prefab_corner : corner.fld184 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x3_3joint_t_0_0m_v3_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/2x3_3joint_t_0_0m_v3_sh.ppd"
+}
+prefab_corner : corner.fld185 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x3_3joint_t_0_0m_v3_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/2x3_3joint_t_0_0m_v3_sw.ppd"
+}
+prefab_corner : corner.fld186 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x3_3joint_t_1_1m_v3_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/2x3_3joint_t_1_1m_v3_sh.ppd"
+}
+prefab_corner : corner.fld187 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x3_3joint_t_1_1m_v3_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/2x3_3joint_t_1_1m_v3_sw.ppd"
+}
+prefab_corner : corner.fld188 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x3_3joint_t_2_2m_v3_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/2x3_3joint_t_2_2m_v3_sh.ppd"
+}
+prefab_corner : corner.fld189 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x3_3joint_t_2_2m_v3_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/2x3_3joint_t_2_2m_v3_sw.ppd"
+}
+prefab_corner : corner.fld190 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_sh_left.ppd"
+}
+prefab_corner : corner.fld191 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_sw_left.ppd"
+}
+prefab_corner : corner.fld192 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld193 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld194 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld195 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld196 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld197 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit2_long_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld198 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_sh_left.ppd"
+}
+prefab_corner : corner.fld199 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_sw_left.ppd"
+}
+prefab_corner : corner.fld200 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld201 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld202 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld203 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld204 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld205 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/2x1_oneway_exit2_long_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld206 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_sh_left.ppd"
+}
+prefab_corner : corner.fld207 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_sw_left.ppd"
+}
+prefab_corner : corner.fld208 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld209 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld210 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld211 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld212 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld213 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/3x1x2_oneway_exit_long_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld214 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_sh_left.ppd"
+}
+prefab_corner : corner.fld215 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_sw_left.ppd"
+}
+prefab_corner : corner.fld216 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld217 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld218 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld219 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld220 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld221 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/4x1x3_oneway_exit_long_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld222 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_sh_left.ppd"
+}
+prefab_corner : corner.fld223 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_sw_left.ppd"
+}
+prefab_corner : corner.fld224 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld225 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld226 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld227 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld228 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld229 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/5x1x4_oneway_exit_long_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld230 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_sh_left.ppd"
+}
+prefab_corner : corner.fld231 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_sw_left.ppd"
+}
+prefab_corner : corner.fld232 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld233 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld234 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld235 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld236 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_v1_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_v1_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld237 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_v1_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/6x1x5_oneway_exit_long_v1_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld238 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_3joint_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_3joint_sh_left.ppd"
+}
+prefab_corner : corner.fld239 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_3joint_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_3joint_sw_left.ppd"
+}
+prefab_corner : corner.fld240 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_3joint_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_3joint_sh_right.ppd"
+}
+prefab_corner : corner.fld241 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_3joint_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_3joint_sw_right.ppd"
+}
+prefab_corner : corner.fld242 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_3joint_sh_v3.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_3joint_sh_v3.ppd"
+}
+prefab_corner : corner.fld243 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_3joint_sw_v3.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_3joint_sw_v3.ppd"
+}
+prefab_corner : corner.fld244 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_0_1m_v2_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_0_1m_v2_sh.ppd"
+}
+prefab_corner : corner.fld245 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_0_1m_v2_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_0_1m_v2_sw.ppd"
+}
+prefab_corner : corner.fld246 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_0_2m_v2_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_0_2m_v2_sh.ppd"
+}
+prefab_corner : corner.fld247 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_3joint_t_0_2m_v2_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_3joint_t_0_2m_v2_sw.ppd"
+}
+prefab_corner : corner.fld248 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_round_x_0m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_x_0m_v1_sh.ppd"
+}
+prefab_corner : corner.fld249 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_round_x_0m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_x_0m_v1_sw.ppd"
+}
+prefab_corner : corner.fld250 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_round_t_0m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_t_0m_v1_sh.ppd"
+}
+prefab_corner : corner.fld251 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_round_t_0m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_t_0m_v1_sw.ppd"
+}
+prefab_corner : corner.fld252 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_round_t_1m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_t_1m_v1_sh.ppd"
+}
+prefab_corner : corner.fld253 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_round_t_1m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_t_1m_v1_sw.ppd"
+}
+prefab_corner : corner.fld254 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_round_t_2m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_t_2m_v1_sh.ppd"
+}
+prefab_corner : corner.fld255 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_round_t_2m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_t_2m_v1_sw.ppd"
+}
+prefab_corner : corner.fld256 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_round_y_0m_v1_left_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_y_0m_v1_left_sh.ppd"
+}
+prefab_corner : corner.fld257 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_round_y_0m_v1_left_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_y_0m_v1_left_sw.ppd"
+}
+prefab_corner : corner.fld258 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_round_y_0m_v1_center_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_y_0m_v1_center_sh.ppd"
+}
+prefab_corner : corner.fld259 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_round_y_0m_v1_center_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_y_0m_v1_center_sw.ppd"
+}
+prefab_corner : corner.fld260 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_round_y_0m_v1_right_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_y_0m_v1_right_sh.ppd"
+}
+prefab_corner : corner.fld261 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_round_y_0m_v1_right_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_y_0m_v1_right_sw.ppd"
+}
+prefab_corner : corner.fld262 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x1_round_oneway_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_round_oneway_sh_left.ppd"
+}
+prefab_corner : corner.fld263 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x1_round_oneway_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_round_oneway_sw_left.ppd"
+}
+prefab_corner : corner.fld264 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x1_round_oneway_sh_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_round_oneway_sh_center.ppd"
+}
+prefab_corner : corner.fld265 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x1_round_oneway_sw_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_round_oneway_sw_center.ppd"
+}
+prefab_corner : corner.fld266 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x1_round_oneway_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_round_oneway_sh_right.ppd"
+}
+prefab_corner : corner.fld267 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x1_round_oneway_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_round_oneway_sw_right.ppd"
+}
+prefab_corner : corner.fld268 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x1_round_oneway_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_round_oneway_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld269 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x1_round_oneway_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_round_oneway_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld270 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x1_round_oneway_sh_center_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_round_oneway_sh_center_mirr.ppd"
+}
+prefab_corner : corner.fld271 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x1_round_oneway_sw_center_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_round_oneway_sw_center_mirr.ppd"
+}
+prefab_corner : corner.fld272 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x1_round_oneway_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_round_oneway_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld273 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x1_round_oneway_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x1_round_oneway_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld274 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x2x1_round_oneway_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2x1_round_oneway_sh_right.ppd"
+}
+prefab_corner : corner.fld275 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x2x1_round_oneway_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2x1_round_oneway_sw_right.ppd"
+}
+prefab_corner : corner.fld276 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x2x1_round_oneway_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2x1_round_oneway_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld277 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x2x1_round_oneway_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2x1_round_oneway_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld278 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/3x3x1_round_oneway_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/3x3x1_round_oneway_sh_right.ppd"
+}
+prefab_corner : corner.fld279 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/3x3x1_round_oneway_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/3x3x1_round_oneway_sw_right.ppd"
+}
+prefab_corner : corner.fld280 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/3x3x1_round_oneway_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/3x3x1_round_oneway_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld281 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/3x3x1_round_oneway_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/3x3x1_round_oneway_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld282 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x2_round_oneway_sh_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x2_round_oneway_sh_center.ppd"
+}
+prefab_corner : corner.fld283 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x2_round_oneway_sw_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x2_round_oneway_sw_center.ppd"
+}
+prefab_corner : corner.fld284 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x2_round_oneway_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x2_round_oneway_sh_right.ppd"
+}
+prefab_corner : corner.fld285 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x2_round_oneway_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x2_round_oneway_sw_right.ppd"
+}
+prefab_corner : corner.fld286 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x2_round_oneway_sh_center_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x2_round_oneway_sh_center_mirr.ppd"
+}
+prefab_corner : corner.fld287 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x2_round_oneway_sw_center_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x2_round_oneway_sw_center_mirr.ppd"
+}
+prefab_corner : corner.fld288 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1x2_round_oneway_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x2_round_oneway_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld289 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1x2_round_oneway_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1x2_round_oneway_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld290 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x2x2_round_oneway_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2x2_round_oneway_sh_right.ppd"
+}
+prefab_corner : corner.fld291 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x2x2_round_oneway_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2x2_round_oneway_sw_right.ppd"
+}
+prefab_corner : corner.fld292 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/2x2x2_round_oneway_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2x2_round_oneway_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld293 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/2x2x2_round_oneway_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/2x2x2_round_oneway_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld294 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/3x3x2_round_oneway_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/3x3x2_round_oneway_sh_right.ppd"
+}
+prefab_corner : corner.fld295 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/3x3x2_round_oneway_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/3x3x2_round_oneway_sw_right.ppd"
+}
+prefab_corner : corner.fld296 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/3x3x2_round_oneway_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/3x3x2_round_oneway_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld297 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/3x3x2_round_oneway_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/3x3x2_round_oneway_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld298 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_2joint_0_0m_v1_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_2joint_0_0m_v1_sh_left.ppd"
+}
+prefab_corner : corner.fld299 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_2joint_0_0m_v1_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_2joint_0_0m_v1_sw_left.ppd"
+}
+prefab_corner : corner.fld300 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_2joint_0_0m_v1_sh_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_2joint_0_0m_v1_sh_left_mirr.ppd"
+}
+prefab_corner : corner.fld301 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_2joint_0_0m_v1_sw_left_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_2joint_0_0m_v1_sw_left_mirr.ppd"
+}
+prefab_corner : corner.fld302 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_4joint_x_0_0m_v1_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_4joint_x_0_0m_v1_sh_left.ppd"
+}
+prefab_corner : corner.fld303 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_4joint_x_0_0m_v1_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_4joint_x_0_0m_v1_sw_left.ppd"
+}
+prefab_corner : corner.fld304 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v1_sh.ppd"
+}
+prefab_corner : corner.fld305 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v1_sw.ppd"
+}
+prefab_corner : corner.fld306 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld307 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld308 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_1m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_1m_v1_sh.ppd"
+}
+prefab_corner : corner.fld309 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_1m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_1m_v1_sw.ppd"
+}
+prefab_corner : corner.fld310 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_2m_v1_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_2m_v1_sh.ppd"
+}
+prefab_corner : corner.fld311 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_2m_v1_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_2m_v1_sw.ppd"
+}
+prefab_corner : corner.fld312 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v2_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v2_sh.ppd"
+}
+prefab_corner : corner.fld313 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v2_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v2_sw.ppd"
+}
+prefab_corner : corner.fld314 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v2_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v2_sh_right.ppd"
+}
+prefab_corner : corner.fld315 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v2_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v2_sw_right.ppd"
+}
+prefab_corner : corner.fld316 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_1m_v2_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_1m_v2_sh.ppd"
+}
+prefab_corner : corner.fld317 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_1m_v2_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_1m_v2_sw.ppd"
+}
+prefab_corner : corner.fld318 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_2m_v2_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_2m_v2_sh.ppd"
+}
+prefab_corner : corner.fld319 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_2m_v2_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_2m_v2_sw.ppd"
+}
+prefab_corner : corner.fld320 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v3_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v3_sh.ppd"
+}
+prefab_corner : corner.fld321 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v3_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_0m_v3_sw.ppd"
+}
+prefab_corner : corner.fld322 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_1m_v3_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_1m_v3_sh.ppd"
+}
+prefab_corner : corner.fld323 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_1m_v3_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_1m_v3_sw.ppd"
+}
+prefab_corner : corner.fld324 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_2m_v3_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_2m_v3_sh.ppd"
+}
+prefab_corner : corner.fld325 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_3joint_t_0_2m_v3_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_3joint_t_0_2m_v3_sw.ppd"
+}
+prefab_corner : corner.fld326 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x3_4joint_x_0_0m_v2_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_4joint_x_0_0m_v2_sh_left.ppd"
+}
+prefab_corner : corner.fld327 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x3_4joint_x_0_0m_v2_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x3_4joint_x_0_0m_v2_sw_left.ppd"
+}
+prefab_corner : corner.fld328 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_3joint_t_oneway_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_t_oneway_sh_left.ppd"
+}
+prefab_corner : corner.fld329 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_3joint_t_oneway_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_t_oneway_sw_left.ppd"
+}
+prefab_corner : corner.fld330 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_3joint_t_oneway_sh_v2_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_t_oneway_sh_v2_left.ppd"
+}
+prefab_corner : corner.fld331 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_3joint_t_oneway_sw_v2_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_t_oneway_sw_v2_left.ppd"
+}
+prefab_corner : corner.fld332 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_v2_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_v2_center.ppd"
+}
+prefab_corner : corner.fld333 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_v2_center.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_v2_center.ppd"
+}
+prefab_corner : corner.fld334 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_3joint_t_0_0m_v2_sh.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_t_0_0m_v2_sh.ppd"
+}
+prefab_corner : corner.fld335 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_3joint_t_0_0m_v2_sw.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_3joint_t_0_0m_v2_sw.ppd"
+}
+prefab_corner : corner.fld336 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_v2_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sh_v2_right.ppd"
+}
+prefab_corner : corner.fld337 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_v2_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_sw_v2_right.ppd"
+}
+prefab_corner : corner.fld338 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v2_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v2_sh_right.ppd"
+}
+prefab_corner : corner.fld339 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v2_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v2_sw_right.ppd"
+}
+prefab_corner : corner.fld340 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v2_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v2_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld341 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v2_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_oneway_exit_long_v2_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld342 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sh_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sh_left.ppd"
+}
+prefab_corner : corner.fld343 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sw_left.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sw_left.ppd"
+}
+prefab_corner : corner.fld344 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sh_right.ppd"
+}
+prefab_corner : corner.fld345 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sw_right.ppd"
+}
+prefab_corner : corner.fld346 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sh_left2.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sh_left2.ppd"
+}
+prefab_corner : corner.fld347 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sw_left2.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sw_left2.ppd"
+}
+prefab_corner : corner.fld348 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sh_right2.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sh_right2.ppd"
+}
+prefab_corner : corner.fld349 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sw_right2.pmd"
+	prefab_desc: "/prefab/corners_fld/1x1_round_x_oneway_v1_sw_right2.ppd"
+}
+prefab_corner : corner.fld350 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_1_0m_v2_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_1_0m_v2_sh_right.ppd"
+}
+prefab_corner : corner.fld351 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_1_0m_v2_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_1_0m_v2_sw_right.ppd"
+}
+prefab_corner : corner.fld352 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_1_0m_v2_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_1_0m_v2_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld353 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_1_0m_v2_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_1_0m_v2_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld354 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_2_0m_v2_sh_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_2_0m_v2_sh_right.ppd"
+}
+prefab_corner : corner.fld355 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_2_0m_v2_sw_right.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_2_0m_v2_sw_right.ppd"
+}
+prefab_corner : corner.fld356 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1x2_2joint_2_0m_v2_sh_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_2_0m_v2_sh_right_mirr.ppd"
+}
+prefab_corner : corner.fld357 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1x2_2joint_2_0m_v2_sw_right_mirr.pmd"
+	prefab_desc: "/prefab/corners_fld/1x2_2joint_2_0m_v2_sw_right_mirr.ppd"
+}
+prefab_corner : corner.fld358 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_0_1m_sh_left_v1.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_1m_sh_left_v1.ppd"
+}
+prefab_corner : corner.fld359 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_0_1m_sw_left_v1.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_1m_sw_left_v1.ppd"
+}
+prefab_corner : corner.fld360 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_0_1m_sh_right_v1.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_1m_sh_right_v1.ppd"
+}
+prefab_corner : corner.fld361 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_0_1m_sw_right_v1.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_1m_sw_right_v1.ppd"
+}
+prefab_corner : corner.fld362 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_0_2m_sh_left_v1.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_2m_sh_left_v1.ppd"
+}
+prefab_corner : corner.fld363 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_0_2m_sw_left_v1.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_2m_sw_left_v1.ppd"
+}
+prefab_corner : corner.fld364 {
+  name: "shoulder"
+	model_desc: "/prefab/corners_fld/1_fork_0_2m_sh_right_v1.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_2m_sh_right_v1.ppd"
+}
+prefab_corner : corner.fld365 {
+  name: "sidewalk"
+	model_desc: "/prefab/corners_fld/1_fork_0_2m_sw_right_v1.pmd"
+	prefab_desc: "/prefab/corners_fld/1_fork_0_2m_sw_right_v1.ppd"
+}
+}
