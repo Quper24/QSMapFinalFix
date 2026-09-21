@@ -1,0 +1,111 @@
+SiiNunit
+{
+// model_def : model.fld254  {
+// 	model_desc: "/model/bus_station/bus_station_01.pmd"
+// 	category: "bus station fld"
+// }
+// model_def : model.fld166 {
+// 	model_desc: "/model/village/village_cz/house_05.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld172 {
+// 	model_desc: "/model/village/village_cz/house_11.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld256  {
+// 	model_desc: "/model/bus_station/bus_station_02.pmd"
+// 	category: "bus station fld"
+// }
+// model_def : model.fld177 {
+// 	model_desc: "/model/village/village_cz/house_16.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld14 {
+// 	model_desc: "/model/warehouse/warehouse_06.pmd"
+// 	category: "warehouse fld"
+// }
+// model_def : model.fld13 {
+// 	model_desc: "/model/warehouse/warehouse_05.pmd"
+// 	category: "warehouse fld"
+// }
+model_def : model.fld23 {
+	model_desc: "/prefab/construction/const_block_01.pmd"
+	category: "construction fld"
+}
+// model_def : model.fld171 {
+// 	model_desc: "/model/village/village_cz/house_10.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld22 {
+// 	model_desc: "/model/warehouse/warehouse_13.pmd"
+// 	category: "warehouse fld"
+// }
+// model_def : model.fld11 {
+// 	model_desc: "/model/warehouse/warehouse_03a.pmd"
+// 	category: "warehouse fld"
+// }
+// model_def : model.fld170 {
+// 	model_desc: "/model/village/village_cz/house_09.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld169 {
+// 	model_desc: "/model/village/village_cz/house_08.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld167 {
+// 	model_desc: "/model/village/village_cz/house_06.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld165 {
+// 	model_desc: "/model/village/village_cz/house_04.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld173 {
+// 	model_desc: "/model/village/village_cz/house_12.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld168 {
+// 	model_desc: "/model/village/village_cz/house_07.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld199 {
+// 	model_desc: "/model/village/village_cz/house_38.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld185 {
+// 	model_desc: "/model/village/village_cz/house_24.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld192 {
+// 	model_desc: "/model/village/village_cz/house_31.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld189 {
+// 	model_desc: "/model/village/village_cz/house_28.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld118 {
+// 	model_desc: "/model/road/stripes_prefab_eu_12b.pmd"
+// 	category: "road fld"
+// }
+// model_def : model.fld257 {
+// 	model_desc: "/model/gas_station/gas_02.pmd"
+// 	category: "gas station fld"
+// }
+// model_def : model.fld01 {
+// 	model_desc: "/model/pillar/pillar01.pmd"
+// 	category: "pillar fld"
+// }
+// model_def : model.fld196 {
+// 	model_desc: "/model/village/village_cz/house_35.pmd"
+// 	category: "village fld"
+// }
+// model_def : model.fld55 {
+// 	model_desc: "/model/gate/gate_02.pmd"
+// 	category: "gate fld"
+// }
+// model_def : model.fld175 {
+// 	model_desc: "/model/village/village_cz/house_14.pmd"
+// 	category: "village fld"
+// }
+}

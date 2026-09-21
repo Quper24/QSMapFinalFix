@@ -1,0 +1,432 @@
+SiiNunit
+{
+
+
+// model_def : model.jazzy0001 {
+// 	model_desc: "/model_jazzycat/belarus/sign/nordcrown/building_sign.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0002 {
+// 	model_desc: "/model_jazzycat/belarus/market/big01/big01.pmd"
+// 	category: "jazzy_bel_market"
+// }
+
+// model_def : model.jazzy0003 {
+// 	model_desc: "/model_jazzycat/belarus/sign/norrfood/sign.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0004 {
+// 	model_desc: "/model_jazzycat/belarus/sign/renar/building_sign.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0005 {
+// 	model_desc: "/model_jazzycat/belarus/sign/norrfood/stena_sign.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0006 {
+// 	model_desc: "/model_jazzycat/belarus/sign/nbfc/nbfc_logo_rus.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0007 {
+// 	model_desc: "/model_jazzycat/belarus/sign/euroacres/euroacres_logo.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0008 {
+// 	model_desc: "/model_jazzycat/belarus/sign/agronord/entrance_sign.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0009 {
+// 	model_desc: "/model_jazzycat/belarus/sign/eurogoodies/eurogoodies.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0010 {
+// 	model_desc: "/model_jazzycat/belarus/sign/drekkar/building_sign.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0011 {
+// 	model_desc: "/model_jazzycat/belarus/sign/quarry/arrow_left.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0012 {
+// 	model_desc: "/model_jazzycat/belarus/sign/quarry/arrow_right.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0013 {
+// 	model_desc: "/model_jazzycat/belarus/sign/quarry/arrow_up.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0014 {
+// 	model_desc: "/model_jazzycat/belarus/sign/quarry/entrance_universal.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+model_def : model.jazzy0015 {
+	model_desc: "/model_jazzycat/belarus/sign/tradeaux/tradeaux_logo.pmd"
+	category: "jazzy_bel_sign"
+}
+
+// model_def : model.jazzy0016 {
+// 	model_desc: "/model_jazzycat/belarus/sign/transinet/transinet_logo.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0017 {
+// 	model_desc: "/model_jazzycat/belarus/sign/posped/posped_logo.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0018 {
+// 	model_desc: "/model_jazzycat/belarus/sign/belintertrans/euroopt_logo.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0019 {
+// 	model_desc: "/model_jazzycat/belarus/sign/belintertrans/euroopt_logo2.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0020 {
+// 	model_desc: "/model_jazzycat/belarus/market/big02/big02.pmd"
+// 	category: "jazzy_bel_market"
+// }
+
+// model_def : model.jazzy0021 {
+// 	model_desc: "/model_jazzycat/belarus/sign/brest_tamo/brest_tamo.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0022 {
+// 	model_desc: "/model_jazzycat/belarus/buses/maz_152/maz_152.pmd"
+// 	category: "jazzy_park_veh"
+// }
+
+// model_def : model.jazzy0023 {
+// 	model_desc: "/model_jazzycat/belarus/buses/maz_103/maz_103.pmd"
+// 	category: "jazzy_park_veh"
+// }
+
+// model_def : model.jazzy0024 {
+// 	model_desc: "/model_jazzycat/truck_zap/volvo_fh/volvo_a4.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/truck_zap/volvo_fh/volvo_a4_lod.pmd" 
+	
+// 	category: "jazzy_truck_zap"
+// }
+
+// model_def : model.jazzy0025 {
+// 	model_desc: "/model_jazzycat/truck_zap/volvo_fh/volvo_c6.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/truck_zap/volvo_fh/volvo_c6_lod.pmd" 
+	
+// 	category: "jazzy_truck_zap"
+// }
+
+// model_def : model.jazzy0026 {
+// 	model_desc: "/model_jazzycat/truck_zap/daf_xf/daf_b4.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/truck_zap/daf_xf/daf_b4_lod1.pmd" 
+	
+// 	category: "jazzy_truck_zap"
+// }
+
+// model_def : model.jazzy0027 {
+// 	model_desc: "/model_jazzycat/truck_zap/daf_xf/daf_c6.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/truck_zap/daf_xf/daf_c6_lod1.pmd" 
+	
+// 	category: "jazzy_truck_zap"
+// }
+
+// model_def : model.jazzy0028 {
+// 	model_desc: "/model_jazzycat/truck_zap/iveco_stralis/iveco_a4.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/truck_zap/iveco_stralis/iveco_a4_lod.pmd" 
+	
+// 	category: "jazzy_truck_zap"
+// }
+
+// model_def : model.jazzy0029 {
+// 	model_desc: "/model_jazzycat/truck_zap/iveco_stralis/iveco_c6.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/truck_zap/iveco_stralis/iveco_c6_lod.pmd" 
+	
+// 	category: "jazzy_truck_zap"
+// }
+
+// model_def : model.jazzy0030 {
+// 	model_desc: "/model_jazzycat/truck_zap/man_tgx/man_a4.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/truck_zap/man_tgx/man_a4_lod.pmd" 
+	
+// 	category: "jazzy_truck_zap"
+// }
+
+// model_def : model.jazzy0031 {
+// 	model_desc: "/model_jazzycat/truck_zap/man_tgx/man_c6.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/truck_zap/man_tgx/man_c6_lod.pmd" 
+	
+// 	category: "jazzy_truck_zap"
+// }
+
+// model_def : model.jazzy0032 {
+// 	model_desc: "/model_jazzycat/truck_zap/renault_magnum/magnum_c4.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/truck_zap/renault_magnum/magnum_c4_lod.pmd" 
+	
+// 	category: "jazzy_truck_zap"
+// }
+
+// model_def : model.jazzy0033 {
+// 	model_desc: "/model_jazzycat/truck_zap/renault_premium/premium_b4.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/truck_zap/renault_premium/premium_b4_lod.pmd" 
+	
+// 	category: "jazzy_truck_zap"
+// }
+
+// model_def : model.jazzy0034 {
+// 	model_desc: "/model_jazzycat/truck_rus/maz_6303/maz_6303.pmd"
+// 	category: "jazzy_truck_rus"
+
+// }
+
+// model_def : model.jazzy0035 {
+// 	model_desc: "/model_jazzycat/truck_rus/maz_6303_83781/maz_6303_83781.pmd"
+// 	category: "jazzy_truck_rus"
+// }
+
+// model_def : model.jazzy0036 {
+// 	model_desc: "/model_jazzycat/trailer_rus/maz_9758_012/maz_9758_012.pmd"
+// 	category: "jazzy_trailer_rus"
+// }
+
+// model_def : model.jazzy0037 {
+// 	model_desc: "/model_jazzycat/truck_rus/maz_6422/maz_6422.pmd"
+// 	category: "jazzy_truck_rus"
+// }
+
+// model_def : model.jazzy0038 {
+// 	model_desc: "/model_jazzycat/trailer_zap/krone_profi/krone_profi.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/trailer_zap/krone_profi/krone_profi_lod.pmd" 
+	
+// 	category: "jazzy_trailer_zap"
+// }
+
+// model_def : model.jazzy0039 {
+// 	model_desc: "/model_jazzycat/trailer_zap/krone_cool/krone_cool.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/trailer_zap/krone_cool/krone_cool_lod.pmd" 
+	
+// 	category: "jazzy_trailer_zap"
+// }
+
+// model_def : model.jazzy0040 {
+// 	model_desc: "/model_jazzycat/trailer_zap/container/container.pmd"
+// 	category: "jazzy_trailer_zap"
+// }
+
+// model_def : model.jazzy0041 {
+// 	model_desc: "/model_jazzycat/trailer_zap/reefer/reefer.pmd"
+// 	category: "jazzy_trailer_zap"
+// }
+
+// model_def : model.jazzy0042 {
+// 	model_desc: "/model_jazzycat/combo_far/iveco_plat/iveco_plat.pmd"
+// 	category: "jazzy_combo_far"
+// }
+
+// model_def : model.jazzy0043 {
+// 	model_desc: "/model_jazzycat/technik_far/roller_sakai/roller_sakai.pmd"
+// 	category: "jazzy_tech_far"
+// }
+
+// model_def : model.jazzy0044 {
+// 	model_desc: "/model_jazzycat/technik_far/grader_mitsubishi/grader_mitsubishi.pmd"
+// 	category: "jazzy_tech_far"
+// }
+
+// model_def : model.jazzy0045 {
+// 	model_desc: "/model_jazzycat/trailer_zap/platform/platform.pmd"
+// 	category: "jazzy_trailer_zap"
+// }
+
+// model_def : model.jazzy0046 {
+// 	model_desc: "/model_jazzycat/combo_far/merc_low/merc_low.pmd"
+// 	category: "jazzy_combo_far"
+// }
+
+// model_def : model.jazzy0047 {
+// 	model_desc: "/model_jazzycat/car_rus/gaz3110/gaz3110.pmd"
+// 	category: "jazzy_car_rus"
+// }
+
+// model_def : model.jazzy0048 {
+// 	model_desc: "/model_jazzycat/trailer_zap/low/low.pmd"
+// 	category: "jazzy_trailer_zap"
+// }
+
+// model_def : model.jazzy0049 {
+// 	model_desc: "/model_jazzycat/car_rus/gaz3302/gaz3302.pmd"
+// 	category: "jazzy_car_rus"
+// }
+
+// model_def : model.jazzy0050 {
+// 	model_desc: "/model_jazzycat/car_rus/gaz322132/gaz322132.pmd"
+// 	category: "jazzy_car_rus"
+// }
+
+// model_def : model.jazzy0051 {
+// 	model_desc: "/model_jazzycat/car_rus/gaz2705/gaz2705.pmd"
+// 	category: "jazzy_car_rus"
+// }
+
+// model_def : model.jazzy0052 {
+// 	model_desc: "/model_jazzycat/car_rus/chevy_niva/chevy_niva.pmd"
+// 	category: "jazzy_car_rus"
+// }
+
+// model_def : model.jazzy0053 {
+// 	model_desc: "/model_jazzycat/car_rus/vaz2107/vaz2107.pmd"
+// 	category: "jazzy_car_rus"
+// }
+
+// model_def : model.jazzy0054 {
+// 	model_desc: "/model_jazzycat/car_rus/vaz2109/vaz2109.pmd"
+// 	category: "jazzy_car_rus"
+// }
+
+// model_def : model.jazzy0055 {
+// 	model_desc: "/model_jazzycat/car_rus/vaz2110/vaz2110.pmd"
+// 	category: "jazzy_car_rus"
+// }
+
+// model_def : model.jazzy0056 {
+// 	model_desc: "/model_jazzycat/car_zap/boxer_box/boxer_box.pmd"
+// 	category: "jazzy_car_zap"
+// }
+
+// model_def : model.jazzy0057 {
+// 	model_desc: "/model_jazzycat/car_zap/citroen jumper/citroen jumper.pmd"
+// 	category: "jazzy_car_zap"
+// }
+
+// model_def : model.jazzy0058 {
+// 	model_desc: "/model_jazzycat/car_zap/vw t4/vw t4.pmd"
+// 	category: "jazzy_car_zap"
+// }
+
+// model_def : model.jazzy0059 {
+// 	model_desc: "/model_jazzycat/trailer_zap/fuel_cist/fuel_cist.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/trailer_zap/fuel_cist/fuel_cist_lod.pmd" 
+	
+// 	category: "jazzy_trailer_zap"
+// }
+
+// model_def : model.jazzy0060 {
+// 	model_desc: "/model_jazzycat/trailer_zap/food_cist/food_cist.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/trailer_zap/food_cist/food_cist_lod.pmd" 
+	
+// 	category: "jazzy_trailer_zap"
+// }
+
+// model_def : model.jazzy0061 {
+// 	model_desc: "/model_jazzycat/trailer_rus/bcm/bcm.pmd"
+// 	category: "jazzy_trailer_rus"
+// }
+
+// model_def : model.jazzy0062 {
+// 	model_desc: "/model_jazzycat/trailer_rus/nefaz1/nefaz1.pmd"
+// 	category: "jazzy_trailer_rus"
+// }
+
+// model_def : model.jazzy0063 {
+// 	model_desc: "/model_jazzycat/trailer_rus/nefaz2/nefaz2.pmd"
+// 	category: "jazzy_trailer_rus"
+// }
+
+// model_def : model.jazzy0064 {
+// 	model_desc: "/model_jazzycat/trailer_rus/chmzap938530/chmzap938530.pmd"
+// 	category: "jazzy_trailer_rus"
+// }
+
+// model_def : model.jazzy0065 {
+// 	model_desc: "/model_jazzycat/technik_zap/liu614/liu614.pmd"
+// 	category: "jazzy_technik_zap"
+// }
+
+// model_def : model.jazzy0066 {
+// 	model_desc: "/model_jazzycat/trailer_rus/maz_5205/maz_5205.pmd"
+//         dynamic_lod_desc[]: "/model_jazzycat/trailer_rus/maz_5205/maz_5205_lod.pmd" 
+	
+// 	category: "jazzy_trailer_rus"
+// }
+
+// model_def : model.jazzy0067 {
+// 	model_desc: "/model_jazzycat/trailer_rus/maz_99864/maz_99864.pmd"
+// 	category: "jazzy_trailer_rus"
+// }
+
+// model_def : model.jazzy0068 {
+// 	model_desc: "/model_jazzycat/belarus/sign/brest_bel/brest_bel.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0069 {
+// 	model_desc: "/model_jazzycat/technik_rus/belarus/belarus.pmd"
+// 	category: "jazzy_park_veh"
+// }
+
+// model_def : model.jazzy0070 {
+// 	model_desc: "/model_jazzycat/belarus/billboard/billboard.pmd"
+// 	category: "jazzy_bel_sign"
+// }
+
+// model_def : model.jazzy0071 {
+// 	model_desc: "/model_jazzycat/trailer_rus/maz_9389/maz_9389.pmd"
+// 	category: "jazzy_trailer_rus"
+// }
+
+// model_def : model.jazzy0072 {
+// 	model_desc: "/model_jazzycat/trailer_rus/szap_9517/szap_9517.pmd"
+// 	category: "jazzy_trailer_rus"
+// }
+
+// model_def : model.jazzy0073 {
+// 	model_desc: "/model_jazzycat/trailer_rus/bort/bort.pmd"
+// 	category: "jazzy_trailer_rus"
+// }
+
+// model_def : model.jazzy0074 {
+// 	model_desc: "/model_jazzycat/truck_rus/kamaz_6520/kamaz_6520.pmd"
+// 	category: "jazzy_truck_rus"
+// }
+
+// model_def : model.jazzy0075 {
+// 	model_desc: "/model_jazzycat/truck_rus/kamaz_6460/kamaz_6460.pmd"
+// 	category: "jazzy_truck_rus"
+// }
+
+// model_def : model.jazzy0076 {
+// 	model_desc: "/model_jazzycat/technik_far/scraper_terex/scraper_terex.pmd"
+// 	category: "jazzy_tech_far"
+// }
+
+// model_def : model.jazzy0077 {
+// 	model_desc: "/model_jazzycat/technik_far/truck_volvo_a25d/truck_volvo_a25d.pmd"
+// 	category: "jazzy_tech_far"
+// }
+
+// model_def : model.jazzy0078 {
+// 	model_desc: "/model_jazzycat/technik_far/mix_truck/mix_truck.pmd"
+// 	category: "jazzy_tech_far"
+// }
+
+model_def : model.jazzy0079 {
+	model_desc: "/model_jazzycat/technik_far/truck_water_spray/truck_water_spray.pmd"
+	category: "jazzy_tech_far"
+}
+
+}
+

@@ -1,0 +1,1335 @@
+SiiNunit
+{
+# by FLD / TZ express map
+model_def : model.fld01 {
+	name: "!!DO NOT USE!! /pillar/pillar01.pmd"
+	model_desc: "/model/pillar/pillar01.pmd"
+	category: "!!DO NOT USE!! pillar TZ map"
+}
+model_def : model.fld02 {
+	name: "!!DO NOT USE!! /road/center_sidewalk_00.pmd"
+	model_desc: "/model/road/center_sidewalk_00.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld03 {
+	name: "!!DO NOT USE!! /bridge/hw_2b_bridge1.pmd"
+	model_desc: "/model/bridge/hw_2b_bridge1.pmd"
+	category: "!!DO NOT USE!! bridge TZ map"
+}
+model_def : model.fld04 {
+	name: "!!DO NOT USE!! /bridge/bridge_center_1.pmd"
+	model_desc: "/model/bridge/bridge_center_1.pmd"
+	category: "!!DO NOT USE!! bridge TZ map"
+}
+model_def : model.fld05 {
+	name: "!!DO NOT USE!! /factory/chimney_white-red.pmd"
+	model_desc: "/model/factory/chimney_white-red.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld06 {
+	name: "!!DO NOT USE!! /factory/chimney_2.pmd"
+	model_desc: "/model/factory/chimney_2.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld07 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_01.pmd"
+	model_desc: "/model/warehouse/warehouse_01.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld08 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_01a.pmd"
+	model_desc: "/model/warehouse/warehouse_01a.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld09 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_02.pmd"
+	model_desc: "/model/warehouse/warehouse_02.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld10 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_03.pmd"
+	model_desc: "/model/warehouse/warehouse_03.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld11 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_03a.pmd"
+	model_desc: "/model/warehouse/warehouse_03a.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld12 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_04.pmd"
+	model_desc: "/model/warehouse/warehouse_04.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld13 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_05.pmd"
+	model_desc: "/model/warehouse/warehouse_05.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld14 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_06.pmd"
+	model_desc: "/model/warehouse/warehouse_06.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld15 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_07.pmd"
+	model_desc: "/model/warehouse/warehouse_07.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld16 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_08.pmd"
+	model_desc: "/model/warehouse/warehouse_08.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld17 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_09.pmd"
+	model_desc: "/model/warehouse/warehouse_09.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld18 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_10.pmd"
+	model_desc: "/model/warehouse/warehouse_10.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld19 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_11.pmd"
+	model_desc: "/model/warehouse/warehouse_11.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld20 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_11a.pmd"
+	model_desc: "/model/warehouse/warehouse_11a.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld21 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_12.pmd"
+	model_desc: "/model/warehouse/warehouse_12.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld22 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_13.pmd"
+	model_desc: "/model/warehouse/warehouse_13.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld25 {
+	name: "!!DO NOT USE!! /factory/electric1.pmd"
+	model_desc: "/model/factory/electric1.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld26 {
+	name: "!!DO NOT USE!! /factory/electric2.pmd"
+	model_desc: "/model/factory/electric2.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld27 {
+	name: "!!DO NOT USE!! /factory/factory_01.pmd"
+	model_desc: "/model/factory/factory_01.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld28 {
+	name: "!!DO NOT USE!! /factory/factory_02.pmd"
+	model_desc: "/model/factory/factory_02.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld29 {
+	name: "!!DO NOT USE!! /factory/factory_03.pmd"
+	model_desc: "/model/factory/factory_03.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld30 {
+	name: "!!DO NOT USE!! /factory/factory_04.pmd"
+	model_desc: "/model/factory/factory_04.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld31 {
+	name: "!!DO NOT USE!! /factory/factory_05.pmd"
+	model_desc: "/model/factory/factory_05.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld32 {
+	name: "!!DO NOT USE!! /factory/generator.pmd"
+	model_desc: "/model/factory/generator.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld33 {
+	name: "!!DO NOT USE!! /factory/sewage.pmd"
+	model_desc: "/model/factory/sewage.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld34 {
+	name: "!!DO NOT USE!! /factory/slavkov.pmd"
+	model_desc: "/model/factory/slavkov.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld35 {
+	name: "!!DO NOT USE!! /dock/silo/tank_01.pmd"
+	model_desc: "/model/dock/silo/tank_01.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld36 {
+	name: "!!DO NOT USE!! /dock/silo/tank_01a.pmd"
+	model_desc: "/model/dock/silo/tank_01a.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld37 {
+	name: "!!DO NOT USE!! /dock/silo/tank_01b.pmd"
+	model_desc: "/model/dock/silo/tank_01b.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld38 {
+	name: "!!DO NOT USE!! /dock/silo/tank_02.pmd"
+	model_desc: "/model/dock/silo/tank_02.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld39 {
+	name: "!!DO NOT USE!! /dock/silo/tank_03.pmd"
+	model_desc: "/model/dock/silo/tank_03.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld40 {
+	name: "!!DO NOT USE!! /dock/silo/tank_04.pmd"
+	model_desc: "/model/dock/silo/tank_04.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld41 {
+	name: "!!DO NOT USE!! /dock/silo/tank_05.pmd"
+	model_desc: "/model/dock/silo/tank_05.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld42 {
+	name: "!!DO NOT USE!! /dock/silo/tank_06.pmd"
+	model_desc: "/model/dock/silo/tank_06.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld43 {
+	name: "!!DO NOT USE!! /dock/silo/tank_07.pmd"
+	model_desc: "/model/dock/silo/tank_07.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld44 {
+	name: "!!DO NOT USE!! /dock/silo/tank_08.pmd"
+	model_desc: "/model/dock/silo/tank_08.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld45 {
+	name: "!!DO NOT USE!! /dock/silo/tank_09.pmd"
+	model_desc: "/model/dock/silo/tank_09.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld46 {
+	name: "!!DO NOT USE!! /dock/silo/tank_09a.pmd"
+	model_desc: "/model/dock/silo/tank_09a.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld47 {
+	name: "!!DO NOT USE!! /dock/silo/tank_09b.pmd"
+	model_desc: "/model/dock/silo/tank_09b.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld48 {
+	name: "!!DO NOT USE!! /dock/port_hall_1.pmd"
+	model_desc: "/model/dock/port_hall_1.pmd"
+	category: "!!DO NOT USE!! dock TZ map"
+}
+model_def : model.fld49 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_14.pmd"
+	model_desc: "/model/warehouse/warehouse_14.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld50 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_15.pmd"
+	model_desc: "/model/warehouse/warehouse_15.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld51 {
+	name: "!!DO NOT USE!! /dock/silo/tank_10.pmd"
+	model_desc: "/model/dock/silo/tank_10.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld52 {
+	name: "!!DO NOT USE!! /dock/silo/tank_10a.pmd"
+	model_desc: "/model/dock/silo/tank_10a.pmd"
+	category: "!!DO NOT USE!! silo TZ map"
+}
+model_def : model.fld53 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_16.pmd"
+	model_desc: "/model/warehouse/warehouse_16.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld54 {
+	name: "!!DO NOT USE!! /gate/gate_01.pmd"
+	model_desc: "/model/gate/gate_01.pmd"
+	category: "!!DO NOT USE!! gate TZ map"
+}
+model_def : model.fld55 {
+	name: "!!DO NOT USE!! /gate/gate_02.pmd"
+	model_desc: "/model/gate/gate_02.pmd"
+	category: "!!DO NOT USE!! gate TZ map"
+}
+model_def : model.fld56 {
+	name: "!!DO NOT USE!! /gate/lavka_01.pmd"
+	model_desc: "/model/gate/lavka_01.pmd"
+	category: "!!DO NOT USE!! bridge TZ map"
+}
+model_def : model.fld57 {
+	name: "!!DO NOT USE!! /gate/wall_01.pmd"
+	model_desc: "/model/gate/wall_01.pmd"
+	category: "!!DO NOT USE!! wall TZ map"
+}
+model_def : model.fld58 {
+	name: "!!DO NOT USE!! /gate/wall_01_1.pmd"
+	model_desc: "/model/gate/wall_01_1.pmd"
+	category: "!!DO NOT USE!! wall TZ map"
+}
+model_def : model.fld59 {
+	name: "!!DO NOT USE!! /factory/factory_06.pmd"
+	model_desc: "/model/factory/factory_06.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld60 {
+	name: "!!DO NOT USE!! /road/center_sidewalk_01.pmd"
+	model_desc: "/model/road/center_sidewalk_01.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld61 {
+	name: "!!DO NOT USE!! /road/center_sidewalk_02.pmd"
+	model_desc: "/model/road/center_sidewalk_02.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld62 {
+	name: "!!DO NOT USE!! /road/center_sidewalk_03.pmd"
+	model_desc: "/model/road/center_sidewalk_03.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld63 {
+	name: "!!DO NOT USE!! /pillar/pillar01a.pmd"
+	model_desc: "/model/pillar/pillar01a.pmd"
+	category: "!!DO NOT USE!! pillar TZ map"
+}
+model_def : model.fld65 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_01a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_01a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld66 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_01a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_01a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld67 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_02a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_02a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld68 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_02a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_02a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld69 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_03a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_03a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld70 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_03a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_03a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld71 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_04a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_04a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld72 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_04a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_04a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld73 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_05a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_05a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld74 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_05a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_05a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld75 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_06a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_06a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld76 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_06a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_06a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld77 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_07a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_07a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld78 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_07a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_07a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld79 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_08a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_08a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld80 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_08a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_08a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld81 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_09a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_09a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld82 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_09a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_09a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld83 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_10a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_10a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld84 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_10a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_10a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld85 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_11a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_11a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld86 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_11a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_11a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld87 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_12a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_12a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld88 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_12a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_12a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld89 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_13a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_13a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld90 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_13a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_13a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld91 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_14a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_14a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld92 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_14a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_14a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld93 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_15a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_15a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld94 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_15a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_15a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld95 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_16a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_16a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld96 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_16a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_16a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld97 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_land_01a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_land_01a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld98 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_land_01a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_land_01a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld99 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_land_01a_full.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_land_01a_full.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld100 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_land_01a_full_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_land_01a_full_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld101 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_land_02a.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_land_02a.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld102 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_land_02a_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_land_02a_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld103 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_land_02a_small.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_land_02a_small.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld104 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_01b.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_01b.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld105 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_01b_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_01b_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld106 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_02b.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_02b.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld107 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_02b_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_02b_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld108 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_03b.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_03b.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld109 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_03b_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_03b_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld110 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_04b.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_04b.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld111 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_04b_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_04b_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld112 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_05b.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_05b.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld113 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_05b_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_05b_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld114 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_06b.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_06b.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld115 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_06b_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_06b_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld116 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_07b.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_07b.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld117 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_07b_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_07b_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld118 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_12b.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_12b.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld119 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_12b_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_12b_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld120 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_13b.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_13b.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld121 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_13b_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_13b_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld122 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_14b.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_14b.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld123 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_14b_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_14b_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld124 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_15b.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_15b.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld125 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_15b_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_15b_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld126 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_16b.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_16b.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld127 {
+	name: "!!DO NOT USE!! /road/stripes_prefab_eu_16b_mirror.pmd"
+	model_desc: "/model/road/stripes_prefab_eu_16b_mirror.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld128 {
+	name: "!!DO NOT USE!! /dock/port_hall_open_1.pmd"
+	model_desc: "/model/dock/port_hall_open_1.pmd"
+	category: "!!DO NOT USE!! dock TZ map"
+}
+model_def : model.fld129 {
+	name: "!!DO NOT USE!! /tube/tube_01.pmd"
+	model_desc: "/model/tube/tube_01.pmd"
+	category: "!!DO NOT USE!! tube TZ map"
+}
+model_def : model.fld130 {
+	name: "!!DO NOT USE!! /tube/tube_02.pmd"
+	model_desc: "/model/tube/tube_02.pmd"
+	category: "!!DO NOT USE!! tube TZ map"
+}
+model_def : model.fld132 {
+	name: "!!DO NOT USE!! /tube/tube_04.pmd"
+	model_desc: "/model/tube/tube_04.pmd"
+	category: "!!DO NOT USE!! tube TZ map"
+}
+model_def : model.fld133 {
+	name: "!!DO NOT USE!! /tube/tube_05.pmd"
+	model_desc: "/model/tube/tube_05.pmd"
+	category: "!!DO NOT USE!! tube TZ map"
+}
+model_def : model.fld134 {
+	name: "!!DO NOT USE!! /factory/barn_01.pmd"
+	model_desc: "/model/factory/barn_01.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld135 {
+	name: "!!DO NOT USE!! /factory/barn_02.pmd"
+	model_desc: "/model/factory/barn_02.pmd"
+	category: "!!DO NOT USE!! factory TZ map"
+}
+model_def : model.fld136 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_17.pmd"
+	model_desc: "/model/warehouse/warehouse_17.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld137 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_17a.pmd"
+	model_desc: "/model/warehouse/warehouse_17a.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld138 {
+	name: "!!DO NOT USE!! /building/administration/build_01.pmd"
+	model_desc: "/model/building/administration/build_01.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld139 {
+	name: "!!DO NOT USE!! /building/administration/build_02.pmd"
+	model_desc: "/model/building/administration/build_02.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld140 {
+	name: "!!DO NOT USE!! /building/administration/build_03.pmd"
+	model_desc: "/model/building/administration/build_03.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld141 {
+	name: "!!DO NOT USE!! /building/administration/build_04.pmd"
+	model_desc: "/model/building/administration/build_04.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld142 {
+	name: "!!DO NOT USE!! /building/administration/build_05.pmd"
+	model_desc: "/model/building/administration/build_05.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld143 {
+	name: "!!DO NOT USE!! /building/administration/build_06.pmd"
+	model_desc: "/model/building/administration/build_06.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld144 {
+	name: "!!DO NOT USE!! /building/administration/build_07.pmd"
+	model_desc: "/model/building/administration/build_07.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld145 {
+	name: "!!DO NOT USE!! /building/administration/build_08.pmd"
+	model_desc: "/model/building/administration/build_08.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld146 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_18.pmd"
+	model_desc: "/model/warehouse/warehouse_18.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld147 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_19.pmd"
+	model_desc: "/model/warehouse/warehouse_19.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld148 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_20.pmd"
+	model_desc: "/model/warehouse/warehouse_20.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld149 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_20a.pmd"
+	model_desc: "/model/warehouse/warehouse_20a.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld150 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_21.pmd"
+	model_desc: "/model/warehouse/warehouse_21.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld151 {
+	name: "!!DO NOT USE!! /warehouse/warehouse_22.pmd"
+	model_desc: "/model/warehouse/warehouse_22.pmd"
+	category: "!!DO NOT USE!! warehouse TZ map"
+}
+model_def : model.fld152 {
+	name: "!!DO NOT USE!! /garage/garage_01.pmd"
+	model_desc: "/model/garage/garage_01.pmd"
+	category: "!!DO NOT USE!! garage TZ map"
+}
+model_def : model.fld153 {
+	name: "!!DO NOT USE!! /garage/garage_02.pmd"
+	model_desc: "/model/garage/garage_02.pmd"
+	category: "!!DO NOT USE!! garage TZ map"
+}
+model_def : model.fld154 {
+	name: "!!DO NOT USE!! /garage/garage_03.pmd"
+	model_desc: "/model/garage/garage_03.pmd"
+	category: "!!DO NOT USE!! garage TZ map"
+}
+model_def : model.fld155 {
+	name: "!!DO NOT USE!! /garage/garage_04.pmd"
+	model_desc: "/model/garage/garage_04.pmd"
+	category: "!!DO NOT USE!! garage TZ map"
+}
+model_def : model.fld156 {
+	name: "!!DO NOT USE!! /garage/garage_05.pmd"
+	model_desc: "/model/garage/garage_05.pmd"
+	category: "!!DO NOT USE!! garage TZ map"
+}
+model_def : model.fld157 {
+	name: "!!DO NOT USE!! /garage/garage_05a.pmd"
+	model_desc: "/model/garage/garage_05a.pmd"
+	category: "!!DO NOT USE!! garage TZ map"
+}
+model_def : model.fld158 {
+	name: "!!DO NOT USE!! /service/service_01.pmd"
+	model_desc: "/model/service/service_01.pmd"
+	category: "!!DO NOT USE!! service TZ map"
+}
+model_def : model.fld159 {
+	name: "!!DO NOT USE!! /service/service_02.pmd"
+	model_desc: "/model/service/service_02.pmd"
+	category: "!!DO NOT USE!! service TZ map"
+}
+model_def : model.fld160 {
+	name: "!!DO NOT USE!! /washbox/washbox_01.pmd"
+	model_desc: "/model/washbox/washbox_01.pmd"
+	category: "!!DO NOT USE!! washbox TZ map"
+}
+model_def : model.fld161 {
+	name: "!!DO NOT USE!! /washbox/washbox_01a.pmd"
+	model_desc: "/model/washbox/washbox_01a.pmd"
+	category: "!!DO NOT USE!! washbox TZ map"
+}
+model_def : model.fld162 {
+	name: "!!DO NOT USE!! /village/village_cz/house_01.pmd"
+	model_desc: "/model/village/village_cz/house_01.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld163 {
+	name: "!!DO NOT USE!! /village/village_cz/house_02.pmd"
+	model_desc: "/model/village/village_cz/house_02.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld164 {
+	name: "!!DO NOT USE!! /village/village_cz/house_03.pmd"
+	model_desc: "/model/village/village_cz/house_03.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld165 {
+	name: "!!DO NOT USE!! /village/village_cz/house_04.pmd"
+	model_desc: "/model/village/village_cz/house_04.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld166 {
+	name: "!!DO NOT USE!! /village/village_cz/house_05.pmd"
+	model_desc: "/model/village/village_cz/house_05.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld167 {
+	name: "!!DO NOT USE!! /village/village_cz/house_06.pmd"
+	model_desc: "/model/village/village_cz/house_06.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld168 {
+	name: "!!DO NOT USE!! /village/village_cz/house_07.pmd"
+	model_desc: "/model/village/village_cz/house_07.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld169 {
+	name: "!!DO NOT USE!! /village/village_cz/house_08.pmd"
+	model_desc: "/model/village/village_cz/house_08.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld170 {
+	name: "!!DO NOT USE!! /village/village_cz/house_09.pmd"
+	model_desc: "/model/village/village_cz/house_09.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld171 {
+	name: "!!DO NOT USE!! /village/village_cz/house_10.pmd"
+	model_desc: "/model/village/village_cz/house_10.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld172 {
+	name: "!!DO NOT USE!! /village/village_cz/house_11.pmd"
+	model_desc: "/model/village/village_cz/house_11.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld173 {
+	name: "!!DO NOT USE!! /village/village_cz/house_12.pmd"
+	model_desc: "/model/village/village_cz/house_12.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld174 {
+	name: "!!DO NOT USE!! /village/village_cz/house_13.pmd"
+	model_desc: "/model/village/village_cz/house_13.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld175 {
+	name: "!!DO NOT USE!! /village/village_cz/house_14.pmd"
+	model_desc: "/model/village/village_cz/house_14.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld176 {
+	name: "!!DO NOT USE!! /village/village_cz/house_15.pmd"
+	model_desc: "/model/village/village_cz/house_15.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld177 {
+	name: "!!DO NOT USE!! /village/village_cz/house_16.pmd"
+	model_desc: "/model/village/village_cz/house_16.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld178 {
+	name: "!!DO NOT USE!! /village/village_cz/house_17.pmd"
+	model_desc: "/model/village/village_cz/house_17.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld179 {
+	name: "!!DO NOT USE!! /village/village_cz/house_18.pmd"
+	model_desc: "/model/village/village_cz/house_18.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld180 {
+	name: "!!DO NOT USE!! /village/village_cz/house_19.pmd"
+	model_desc: "/model/village/village_cz/house_19.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld181 {
+	name: "!!DO NOT USE!! /village/village_cz/house_20.pmd"
+	model_desc: "/model/village/village_cz/house_20.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld182 {
+	name: "!!DO NOT USE!! /village/village_cz/house_21.pmd"
+	model_desc: "/model/village/village_cz/house_21.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld183 {
+	name: "!!DO NOT USE!! /village/village_cz/house_22.pmd"
+	model_desc: "/model/village/village_cz/house_22.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld184 {
+	name: "!!DO NOT USE!! /village/village_cz/house_23.pmd"
+	model_desc: "/model/village/village_cz/house_23.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld185 {
+	name: "!!DO NOT USE!! /village/village_cz/house_24.pmd"
+	model_desc: "/model/village/village_cz/house_24.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld186 {
+	name: "!!DO NOT USE!! /village/village_cz/house_25.pmd"
+	model_desc: "/model/village/village_cz/house_25.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld187 {
+	name: "!!DO NOT USE!! /village/village_cz/house_26.pmd"
+	model_desc: "/model/village/village_cz/house_26.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld188 {
+	name: "!!DO NOT USE!! /village/village_cz/house_27.pmd"
+	model_desc: "/model/village/village_cz/house_27.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld189 {
+	name: "!!DO NOT USE!! /village/village_cz/house_28.pmd"
+	model_desc: "/model/village/village_cz/house_28.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld190 {
+	name: "!!DO NOT USE!! /village/village_cz/house_29.pmd"
+	model_desc: "/model/village/village_cz/house_29.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld191 {
+	name: "!!DO NOT USE!! /village/village_cz/house_30.pmd"
+	model_desc: "/model/village/village_cz/house_30.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld192 {
+	name: "!!DO NOT USE!! /village/village_cz/house_31.pmd"
+	model_desc: "/model/village/village_cz/house_31.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld193 {
+	name: "!!DO NOT USE!! /village/village_cz/house_32.pmd"
+	model_desc: "/model/village/village_cz/house_32.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld194 {
+	name: "!!DO NOT USE!! /village/village_cz/house_33.pmd"
+	model_desc: "/model/village/village_cz/house_33.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld195 {
+	name: "!!DO NOT USE!! /village/village_cz/house_34.pmd"
+	model_desc: "/model/village/village_cz/house_34.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld196 {
+	name: "!!DO NOT USE!! /village/village_cz/house_35.pmd"
+	model_desc: "/model/village/village_cz/house_35.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld197 {
+	name: "!!DO NOT USE!! /village/village_cz/house_36.pmd"
+	model_desc: "/model/village/village_cz/house_36.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld198 {
+	name: "!!DO NOT USE!! /village/village_cz/house_37.pmd"
+	model_desc: "/model/village/village_cz/house_37.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld199 {
+	name: "!!DO NOT USE!! /village/village_cz/house_38.pmd"
+	model_desc: "/model/village/village_cz/house_38.pmd"
+	category: "!!DO NOT USE!! village TZ map"
+}
+model_def : model.fld200 {
+	name: "!!DO NOT USE!! /building/market/market_01.pmd"
+	model_desc: "/model/building/market/market_01.pmd"
+	category: "!!DO NOT USE!! market TZ map"
+}
+model_def : model.fld201 {
+	name: "!!DO NOT USE!! /building/market/market_02.pmd"
+	model_desc: "/model/building/market/market_02.pmd"
+	category: "!!DO NOT USE!! market TZ map"
+}
+model_def : model.fld202 {
+	name: "!!DO NOT USE!! /building/market/market_03.pmd"
+	model_desc: "/model/building/market/market_03.pmd"
+	category: "!!DO NOT USE!! market TZ map"
+}
+model_def : model.fld203 {
+	name: "!!DO NOT USE!! /building/market/market_04.pmd"
+	model_desc: "/model/building/market/market_04.pmd"
+	category: "!!DO NOT USE!! market TZ map"
+}
+model_def : model.fld204 {
+	name: "!!DO NOT USE!! /building/market/market_05.pmd"
+	model_desc: "/model/building/market/market_05.pmd"
+	category: "!!DO NOT USE!! market TZ map"
+}
+model_def : model.fld205 {
+	name: "!!DO NOT USE!! /building/market/market_06.pmd"
+	model_desc: "/model/building/market/market_06.pmd"
+	category: "!!DO NOT USE!! market TZ map"
+}
+model_def : model.fld206 {
+	name: "!!DO NOT USE!! /building/administration/build_09.pmd"
+	model_desc: "/model/building/administration/build_09.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld207 {
+	name: "!!DO NOT USE!! /building/administration/build_10.pmd"
+	model_desc: "/model/building/administration/build_10.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld208 {
+	name: "!!DO NOT USE!! /building/administration/build_11.pmd"
+	model_desc: "/model/building/administration/build_11.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld209 {
+	name: "!!DO NOT USE!! /building/administration/build_12.pmd"
+	model_desc: "/model/building/administration/build_12.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld210 {
+	name: "!!DO NOT USE!! /building/administration/build_13.pmd"
+	model_desc: "/model/building/administration/build_13.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld211 {
+	name: "!!DO NOT USE!! /building/administration/build_14.pmd"
+	model_desc: "/model/building/administration/build_14.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld212 {
+	name: "!!DO NOT USE!! /building/administration/build_15.pmd"
+	model_desc: "/model/building/administration/build_15.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld213 {
+	name: "!!DO NOT USE!! /building/administration/build_16.pmd"
+	model_desc: "/model/building/administration/build_16.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld214 {
+	name: "!!DO NOT USE!! /building/administration/build_17.pmd"
+	model_desc: "/model/building/administration/build_17.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld215 {
+	name: "!!DO NOT USE!! /building/administration/build_18.pmd"
+	model_desc: "/model/building/administration/build_18.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld216 {
+	name: "!!DO NOT USE!! /building/administration/build_19.pmd"
+	model_desc: "/model/building/administration/build_19.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld217 {
+	name: "!!DO NOT USE!! /building/administration/build_20.pmd"
+	model_desc: "/model/building/administration/build_20.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld218 {
+	name: "!!DO NOT USE!! /building/administration/build_21.pmd"
+	model_desc: "/model/building/administration/build_21.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld219 {
+	name: "!!DO NOT USE!! /building/administration/build_22.pmd"
+	model_desc: "/model/building/administration/build_22.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld220 {
+	name: "!!DO NOT USE!! /building/czech/build_01.pmd"
+	model_desc: "/model/building/czech/build_01.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld221 {
+	name: "!!DO NOT USE!! /building/czech/build_02.pmd"
+	model_desc: "/model/building/czech/build_02.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld222 {
+	name: "!!DO NOT USE!! /building/czech/build_03.pmd"
+	model_desc: "/model/building/czech/build_03.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld223 {
+	name: "!!DO NOT USE!! /building/czech/build_04.pmd"
+	model_desc: "/model/building/czech/build_04.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld224 {
+	name: "!!DO NOT USE!! /building/czech/build_05.pmd"
+	model_desc: "/model/building/czech/build_05.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld225 {
+	name: "!!DO NOT USE!! /building/czech/build_06.pmd"
+	model_desc: "/model/building/czech/build_06.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld226 {
+	name: "!!DO NOT USE!! /building/czech/build_07.pmd"
+	model_desc: "/model/building/czech/build_07.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld227 {
+	name: "!!DO NOT USE!! /building/czech/build_08.pmd"
+	model_desc: "/model/building/czech/build_08.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld228 {
+	name: "!!DO NOT USE!! /building/czech/build_09.pmd"
+	model_desc: "/model/building/czech/build_09.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld229 {
+	name: "!!DO NOT USE!! /building/czech/build_10.pmd"
+	model_desc: "/model/building/czech/build_10.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld230 {
+	name: "!!DO NOT USE!! /building/czech/build_11.pmd"
+	model_desc: "/model/building/czech/build_11.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld231 {
+	name: "!!DO NOT USE!! /building/czech/build_12.pmd"
+	model_desc: "/model/building/czech/build_12.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld232 {
+	name: "!!DO NOT USE!! /building/czech/build_13.pmd"
+	model_desc: "/model/building/czech/build_13.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld233 {
+	name: "!!DO NOT USE!! /building/city/build_01.pmd"
+	model_desc: "/model/building/city/build_01.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld234 {
+	name: "!!DO NOT USE!! /building/city/build_02.pmd"
+	model_desc: "/model/building/city/build_02.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld235 {
+	name: "!!DO NOT USE!! /building/city/build_03.pmd"
+	model_desc: "/model/building/city/build_03.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld236 {
+	name: "!!DO NOT USE!! /building/city/build_04.pmd"
+	model_desc: "/model/building/city/build_04.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld237 {
+	name: "!!DO NOT USE!! /building/city/build_05.pmd"
+	model_desc: "/model/building/city/build_05.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld238 {
+	name: "!!DO NOT USE!! /building/city/build_06.pmd"
+	model_desc: "/model/building/city/build_06.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld239 {
+	name: "!!DO NOT USE!! /building/city/build_07.pmd"
+	model_desc: "/model/building/city/build_07.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld240 {
+	name: "!!DO NOT USE!! /building/city/build_08.pmd"
+	model_desc: "/model/building/city/build_08.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld241 {
+	name: "!!DO NOT USE!! /building/city/build_09.pmd"
+	model_desc: "/model/building/city/build_09.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld242  {
+	name: "!!DO NOT USE!! /building/city/build_10.pmd"
+	model_desc: "/model/building/city/build_10.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld243  {
+	name: "!!DO NOT USE!! /building/city/build_11.pmd"
+	model_desc: "/model/building/city/build_11.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld244  {
+	name: "!!DO NOT USE!! /building/city/build_12.pmd"
+	model_desc: "/model/building/city/build_12.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld245  {
+	name: "!!DO NOT USE!! /building/city/build_13.pmd"
+	model_desc: "/model/building/city/build_13.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld246  {
+	name: "!!DO NOT USE!! /building/city/build_14.pmd"
+	model_desc: "/model/building/city/build_14.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld247  {
+	name: "!!DO NOT USE!! /building/city/build_15.pmd"
+	model_desc: "/model/building/city/build_15.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld248  {
+	name: "!!DO NOT USE!! /building/city/build_16.pmd"
+	model_desc: "/model/building/city/build_16.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld249  {
+	name: "!!DO NOT USE!! /building/city/build_17.pmd"
+	model_desc: "/model/building/city/build_17.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld250  {
+	name: "!!DO NOT USE!! /building/city/build_18.pmd"
+	model_desc: "/model/building/city/build_18.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld251  {
+	name: "!!DO NOT USE!! /building/city/build_19.pmd"
+	model_desc: "/model/building/city/build_19.pmd"
+	category: "!!DO NOT USE!! building TZ map"
+}
+model_def : model.fld252  {
+	name: "!!DO NOT USE!! /school/school_01.pmd"
+	model_desc: "/model/school/school_01.pmd"
+	category: "!!DO NOT USE!! school TZ map"
+}
+model_def : model.fld253  {
+	name: "!!DO NOT USE!! /school/school_02.pmd"
+	model_desc: "/model/school/school_02.pmd"
+	category: "!!DO NOT USE!! school TZ map"
+}
+model_def : model.fld254  {
+	name: "!!DO NOT USE!! /bus_station/bus_station_01.pmd"
+	model_desc: "/model/bus_station/bus_station_01.pmd"
+	category: "!!DO NOT USE!! bus station TZ map"
+}
+model_def : model.fld255  {
+	name: "!!DO NOT USE!! /bus_station/bus_station_cz_01.pmd"
+	model_desc: "/model/bus_station/bus_station_cz_01.pmd"
+	category: "!!DO NOT USE!! bus station TZ map"
+}
+model_def : model.fld256  {
+	name: "!!DO NOT USE!! /bus_station/bus_station_02.pmd"
+	model_desc: "/model/bus_station/bus_station_02.pmd"
+	category: "!!DO NOT USE!! bus station TZ map"
+}
+model_def : model.fld257  {
+	name: "!!DO NOT USE!! /gas_station/gas_02.pmd"
+	model_desc: "/model/gas_station/gas_02.pmd"
+	category: "!!DO NOT USE!! gas station TZ map"
+}
+model_def : model.fld258  {
+	name: "!!DO NOT USE!! /gas_station/price_stand_01.pmd"
+	model_desc: "/model/gas_station/price_stand_01.pmd"
+	category: "!!DO NOT USE!! gas station TZ map"
+}
+model_def : model.fld259 {
+	name: "!!DO NOT USE!! /road/center_sidewalk_04.pmd"
+	model_desc: "/model/road/center_sidewalk_04.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld260 {
+	name: "!!DO NOT USE!! /road/center_sidewalk_05.pmd"
+	model_desc: "/model/road/center_sidewalk_05.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld261 {
+	name: "!!DO NOT USE!! /road/center_sidewalk_triangle_1m.pmd"
+	model_desc: "/model/road/center_sidewalk_triangle_1m.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld262 {
+	name: "!!DO NOT USE!! /road/center_sidewalk_triangle_2m.pmd"
+	model_desc: "/model/road/center_sidewalk_triangle_2m.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld263 {
+	name: "!!DO NOT USE!! /road/center_sidewalk_edge_2m.pmd"
+	model_desc: "/model/road/center_sidewalk_edge_2m.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld264 {
+	name: "!!DO NOT USE!! /road/center_sidewalk_edge_1m.pmd"
+	model_desc: "/model/road/center_sidewalk_edge_1m.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld265 {
+	name: "!!DO NOT USE!! /road/center_sidewalk_triangle.pmd"
+	model_desc: "/model/road/center_sidewalk_triangle.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+model_def : model.fld266 {
+	name: "!!DO NOT USE!! /road/center_roundabout_01.pmd"
+	model_desc: "/model/road/center_roundabout_01.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+#model_def : model.fld267  {
+#	model_desc: "/model/gas_station/gas_01.pmd"
+#	category: "!!DO NOT USE!! gas station TZ map"
+#}
+#model_def : model.fld268  {
+#	model_desc: "/model/gas_station/price_stand_02.pmd"
+#	category: "!!DO NOT USE!! gas station TZ map"
+#}
+#model_def : model.fld269  {
+#	model_desc: "/model/gas_station/gas_01a.pmd"
+#	category: "!!DO NOT USE!! gas station TZ map"
+#}
+#model_def : model.fld270  {
+#	model_desc: "/model/gas_station/gas_03.pmd"
+#	category: "!!DO NOT USE!! gas station TZ map"
+#}
+model_def : model.fld271  {
+	name: "!!DO NOT USE!! /road/crash_barrier_end_cz.pmd"
+	model_desc: "/model/road/crash_barrier_end_cz.pmd"
+	category: "!!DO NOT USE!! road TZ map"
+}
+}

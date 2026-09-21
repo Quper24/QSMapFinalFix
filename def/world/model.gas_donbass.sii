@@ -1,0 +1,19 @@
+SiiNunit
+{
+
+model_def : model.db_okko
+{
+    model_desc: "/model/model_db2/okko_db1.pmd"
+}
+
+model_def : model.db_parallel
+{
+    model_desc: "/model/model_db2/parallel_gas_sign11.pmd"
+}
+
+model_def : model.db_petro
+{
+    model_desc: "/model/model_db2/gas_big_price_01_ua1.pmd"
+}
+
+}
