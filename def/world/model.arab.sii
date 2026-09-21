@@ -1,0 +1,81 @@
+SiiNunit
+{
+# model_def : model.arabianhut {
+# 	model_desc: "/model/arab_model/arab_hut.pmd"
+# }
+
+# model_def : model.deserthut {
+# 	model_desc: "/model/arab_model/deserthut.pmd"
+# }
+
+# model_def : model.arabianhouse {
+# 	model_desc: "/model/arab_model/arabian_house.pmd"
+# }
+
+# model_def : model.arabhousea {
+# 	model_desc: "/model/arab_model/arab_housea.pmd"
+# }
+
+# model_def : model.arabhouseb {
+# 	model_desc: "/model/arab_model/arab_houseb.pmd"
+# }
+
+# model_def : model.arabhousec {
+# 	model_desc: "/model/arab_model/arab_housec.pmd"
+# }
+
+# model_def : model.arabhoused {
+# 	model_desc: "/model/arab_model/arab_housed.pmd"
+# }
+
+# model_def : model.arabhousee {
+# 	model_desc: "/model/arab_model/arab_housee.pmd"
+# }
+
+# model_def : model.arabhousef {
+# 	model_desc: "/model/arab_model/arab_housef.pmd"
+# }
+
+# model_def : model.arabhouseg {
+# 	model_desc: "/model/arab_model/arab_houseg.pmd"
+# }
+
+# model_def : model.hut {
+# 	model_desc: "/model/arab_model/hut.pmd"
+# }
+
+# model_def : model.shed {
+# 	model_desc: "/model/slum/shed.pmd"
+# }
+
+# model_def : model.sheda{
+# 	model_desc: "/model/slum/sheda.pmd"
+# }
+
+# model_def : model.slum1 {
+# 	model_desc: "/model/slum/slum1.pmd"
+# }
+
+# model_def : model.slum2 {
+# 	model_desc: "/model/slum/slum2.pmd"
+# }
+
+# model_def : model.slum3 {
+# 	model_desc: "/model/slum/slum3.pmd"
+# }
+
+# model_def : model.slum4 {
+# 	model_desc: "/model/slum/slum4.pmd"
+# }
+
+# model_def : model.slum5 {
+# 	model_desc: "/model/slum/slum5.pmd"
+# }
+
+# model_def : model.kibandashop {
+# 	model_desc: "/model/slum/shop.pmd"
+# }
+model_def : model.arch22 {
+	model_desc: "/model/slum/arch22.pmd"
+}
+}
